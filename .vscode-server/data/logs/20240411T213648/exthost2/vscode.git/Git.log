@@ -1,0 +1,109 @@
+2024-04-11 21:38:18.544 [info] Log level: Info
+2024-04-11 21:38:18.544 [info] Validating found git in: "git"
+2024-04-11 21:38:18.544 [info] Using git "2.34.1" from "git"
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [15ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-11 21:38:18.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.545 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-04-11 21:38:18.546 [info] Open repository: /home/student/S01-OVitrine-BenoitOClock
+2024-04-11 21:38:18.546 [info] > git config --get commit.template [11ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-11 21:38:18.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/jour4 refs/remotes/jour4 [12ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-04-11 21:38:18.546 [info] Open repository: /home/student/S01-OVitrine-J3-cedricRGT45
+2024-04-11 21:38:18.546 [info] > git config --get commit.template [11ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-11 21:38:18.546 [info] > git status -z -uall [25ms]
+2024-04-11 21:38:18.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-04-11 21:38:18.546 [info] > git merge-base refs/heads/jour4 refs/remotes/origin/jour4 [19ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --git-dir --git-common-dir [44ms]
+2024-04-11 21:38:18.546 [info] Open repository: /home/student/S01-OVitrine-cedricRGT45
+2024-04-11 21:38:18.546 [info] > git rev-list --count --left-right refs/heads/jour4...refs/remotes/origin/jour4 [27ms]
+2024-04-11 21:38:18.546 [info] > git config --get commit.template [50ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --show-toplevel [13ms]
+2024-04-11 21:38:18.546 [info] > git config --get commit.template [23ms]
+2024-04-11 21:38:18.546 [info] > git status -z -uall [48ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2024-04-11 21:38:18.546 [info] Open repository: /home/student/S01-Ovitrine-J2-cedricRGT45
+2024-04-11 21:38:18.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/jour4 refs/remotes/jour4 [46ms]
+2024-04-11 21:38:18.546 [info] > git diff --name-status -z --diff-filter=ADMR a0bca5b7e2a09f0cc6b28ab9fc120adf5e19a04e...refs/remotes/origin/jour4 [85ms]
+2024-04-11 21:38:18.546 [info] > git merge-base refs/heads/master refs/remotes/origin/master [39ms]
+2024-04-11 21:38:18.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [67ms]
+2024-04-11 21:38:18.546 [info] > git config --get commit.template [15ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --show-toplevel [24ms]
+2024-04-11 21:38:18.546 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.546 [info] > git config --get commit.template [34ms]
+2024-04-11 21:38:18.546 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [14ms]
+2024-04-11 21:38:18.546 [info] > git rev-parse --show-toplevel [41ms]
+2024-04-11 21:38:18.546 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:18.546 [info] > git status -z -uall [32ms]
+2024-04-11 21:38:18.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2024-04-11 21:38:18.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2024-04-11 21:38:18.546 [info] > git diff --name-status -z --diff-filter=ADMR 244031b1d5b74eff4afe3386f633f2bec4516685...refs/remotes/origin/master [56ms]
+2024-04-11 21:38:18.546 [info] > git status -z -uall [8ms]
+2024-04-11 21:38:18.546 [info] > git merge-base refs/heads/master refs/remotes/origin/master [17ms]
+2024-04-11 21:38:18.547 [info] > git config --get commit.template [15ms]
+2024-04-11 21:38:18.568 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [24ms]
+2024-04-11 21:38:18.588 [info] > git status -z -uall [32ms]
+2024-04-11 21:38:18.588 [info] > git status -z -uall [22ms]
+2024-04-11 21:38:18.624 [info] > git merge-base refs/heads/master refs/remotes/origin/master [21ms]
+2024-04-11 21:38:18.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2024-04-11 21:38:18.635 [info] > git diff --name-status -z --diff-filter=ADMR 55af2fb2167fd1adeaf1ffb76abda4636a5d4b53...refs/remotes/origin/master [58ms]
+2024-04-11 21:38:18.637 [info] > git config --get commit.template [15ms]
+2024-04-11 21:38:18.637 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [4ms]
+2024-04-11 21:38:18.667 [info] > git diff --name-status -z --diff-filter=ADMR c28f19ae484ac4961f3ef8e6b7cf10409d8c45a4...refs/remotes/origin/master [20ms]
+2024-04-11 21:38:18.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-04-11 21:38:18.680 [info] > git status -z -uall [14ms]
+2024-04-11 21:38:18.685 [info] > git status -z -uall [6ms]
+2024-04-11 21:38:19.532 [info] > git check-ignore -v -z --stdin [12ms]
+2024-04-11 21:38:19.534 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-11 21:38:20.359 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:38:20.359 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:20.686 [info] > git check-ignore -v -z --stdin [30ms]
+2024-04-11 21:38:20.687 [info] > git check-ignore -v -z --stdin [21ms]
+2024-04-11 21:38:20.689 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-11 21:38:20.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:20.732 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-11 21:38:20.732 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-11 21:38:21.338 [info] > git check-ignore -v -z --stdin [37ms]
+2024-04-11 21:38:21.339 [info] > git check-ignore -v -z --stdin [27ms]
+2024-04-11 21:38:21.339 [info] > git check-ignore -v -z --stdin [15ms]
+2024-04-11 21:38:21.340 [info] > git check-ignore -v -z --stdin [5ms]
+2024-04-11 21:38:21.589 [info] > git show --textconv :conception/plantuml_out/plant_erd_bdd.puml [44ms]
+2024-04-11 21:38:21.589 [info] > git ls-files --stage -- /home/student/S01-OVitrine-J3-cedricRGT45/conception/plantuml_out/plant_erd_bdd.puml [27ms]
+2024-04-11 21:38:23.720 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-11 21:38:52.068 [info] > git check-ignore -v -z --stdin [5ms]
+2024-04-11 21:38:52.219 [info] > git show --textconv :src/views/dashboard.ejs [17ms]
+2024-04-11 21:38:52.223 [info] > git ls-files --stage -- /home/student/S01-OVitrine-BenoitOClock/src/views/dashboard.ejs [6ms]
+2024-04-11 21:38:52.239 [info] > git cat-file -s d4c481070a970a4998ed2e23e7ed431314783d37 [3ms]
+2024-04-11 21:38:53.328 [info] > git check-ignore -v -z --stdin [10ms]
+2024-04-11 21:38:55.847 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-11 21:39:04.312 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-11 21:39:04.325 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-04-11 21:39:04.330 [info] Open repository: /home/student
+2024-04-11 21:39:04.345 [info] > git config --get commit.template [3ms]
+2024-04-11 21:39:04.359 [info] No remotes found in the git config file.
+2024-04-11 21:39:04.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-04-11 21:39:04.363 [warning] No such branch: master.
+2024-04-11 21:39:05.120 [info] > git status -z -uall [743ms] (cancelled)
+2024-04-11 21:39:05.207 [info] > git check-ignore -v -z --stdin [12ms]
+2024-04-11 21:39:05.208 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-11 21:39:56.191 [info] > git ls-files --stage -- /home/student/S01-OVitrine-BenoitOClock/src/views/dashboard.ejs [2ms]
+2024-04-11 21:39:56.206 [info] > git cat-file -s d4c481070a970a4998ed2e23e7ed431314783d37 [2ms]
+2024-04-11 21:39:56.240 [info] > git show --textconv :src/views/dashboard.ejs [5ms]

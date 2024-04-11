@@ -1,0 +1,5 @@
+const container = document.createElement("div")
+const helloWorld = document.createElement("h1")
+helloWorld.insertAdjacentText("beforeend", "Hello World")
+container.appendChild(helloWorld)
+document.body.append(container)

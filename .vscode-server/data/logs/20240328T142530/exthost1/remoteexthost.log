@@ -1,0 +1,24 @@
+2024-03-28 14:25:33.113 [info] Extension host with pid 13854 started
+2024-03-28 14:25:33.144 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/64a12b144f5794b3955f5e2fbb53f206/vscode.lock': Lock acquired.
+2024-03-28 14:25:33.316 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-28 14:25:33.324 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2024-03-28 14:25:34.225 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-28 14:25:35.321 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-28 14:25:35.342 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-28 14:25:36.603 [info] Eager extensions activated
+2024-03-28 14:25:36.604 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-28 14:25:36.609 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-28 14:25:36.611 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-03-28 14:26:05.436 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-03-28 14:26:05.437 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-03-28 14:26:05.438 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-03-28 14:33:28.882 [warning] vscode.json-language-features - Code actions of kind 'source.organizeImports 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-28 14:35:44.833 [warning] vscode.json-language-features - Code actions of kind 'source.organizeImports 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-28 14:36:24.085 [warning] vscode.json-language-features - Code actions of kind 'source.organizeImports 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-28 14:48:01.604 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-28 14:48:13.243 [warning] vscode.json-language-features - Code actions of kind 'source.organizeImports 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-28 14:48:20.172 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-28 14:48:27.317 [warning] vscode.json-language-features - Code actions of kind 'source.organizeImports 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-28 14:53:23.675 [info] Extension host terminating: received terminate message from renderer
+2024-03-28 14:53:23.677 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/64a12b144f5794b3955f5e2fbb53f206/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-28 14:53:23.760 [info] Extension host with pid 13854 exiting with code 0

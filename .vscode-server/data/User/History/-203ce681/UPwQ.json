@@ -1,0 +1,54 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.minimap.enabled": false,
+  "liveSassCompile.settings.useNewCompiler": false,
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css"
+    }
+  ],
+  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.forceBaseDirectory": "",
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.includeItems": [],
+  "settingsSync.ignoredExtensions": [],
+  "json.schemas": [],
+  "liveSassCompile.settings.showOutputWindowOn": "Debug",
+  "liveSassCompile.settings.watchOnLaunch": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "fiveServer.ignore": [],
+  "fiveServer.injectBody": true,
+  "fiveServer.openTerminal": false,
+  "fiveServer.navigate": false,
+  "window.menuBarVisibility": "compact",
+  "files.autoSave": "afterDelay",
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.rules.customizations": [],
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.triggerExpansionOnTab": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveSassCompile.settings.compileOnWatch": false,
+  "remote.SSH.remotePlatform": {
+    "cedric": "linux"
+  }
+}

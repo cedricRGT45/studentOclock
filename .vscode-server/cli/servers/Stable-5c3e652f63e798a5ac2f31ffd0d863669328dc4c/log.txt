@@ -1,0 +1,24 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-fe6ac04c-1fb9-498e-9984-ee410f2b9c76
+Extension host agent listening on /tmp/code-fe6ac04c-1fb9-498e-9984-ee410f2b9c76
+
+[21:36:48] 
+
+
+
+
+[21:36:48] Extension host agent started.
+[21:36:48] Deleted uninstalled extension from disk jebbs.plantuml /home/student/.vscode-server/extensions/jebbs.plantuml-2.18.0
+[21:36:48] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-fr /home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.87.2024031309
+[21:36:49] [<unknown>][8987874c][ExtensionHostConnection] New connection established.
+[21:36:49] [<unknown>][783a358e][ManagementConnection] New connection established.
+[21:36:49] [<unknown>][8987874c][ExtensionHostConnection] <5367> Launched Extension Host Process.
+[21:38:11] [<unknown>][81955765][ExtensionHostConnection] New connection established.
+[21:38:11] [<unknown>][81955765][ExtensionHostConnection] <5511> Launched Extension Host Process.
+[21:38:11] [<unknown>][562c1a52][ManagementConnection] New connection established.

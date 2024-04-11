@@ -1,0 +1,10 @@
+@startuml
+Invité -> "Navigateur" as Navigateur : 1: Obtenir la page d'accueil
+Navigateur -> "Home-page" as Home-page: 2: demander l'accés à la page d'accueil 
+HomePage -> Navigateur : 2.1 : redirection HTTP
+Gestionnaire --> Invité : 2.2 : Messages
+Invité -> Gestionnaire : 3: Sélectionner message
+Invité -> Gestionnaire : 4: Répondre 
+Gestionnaire -> Gestionnaire : 4.1: valider envoi message 
+Gestionnaire --> Invité : 4.2 : ok
+@enduml

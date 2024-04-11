@@ -1,0 +1,65 @@
+2024-04-11 17:22:37.789 [info] 
+
+
+
+
+2024-04-11 17:22:37.806 [info] Extension host agent started.
+2024-04-11 17:22:46.331 [info] [<unknown>][1faacded][ManagementConnection] New connection established.
+2024-04-11 17:22:46.334 [info] [<unknown>][11bcb8c2][ExtensionHostConnection] New connection established.
+2024-04-11 17:22:46.344 [info] [<unknown>][11bcb8c2][ExtensionHostConnection] <4169> Launched Extension Host Process.
+2024-04-11 17:23:11.957 [info] [<unknown>][ed4804b4][ExtensionHostConnection] New connection established.
+2024-04-11 17:23:11.968 [info] [<unknown>][ed4804b4][ExtensionHostConnection] <4281> Launched Extension Host Process.
+2024-04-11 17:23:11.971 [info] [<unknown>][a5462e73][ManagementConnection] New connection established.
+2024-04-11 17:23:18.932 [info] Getting Manifest... jebbs.plantuml
+2024-04-11 17:23:18.934 [info] Getting Manifest... ms-ceintl.vscode-language-pack-fr
+2024-04-11 17:23:18.985 [info] Installing extension: jebbs.plantuml
+2024-04-11 17:23:18.989 [info] Installing extension: ms-ceintl.vscode-language-pack-fr
+2024-04-11 17:23:19.961 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-04-11 17:23:19.967 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateIcon (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27683)
+    at j.<computed> (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-04-11 17:23:23.898 [info] Extension signature is verified: ms-ceintl.vscode-language-pack-fr
+2024-04-11 17:23:24.116 [info] Extension signature is verified: jebbs.plantuml
+2024-04-11 17:23:24.267 [info] Extracted extension to file:///home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.88.2024041009: ms-ceintl.vscode-language-pack-fr
+2024-04-11 17:23:24.282 [info] Renamed to /home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.88.2024041009
+2024-04-11 17:23:24.285 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-fr
+2024-04-11 17:23:24.294 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-fr
+2024-04-11 17:23:24.339 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-fr-1.87.2024031309
+2024-04-11 17:23:24.399 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-fr
+2024-04-11 17:23:25.164 [info] Extracted extension to file:///home/student/.vscode-server/extensions/jebbs.plantuml-2.18.1: jebbs.plantuml
+2024-04-11 17:23:25.172 [info] Renamed to /home/student/.vscode-server/extensions/jebbs.plantuml-2.18.1
+2024-04-11 17:23:25.176 [info] Extracting extension completed. jebbs.plantuml
+2024-04-11 17:23:25.182 [info] Extension installed successfully: jebbs.plantuml
+2024-04-11 17:23:25.188 [info] Marked extension as uninstalled jebbs.plantuml-2.18.0
+2024-04-11 17:27:37.809 [info] New EH opened, aborting shutdown
+2024-04-11 17:27:37.810 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-04-11 20:23:34.743 [info] [<unknown>][11bcb8c2][ExtensionHostConnection] <4169> Extension Host Process exited with code: 0, signal: null.
+2024-04-11 20:30:09.570 [info] [<unknown>][ed4804b4][ExtensionHostConnection] <4281> Extension Host Process exited with code: 0, signal: null.
+2024-04-11 20:30:09.571 [info] Last EH closed, waiting before shutting down
+2024-04-11 20:35:09.572 [info] Last EH closed, shutting down

@@ -1,0 +1,18 @@
+2024-03-28 14:08:40.311 [info] Extension host with pid 9036 started
+2024-03-28 14:08:40.345 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/64a12b144f5794b3955f5e2fbb53f206/vscode.lock': Lock acquired.
+2024-03-28 14:08:40.424 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-28 14:08:40.533 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-28 14:08:40.936 [info] Eager extensions activated
+2024-03-28 14:08:40.937 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-28 14:08:40.938 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-28 14:08:49.728 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-28 14:08:49.750 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-03-28 14:08:53.629 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-03-28 14:08:53.630 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-03-28 14:08:53.631 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-03-28 14:08:53.631 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-28 14:08:55.010 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-28 14:09:00.695 [warning] vscode.json-language-features - Code actions of kind 'source.organizeImports 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-28 14:14:31.319 [info] Extension host terminating: received terminate message from renderer
+2024-03-28 14:14:31.320 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/64a12b144f5794b3955f5e2fbb53f206/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-28 14:14:31.410 [info] Extension host with pid 9036 exiting with code 0

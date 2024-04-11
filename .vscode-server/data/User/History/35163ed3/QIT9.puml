@@ -1,0 +1,27 @@
+@startuml
+
+ class Projet {
+  - nom: string
+  - description: string
+  - technologies: string
+}
+
+class CarteProjet {
+  - projet: Projet
+  - pastilleTechno: string
+}
+
+class PageProjet {
+  - projet: Projet
+}
+
+class Contact {
+  - email: string
+  - téléphone: string
+  - adresse: string
+}
+
+Projet "1" --|> "0" CarteProjet
+Projet "1" --|> "1" PageProjet
+
+@enduml

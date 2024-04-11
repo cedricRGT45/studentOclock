@@ -1,0 +1,10 @@
+@startuml
+
+
+package models {
+    class owner{
+        -login:@startnwdiag-
+    }
+}
+
+@enduml

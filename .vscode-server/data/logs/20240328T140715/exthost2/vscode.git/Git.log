@@ -1,0 +1,15 @@
+2024-03-28 14:08:50.105 [info] Niveau de journal : Info
+2024-03-28 14:08:50.105 [info] Validation du git trouvé dans : «git»
+2024-03-28 14:08:50.105 [info] Utilisation de git «2.34.1» à partir de «git»
+2024-03-28 14:08:50.105 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-28 14:08:50.105 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 14:08:50.105 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-28 14:08:50.105 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 14:08:53.647 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-28 14:08:53.647 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 14:10:41.153 [info] > git rev-parse --show-toplevel [32ms]
+2024-03-28 14:10:41.153 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 14:10:44.913 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-28 14:10:44.913 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 14:11:29.378 [info] > git rev-parse --show-toplevel [8ms]
+2024-03-28 14:11:29.378 [info] fatal: not a git repository (or any of the parent directories): .git

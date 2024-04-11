@@ -1,0 +1,14 @@
+@startuml marvellous
+left to right direction
+actor Visitor as i
+package Site-vitrine {
+  usecase "Contacter l'entreprise" as UC1
+  usecase "Découvrir les projets" as UC2
+  usecase "En savoir plus sur les projets" as UC3
+}
+i --> UC1
+i --> UC2
+i --> UC3
+m --> UC4
+m --> UC5 
+@enduml

@@ -1,0 +1,71 @@
+2024-03-29 08:30:18.712 [info] 
+
+
+
+
+2024-03-29 08:30:18.737 [info] Extension host agent started.
+2024-03-29 08:30:18.839 [info] [<unknown>][73bdb974][ExtensionHostConnection] New connection established.
+2024-03-29 08:30:18.871 [info] [<unknown>][53890ba8][ManagementConnection] New connection established.
+2024-03-29 08:30:18.961 [info] [<unknown>][73bdb974][ExtensionHostConnection] <13136> Launched Extension Host Process.
+2024-03-29 08:30:24.086 [info] Getting Manifest... jebbs.plantuml
+2024-03-29 08:30:24.121 [info] Installing extension: jebbs.plantuml
+2024-03-29 08:30:27.010 [info] Extension signature is verified: jebbs.plantuml
+2024-03-29 08:30:27.712 [info] Extracted extension to file:///home/student/.vscode-server/extensions/jebbs.plantuml-2.18.0: jebbs.plantuml
+2024-03-29 08:30:27.720 [info] Renamed to /home/student/.vscode-server/extensions/jebbs.plantuml-2.18.0
+2024-03-29 08:30:27.726 [info] Extracting extension completed. jebbs.plantuml
+2024-03-29 08:30:27.734 [info] Extension installed successfully: jebbs.plantuml
+2024-03-29 08:30:27.741 [info] Marked extension as uninstalled jebbs.plantuml-2.17.6
+2024-03-29 08:30:45.610 [error] [<unknown>][31ab4041][ManagementConnection] Unknown reconnection token (never seen).
+2024-03-29 08:32:05.776 [info] [<unknown>][2b2c71e4][ExtensionHostConnection] New connection established.
+2024-03-29 08:32:05.787 [info] [<unknown>][2b2c71e4][ExtensionHostConnection] <13386> Launched Extension Host Process.
+2024-03-29 08:32:05.797 [info] [<unknown>][59ab7ba0][ManagementConnection] New connection established.
+2024-03-29 08:32:07.665 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-29 08:32:18.929 [info] [<unknown>][b9655839][ExtensionHostConnection] New connection established.
+2024-03-29 08:32:18.944 [info] [<unknown>][b9655839][ExtensionHostConnection] <13517> Launched Extension Host Process.
+2024-03-29 08:32:18.946 [info] [<unknown>][2f1b98e2][ManagementConnection] New connection established.
+2024-03-29 08:33:33.487 [error] AggregateError
+    at internalConnectMultiple (node:net:1082:18)
+    at afterConnectMultiple (node:net:1533:5)
+2024-03-29 08:35:18.738 [info] New EH opened, aborting shutdown
+2024-03-29 08:37:19.095 [info] [<unknown>][2b2c71e4][ExtensionHostConnection] <13386> Extension Host Process exited with code: 0, signal: null.
+2024-03-29 08:38:11.839 [info] [<unknown>][ddca323b][ManagementConnection] New connection established.
+2024-03-29 08:38:11.858 [info] [<unknown>][d2b2d9d2][ExtensionHostConnection] New connection established.
+2024-03-29 08:38:11.872 [info] [<unknown>][d2b2d9d2][ExtensionHostConnection] <14224> Launched Extension Host Process.
+2024-03-29 08:38:14.837 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-29 08:38:54.633 [info] [<unknown>][5d2316a1][ExtensionHostConnection] New connection established.
+2024-03-29 08:38:54.652 [info] [<unknown>][5d2316a1][ExtensionHostConnection] <14348> Launched Extension Host Process.
+2024-03-29 08:38:54.655 [info] [<unknown>][be2d4b80][ManagementConnection] New connection established.
+2024-03-29 08:43:12.191 [info] [<unknown>][b9655839][ExtensionHostConnection] <13517> Extension Host Process exited with code: 0, signal: null.
+2024-03-29 08:43:12.197 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-03-29 08:43:54.737 [info] [<unknown>][d2b2d9d2][ExtensionHostConnection] <14224> Extension Host Process exited with code: 0, signal: null.
+2024-03-29 08:46:48.155 [error] AggregateError
+    at internalConnectMultiple (node:net:1082:18)
+    at afterConnectMultiple (node:net:1533:5)

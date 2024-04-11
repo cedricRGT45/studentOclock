@@ -1,0 +1,31 @@
+@startuml
+
+
+package models {
+    class Owner{
+        +id:number
+        -login:String
+        +html_url: String   
+        +type:String
+        +avatar_url:String
+        +created_at:String
+        +updated_at:String
+        getProject()
+    }
+
+    class Project{
+        +private: Boolean
+        +archived: Boolean
+        +name: String
+        +full_name: String
+        +description: String
+        +language: String
+        +html_url: String
+        +licenses: String
+        +owner: number
+        +created_at:String
+        +updated_at:String
+    }
+    Owner "0..*" - "1.1" Project
+}
+@enduml

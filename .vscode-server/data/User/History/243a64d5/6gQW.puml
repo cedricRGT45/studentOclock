@@ -1,0 +1,17 @@
+@startuml
+
+
+package models {
+    class owner{
+        -login:string
+        -html_url: string   
+        -type:string
+        -avatar_url:string
+    }
+
+    class Project{
+        
+    }
+}
+
+@enduml

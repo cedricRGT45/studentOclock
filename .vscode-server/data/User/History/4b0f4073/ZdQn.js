@@ -1,0 +1,20 @@
+const container = document.createElement("div")
+container.style.display ="flex"
+container.style.flexDirection = "column"
+container.style.alignItems= "center"
+const helloWorld = document.createElement("h1")
+helloWorld.insertAdjacentText("beforeend", "Hello World")
+const classDiagram = document.createElement("img")
+classDiagram.src = "./classUml.png"
+console.log(classDiagram)
+container.append(helloWorld, classDiagram)
+document.body.append(container)
+
+container.addEventListener('mouseover', () => {
+    helloWorld.innerText = "Hello YOU";
+  });
+
+  // Add a mouseout event listener
+container.addEventListener('mouseout', () => {
+    helloWorld.innerText = "Ciao";
+  });
