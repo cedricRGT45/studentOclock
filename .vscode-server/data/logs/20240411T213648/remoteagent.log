@@ -12,3 +12,35 @@
 2024-04-11 21:38:11.422 [info] [<unknown>][81955765][ExtensionHostConnection] New connection established.
 2024-04-11 21:38:11.431 [info] [<unknown>][81955765][ExtensionHostConnection] <5511> Launched Extension Host Process.
 2024-04-11 21:38:11.437 [info] [<unknown>][562c1a52][ManagementConnection] New connection established.
+2024-04-11 21:41:48.886 [info] New EH opened, aborting shutdown
+2024-04-11 21:41:48.888 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-04-11 21:42:03.132 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-04-11 21:42:09.107 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-04-11 21:43:11.598 [info] [<unknown>][8987874c][ExtensionHostConnection] <5367> Extension Host Process exited with code: 0, signal: null.
+2024-04-11 21:45:25.226 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-04-11 21:45:57.546 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-04-11 21:46:25.621 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-04-11 21:46:30.385 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-04-11 21:49:31.709 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-04-11 21:49:34.918 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-04-11 21:51:12.333 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
