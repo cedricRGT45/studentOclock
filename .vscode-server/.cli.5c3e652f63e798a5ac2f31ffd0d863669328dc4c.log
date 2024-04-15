@@ -3,3 +3,4 @@ Listening on 127.0.0.1:44621
 looking for token 5c8921d4-d861-401f-a7a8-dfc5a0c6e6fb, got Some("5c8921d4-d861-401f-a7a8-dfc5a0c6e6fb")
 [2024-04-11 21:38:11] info Checking /home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/log.txt and /home/student/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/pid.txt for a running server...
 [2024-04-11 21:38:11] info Found running server (pid=5337)
+[2024-04-11 21:56:37] info Disposed of connection to running server.

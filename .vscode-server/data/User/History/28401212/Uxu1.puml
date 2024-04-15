@@ -1,0 +1,32 @@
+@startuml
+
+entity Utilisateur {
+  IdUtilisateur : int
+  Nom : string
+  Email : string
+  MotDePasse : string
+}
+
+entity EspaceDeCoworking {
+  IdEspaceDeCoworking : int
+  Nom : string
+  Description : string
+  Adresse : string
+}
+
+entity Commentaire {
+  IdCommentaire : int
+  Contenu : string
+}
+
+entity Reservation {
+  IdReservation : int
+  DateReservation : date
+}
+
+Utilisateur -- Commentaire : Ajoute
+Utilisateur -- Reservation : Réserve
+Commentaire -- EspaceDeCoworking : PostéSur
+Reservation -- EspaceDeCoworking : PorteSur
+
+@enduml

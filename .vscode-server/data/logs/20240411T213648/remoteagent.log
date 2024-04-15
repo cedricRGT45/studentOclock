@@ -44,3 +44,6 @@
 2024-04-11 21:51:12.333 [error] AggregateError
     at internalConnectMultiple (node:net:1114:18)
     at afterConnectMultiple (node:net:1601:5)
+2024-04-12 00:56:47.277 [info] [<unknown>][81955765][ExtensionHostConnection] <5511> Extension Host Process exited with code: 0, signal: null.
+2024-04-12 00:56:47.277 [info] Last EH closed, waiting before shutting down
+2024-04-12 01:01:47.279 [info] Last EH closed, shutting down

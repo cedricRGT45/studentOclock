@@ -1,0 +1,16 @@
+#La première insttruction doti être form
+#ixi on precise l'image de base sur la quelle construire notre ipmage perso
+
+#ici quand je base mon image sur node:latest, je pars d'un conteneur dans lequelle sera installé node js et npm
+FROM node:latest
+
+#ensuite on spécifie le répertoire depuis lequel nous allons éxecuter nos commandes
+WORKDIR /home/app
+
+#nous allons éxecuter une première commande avec l'instruction "run"
+#ici on installe la dépendance "json server"
+RUN npm i -g json-server
+
+#on utilise copy pour copier un ficjer ou dossier depuis la machine hôte vers l'image du conteneur
+#
+COPY data.json /home/app/data.json

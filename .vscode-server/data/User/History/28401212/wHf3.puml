@@ -1,0 +1,32 @@
+@startuml
+
+entity Users {
+  IdUser : int
+  Name : string
+  Email : string
+  PassWord : string
+}
+
+entity CoworkingSpace {
+  IdCoworkingSpace : int
+  Name : string
+  Description : string
+  Adress : string
+}
+
+entity Comment {
+  IdComment : int
+  Content : string
+}
+
+entity Reservation {
+  ReservationId : int
+  ReservationDate : date
+}
+
+Users -- Comment : Add
+Users -- Reservation : Book
+Comment -- CoworkingSpace : PostedOn
+Reservation -- CoworkingSpace : Book
+
+@enduml

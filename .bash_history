@@ -743,3 +743,60 @@ echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docke
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo docker run hello-world
+ls
+cd s01-Ovitrine-benoitOclock
+cd S01-OVitrine-J3-cedricRGT45
+git add .
+git commit -m"commit"
+git push
+git push -u origin main
+git push --force
+git add .
+git init
+ls
+lsa 
+cd git
+cd .git
+cd ..
+git add .
+git commit -m "all"
+git add .
+git commit -m "commit all"
+git push
+git push origin main
+git push --force-with-lease
+git branch -b feat/secondary
+git branch -b secondary
+git push
+git remote add secondary
+git status
+git add .
+git commit -m ""
+git commit -m "commit"
+git push -u origin main
+git push
+git push main
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:cedricRGT45/studentOclock.git
+git push -u origin main
+git remote add origin git@github.com:cedricRGT45/studentOclock.git
+git branch -M main
+git push -u origin main
+git add .
+git commit --amend "commit"
+git commit --amend -m "commit"
+git push -u origin main
+git status
+git branch
+git push -u origin main
+git push
+git clone git@github.com:O-clock-Naga/S02_Coclock_Working.git
+ls
+cd S02_Coclock_Working/
+ls
+cd json_server/
+ls
+exit

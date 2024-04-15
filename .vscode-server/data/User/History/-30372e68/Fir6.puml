@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor Invité as i
+package Site coworking {
+  usecase "Rechercher les espaces de coworking" as UC1
+  usecase "Consulter les espaces de coworking" as UC2
+  usecase "Ajouter un commentaire sur l'espace" as UC3
+  usecase "Consulter socials entreprise" as UC4
+}
+i --> UC1
+i --> UC2
+i --> UC3
+i --> UC4
+@enduml

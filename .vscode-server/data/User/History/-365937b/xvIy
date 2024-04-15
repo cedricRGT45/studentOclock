@@ -1,0 +1,7 @@
+#La première insttruction doti être form
+#ixi on precise l'image de base sur la quelle construire notre ipmage perso
+
+#ici quand je base mon image sur node:latest, je pars d'un conteneur dans lequelle sera installé node js et npm
+FROM node:latest
+
+#

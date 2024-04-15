@@ -1,0 +1,36 @@
+@startuml
+package models {
+  class User{
+    + login: String
+    + html_url: String
+    + type: String
+    + avatar_url: String
+    {static} findAll()
+    {static} findByPk(int projectId)
+    getProjects()
+  }
+  class Project{
+    + private: Boolean
+    + archived: Boolean
+    + name: String
+    + full_name: String
+    + description: String
+    + language: String
+    + html_url: String
+    + license: String
+    {static} findAll()
+    {static} findByPk(int projectId)
+    getOwner()
+  }
+  Owner "0..*" - "1..1" Project
+}
+package controllers {
+  class DashboardController{
+    + getDashboardView()
+  }
+  class ProjectDetailController{
+    + getProjectView(int projectId)
+  }
+}
+@enduml
+

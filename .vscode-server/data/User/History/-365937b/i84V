@@ -1,0 +1,5 @@
+#La première insttruction doti être form
+#ixi on precise l'image de base sur la quelle construire notre ipmage perso
+
+#
+FROM node:latest
