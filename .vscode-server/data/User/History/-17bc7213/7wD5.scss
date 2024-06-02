@@ -1,0 +1,39 @@
+@use "../utils/variables" as *;
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding:1rem;
+    margin: $gutter * 1.5;
+      
+    &.reduced {
+      height: 100px;
+  
+      h1 {
+        line-height: unset;
+        margin: 0;
+      }
+  
+      img {
+        height: $gutter * 2;
+      }
+  
+      button {
+        display: none;
+      }
+    }
+  
+    img {
+      height: $gutter * 4.5;
+    }
+  
+    h1 {
+      font-size: 5rem;
+      font-weight: 400;
+      line-height: $gutter * 1.5;
+      margin-bottom: $gutter * 1.5;
+    }
+  }

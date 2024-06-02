@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'alumni-100';
+  src: url(../../fonts/alumni-sans-v18-latin-100.woff2);
+}
+
+$family-font-100: "alumni-100";
+$family-font-title:"alumni-700";
+$family-font-text:"alumni-regular"
+$font-weight-title: 500;
+$font-weight-text: 400;
+$font-sizeLink-mobile: 0.75em;
+$font-sizeLink-desktop: 1.3rem;
+$font-sizeTitle-mobile: 1rem;
+$font-sizeTitle-desktop: 2.4rem;
+$font-sizetext: 1rem;
+$font-sizeSubtitle-desktop: 2.25rem;
+
+h1,
+h2,
+h3{
+  font-family: $family-font;
+  font-weight: $font-weight-title;
+  font-size: $font-sizeTitle-mobile;
+  @media (min-width: 768px) {
+    font-size: $font-sizeTitle-desktop;
+  }
+}
+
+a,
+ul,li {
+  font-family: $family-font;
+  font-weight: $font-weight-text;
+  font-size: $font-sizeLink-desktop;
+  @media (min-width: 768px) {
+    font-size: $font-sizeLink-desktop;
+  }
+}
+
+p {
+  font-family: $family-font;
+  font-weight: $font-weight-text;
+  font-size: $font-sizetext;
+}
+
+

@@ -1,0 +1,324 @@
+2024-05-31 11:41:49.137 [info] 
+
+
+
+
+2024-05-31 11:41:49.137 [info] Extension host agent started.
+2024-05-31 11:41:49.139 [info] Started initializing default profile extensions in extensions installation folder. file:///home/student/.vscode-server/extensions
+2024-05-31 11:41:49.166 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/student/.vscode-server/extensions
+2024-05-31 11:41:50.047 [info] [<unknown>][20e8c42a][ManagementConnection] New connection established.
+2024-05-31 11:41:50.216 [info] [<unknown>][8bfeb922][ExtensionHostConnection] New connection established.
+2024-05-31 11:41:50.364 [info] [<unknown>][8bfeb922][ExtensionHostConnection] <38735> Launched Extension Host Process.
+2024-05-31 11:41:57.366 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 11:41:57.368 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 11:42:16.889 [info] [<unknown>][bdaa03f2][ManagementConnection] New connection established.
+2024-05-31 11:42:16.890 [info] [<unknown>][0d101df1][ExtensionHostConnection] New connection established.
+2024-05-31 11:42:16.903 [info] [<unknown>][0d101df1][ExtensionHostConnection] <38910> Launched Extension Host Process.
+2024-05-31 11:42:21.365 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 11:43:57.293 [info] [<unknown>][983b2c31][ExtensionHostConnection] New connection established.
+2024-05-31 11:43:57.306 [info] [<unknown>][983b2c31][ExtensionHostConnection] <39066> Launched Extension Host Process.
+2024-05-31 11:43:57.312 [info] [<unknown>][cf8a4180][ManagementConnection] New connection established.
+2024-05-31 11:43:59.880 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 11:46:49.070 [info] New EH opened, aborting shutdown
+2024-05-31 11:46:49.072 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/server/node/server.main.js:189:6057)
+    at process.emit (node:events:517:28)
+2024-05-31 11:48:57.460 [info] [<unknown>][8bfeb922][ExtensionHostConnection] <38735> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 11:48:57.473 [info] [<unknown>][0d101df1][ExtensionHostConnection] <38910> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 12:01:25.885 [info] Getting Manifest... ms-vsliveshare.vsliveshare
+2024-05-31 12:01:25.922 [info] Installing extension: ms-vsliveshare.vsliveshare
+2024-05-31 12:01:28.877 [info] Extension signature verification result for ms-vsliveshare.vsliveshare: Success. Duration: 2311ms.
+2024-05-31 12:01:30.257 [info] Extracted extension to file:///home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5918: ms-vsliveshare.vsliveshare
+2024-05-31 12:01:30.281 [info] Renamed to /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5918
+2024-05-31 12:01:30.289 [info] Extracting extension completed. ms-vsliveshare.vsliveshare
+2024-05-31 12:01:30.300 [info] Extension installed successfully: ms-vsliveshare.vsliveshare
+2024-05-31 12:01:47.275 [info] [<unknown>][989b69d9][ManagementConnection] New connection established.
+2024-05-31 12:01:47.294 [info] [<unknown>][cfa350d1][ExtensionHostConnection] New connection established.
+2024-05-31 12:01:47.307 [info] [<unknown>][cfa350d1][ExtensionHostConnection] <40025> Launched Extension Host Process.
+2024-05-31 12:01:49.410 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 12:02:35.431 [info] [<unknown>][2adf4975][ManagementConnection] New connection established.
+2024-05-31 12:02:35.457 [info] [<unknown>][a6b1e48d][ExtensionHostConnection] New connection established.
+2024-05-31 12:02:35.471 [info] [<unknown>][a6b1e48d][ExtensionHostConnection] <40228> Launched Extension Host Process.
+2024-05-31 12:02:40.161 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 12:05:09.289 [info] [<unknown>][cf69aa21][ManagementConnection] New connection established.
+2024-05-31 12:05:09.294 [info] [<unknown>][f3c6eaaf][ExtensionHostConnection] New connection established.
+2024-05-31 12:05:09.310 [info] [<unknown>][f3c6eaaf][ExtensionHostConnection] <40384> Launched Extension Host Process.
+2024-05-31 12:05:18.315 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 12:05:18.319 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 12:05:18.888 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 12:05:18.889 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 12:06:25.022 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.028 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.029 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.036 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.038 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.039 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.066 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.155 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.171 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.177 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.185 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.187 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.279 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.310 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.311 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.319 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.320 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.321 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.322 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.323 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.324 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.326 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.660 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.662 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.663 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.667 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.668 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.672 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.673 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.677 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.903 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:06:25.957 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/redux/redux_example/node_modules/@types)
+2024-05-31 12:06:47.725 [info] [<unknown>][983b2c31][ExtensionHostConnection] <39066> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 12:07:18.399 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:07:18.596 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:07:18.597 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-31 12:10:09.543 [info] [<unknown>][a6b1e48d][ExtensionHostConnection] <40228> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 13:07:42.931 [info] [<unknown>][661e554a][ManagementConnection] New connection established.
+2024-05-31 13:07:42.958 [info] [<unknown>][c59d8bda][ExtensionHostConnection] New connection established.
+2024-05-31 13:07:42.972 [info] [<unknown>][c59d8bda][ExtensionHostConnection] <41134> Launched Extension Host Process.
+2024-05-31 13:07:45.768 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 13:07:55.896 [info] [<unknown>][2c641b2a][ManagementConnection] New connection established.
+2024-05-31 13:07:55.915 [info] [<unknown>][3d17c797][ExtensionHostConnection] New connection established.
+2024-05-31 13:07:55.935 [info] [<unknown>][3d17c797][ExtensionHostConnection] <41284> Launched Extension Host Process.
+2024-05-31 13:07:59.134 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 13:12:43.325 [info] [<unknown>][f3c6eaaf][ExtensionHostConnection] <40384> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 13:12:44.863 [info] [<unknown>][cfa350d1][ExtensionHostConnection] <40025> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 13:12:56.097 [info] [<unknown>][c59d8bda][ExtensionHostConnection] <41134> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 13:28:41.183 [info] [<unknown>][d46d5942][ManagementConnection] New connection established.
+2024-05-31 13:28:41.204 [info] [<unknown>][b770b548][ExtensionHostConnection] New connection established.
+2024-05-31 13:28:41.221 [info] [<unknown>][b770b548][ExtensionHostConnection] <41452> Launched Extension Host Process.
+2024-05-31 13:28:43.916 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 13:28:47.022 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 13:28:47.023 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 13:31:54.598 [info] [<unknown>][3932b874][ExtensionHostConnection] New connection established.
+2024-05-31 13:31:54.616 [info] [<unknown>][3932b874][ExtensionHostConnection] <42698> Launched Extension Host Process.
+2024-05-31 13:31:54.623 [info] [<unknown>][2600c499][ManagementConnection] New connection established.
+2024-05-31 13:33:41.402 [info] [<unknown>][3d17c797][ExtensionHostConnection] <41284> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 13:36:54.895 [info] [<unknown>][b770b548][ExtensionHostConnection] <41452> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 13:38:13.903 [info] [<unknown>][0e7a6dcc][ManagementConnection] New connection established.
+2024-05-31 13:38:13.924 [info] [<unknown>][2ca4afa2][ExtensionHostConnection] New connection established.
+2024-05-31 13:38:13.949 [info] [<unknown>][2ca4afa2][ExtensionHostConnection] <43212> Launched Extension Host Process.
+2024-05-31 13:43:14.242 [info] [<unknown>][3932b874][ExtensionHostConnection] <42698> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 13:53:16.834 [info] [<unknown>][a8c5e807][ExtensionHostConnection] New connection established.
+2024-05-31 13:53:16.854 [info] [<unknown>][a8c5e807][ExtensionHostConnection] <46738> Launched Extension Host Process.
+2024-05-31 13:53:16.857 [info] [<unknown>][0d38765c][ManagementConnection] New connection established.
+2024-05-31 13:53:17.021 [info] Installing extensions...
+2024-05-31 13:53:18.303 [info] Installing extension 'ms-ceintl.vscode-language-pack-fr'...
+2024-05-31 13:53:18.304 [info] Getting Manifest... ms-ceintl.vscode-language-pack-fr
+2024-05-31 13:53:18.322 [info] Installing extension: ms-ceintl.vscode-language-pack-fr
+2024-05-31 13:53:22.322 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-fr: Success. Duration: 3554ms.
+2024-05-31 13:53:22.809 [info] Extracted extension to file:///home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.89.2024050109: ms-ceintl.vscode-language-pack-fr
+2024-05-31 13:53:22.832 [info] Renamed to /home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.89.2024050109
+2024-05-31 13:53:22.835 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-fr
+2024-05-31 13:53:22.845 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-fr
+2024-05-31 13:53:22.937 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-fr
+2024-05-31 13:53:22.943 [info] Extension 'ms-ceintl.vscode-language-pack-fr' v1.89.2024050109 was successfully installed.
+2024-05-31 13:53:36.578 [info] [<unknown>][eac85d59][ManagementConnection] New connection established.
+2024-05-31 13:53:36.596 [info] [<unknown>][707ecb10][ExtensionHostConnection] New connection established.
+2024-05-31 13:53:36.618 [info] [<unknown>][707ecb10][ExtensionHostConnection] <47007> Launched Extension Host Process.

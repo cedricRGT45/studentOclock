@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+    volumes:
+      - ./frontend:/app/frontend
+      - /app/frontend/node_modules
+    ports:
+      - 5174:5173
+    # depends_on:
+    command: npm run dev
+
+  backend:
+      build:
+        context: ./backend
+      volumes:
+        - ./backend:/app/backend
+        - /app/backend/node_modules
+      ports:
+        - "3000:3000"
+      environment:
+        - PGUSER=localexpress
+        - PGPASSWORD=localexpress
+        - PGHOST=database
+        - PGPORT=5432
+        - PGDATABASE=localexpress
+      depends_on:
+        - database
+      tty: true
+
+  database:
+    image: postgis/postgis:13-master
+    container_name: database
+    volumes:
+      - ./backend/data/database:/var/lib/postgresql/data
+      - ./backend/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: 'localexpress'
+      POSTGRES_PASSWORD: 'localexpress'
+      POSTGRES_DB: 'localexpress'
+    restart: always
+    tty: true
+
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    restart: always
+    depends_on:
+      - database
+    tty: true
+# TODO container backend
+
+# TODO container database

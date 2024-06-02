@@ -1,0 +1,10 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 30rem;
+    margin:auto;
+    &__btn{
+        width:30%;
+    }
+}

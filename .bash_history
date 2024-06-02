@@ -1,802 +1,556 @@
-sudo -s
-exit
-ssh-keygen -t ed25519 -C "formation.cedric45@gmail.com"
-cat ~/.ssh/id_ed25519.pub
-cat ~/.ssh/oclockvm.pub
-ssh-keygen -t ed25519 -"formation.cedric45@gmail.com"
-y
-ssh-keygen -t ed25519 -"formation.cedric45@gmail.com"
-sudo apt update
-sudo apt dist-upgrade 
-sudo apt install plantuml
-gitl clone git@github.com:O-clock-Naga/S01-OVitrine-cedricRGT45.git
-git clone git@github.com:O-clock-Naga/S01-OVitrine-cedricRGT45.git
-cat ~/.ssh/id_ed25519.pub
-ssh-keygen -t ed25519 -C "formation.cedric45@gmail.com"
-cat ~/.ssh/id_ed25519.pub
-eval "$(ssh-agent -s)" 
-ssh-add ~/.ssh/id_ed25519 
-Définitions du lexique
-Fiches récap
-Récapitulatifs quotidiens
-Quiz
-Gestion Serveur cloud
-Annonces de la promo
-Informations aux promos
-Aucun feedback pour le moment.
-Nos conseils
-Les fiches récap de l'école O'clock
-Git Github Ldc 
-Git et GitHub
-Dernière modification: 29 janvier 2024
-Git & GitHub
-Git, en quelques mots
-Git est un outil collaboratif de gestion de version (versioning). La commande git permet d’utiliser Git en ligne de commande, c’est donc un outil que chaque membre d’un projet doit installer en local (sur sa machine).
-Git permet de faire de la gestion de versions dans tout type de projet : pour gérer du code bien sûr, mais aussi des documents PDF, des images, etc. Concrètement, il devient possible de conserver un historique des versions successives de n’importe quels fichiers, de comparer ces versions, de revenir à une version plus ancienne en cas de pépin, etc. Ce n’est donc pas strictement un outil de développeur !
-Par ailleurs, Git permet de faciliter la collaboration entre plusieurs utilisateurs qui travaillent sur une même base de fichiers, sans risquer d’écraser ou de perdre son travail ou celui des collègues. Pour faciliter la communication autour du projet, les bons vieux emails fonctionnent, mais il existe aujourd’hui des sites et de services complémentaires à Git. Le site GitHub est l’un d’entre eux.
-Comment ça marche ?
-Avec Git, quand on veut sauvegarder l’état courant de nos fichiers, on désigne quels fichiers prendre en compte pour la sauvegarde (git add), et on valider l’enregistrement (git commit) des modifications. On crée ce faisant 1 « commit », qui représente la différence entre 2 versions successives du projet. On va collectionner les commits successifs, au fur et à mesure de l’évolution du projet. Cette suite de commits constitue l’historique du projet.
-Si on travaille avec d’autres personnes sur un projet géré par Git, on peut ensuite envisager de partager, fusionner ou retravailler les commits : ajouts/modifications/suppressions de fichiers, par exemple. Dans ce cas-là, on aura tendance à utiliser un serveur central auquel tout le monde aura accès pour partager l’historique du projet (git push vers le serveur central).
-Différences entre Git & GitHub
-Attention à ne pas confondre Git et GitHub :
-Git (commande git) est l’outil open source de gestion de version, qu’on installe sur sa machine pou coder « localement » ;
-GitHub (github.com) est une plateforme de services & un réseau social — GitHub agit comme serveur central, permettant de partager son code dans un dépôt Git centralisé et partagé sur internet, mais également de communiquer avec d’autres développeurs par l’intermédiaire de commentaires, d’issues, etc.
-Principe général : 1 « projet Git » ===> 1 repo de code géré localement (sur sa machine) avec Git, et éventuellement hébergé/sauvegardé dans 1 repo distant sur github.com. Le projet est dans ce dernier cas dupliqué dans deux repos git distincts.
-GitHub est probablement LE réseau social de développeurs le plus populaire aujourd’hui, mais certainement pas le seul. Il existe également Gitlab, Bitbucket, etc.
-Utilisateurs Github
-Créer une clé SSH pour GitHub
-Avant toute chose, pour utiliser Git et GitHub à leur pleins potentiels, on va créer une clé dite SSH. Cette clé est une carte d’identité nous permettant de nous authentifier auprès de GitHub, notamment pour accéder aux repos privés, signer nos commits, etc.
-Création de la clé
-# Attention à bien remplacer l'email par le votre ;)
-ssh-keygen -t ed25519 -C "votre-email@exemple.fr"
-Il vous sera demandé d’inventer une passphrase, c’est-à-dire un mot de passe un peu costaud (qui peut carrément être une phrase, avec des espaces, des accents et tout ! Cette passphrase n’est pas strictement obligatoire (elle peut être vide…), mais il est fortement recommandé d’en choisir une. Par contre, il faut la retenir par cœur, si elle est perdue, la clé SSH est bonne à jeter !
-Une clé SSH se compose de deux parties, donc la commande ci dessus vous donnera :
-une clé privée dans /home/mint/.ssh/id_ed25519 — pour protégér du contenu, à garder pour soi !
-une clé publique dans /home/mint/.ssh/id_ed25519.pub — elle est capable de lire du contenu protégé par la clé privé
-Les informations (historique git…) partagées entre votre machine et les serveurs de GitHub seront chiffrées, grâce à la clé privée, avant de partir de chez vous ; puis déchiffrées une fois arrivées sur GitHub, si celui-ci possède la clé publique.
-Ajout de la clé publique sur GitHub
-Vous allez donc copier le contenu de la clé publique sur GitHub. Vous pouvez regarder le contenu de la clé publique, par curiosité :
-# Pour récupérer le contenu de notre clé publique
-cat ~/.ssh/id_ed25519.pub
-Copiez ce contenu, et allez le coller dans votre compte GitHub :
-Settings > SSH and GPG keys > New SSH key > Coller le contenu de la clé et valider
-À noter : la clé SSH publique seule ne permet pas de chiffrer du contenu, si bien que GitHub ou tout autre service auquel vous auriez donné votre clé publique ne pourra pas vous envoyer des informations protégées ; uniquement en déchiffrer. La clé SSH sert essentiellement pour vous authentifier, prouver que vous êtes la personne que vous annoncez être. Pour protéger l’échange d’information en lui-même, une seconde couche de chiffrement est ajoutée, via le protocole HTTPS (S comme Secure).
-Pour en savoir plus : https://help.github.com/articles/connecting-to-github-with-ssh/
-Pour que Git utilise automatiquement la clé SSH pour authentifier les commandes git ..., il faut utiliser des URLs avec le protocole SSH plutôt que HTTPS. À nouveau, pour en savoir plus : https://help.github.com/articles/why-is-git-always-asking-for-my-password/
-Activation de la clé SSH en local
-Pour que la clé SSH soit utilisable, et aussi pour éviter d’avoir à donner sa passphrase à chaque utilisation, il faut ajouter la clé privée à un « trousseau de clé » (programme ssh-agent):
-eval "$(ssh-agent -s)" # pour lancer ssh-agent de façon sécurisée
-ssh-add ~/.ssh/id_ed25519 # pour activer la clé SSH
-Si vous oubliez cette étape, vous aurez des erreurs du type « Permission denied (publickey) » lors de l’utilisation de Git & GitHub.
-C’est prêt !
-Vérifier la connexion
-Comme indiqué dans la documentation de GitHub, il est possible à ce stade de vérifier si les précédentes étapes ont bien été réalisées.
-Pour cela, on va tenter une connexion SSH à github.com, en saisissant dans le ter
-ssh -T git@github.com
-ssh-keygen -t ed25519 -C "formation.cedric45@gmail.com"
-cat ~/.ssh/id_ed25519.pub
-eval "$(ssh-agent -s)" 
-ssh-add ~/.ssh/id_ed25519
-ssh -T git@github.com
-git clone git@github.com:O-clock-Naga/S01-OVitrine-cedricRGT45.git
-plantuml -v
-ssh -T git@github
-ssh -T git@github.com
-ls -a
-cat id_ed25519
-cat id_ed25519.pub
-ssh -T git@github.com
+git add .
+git commit --amend  -m "deploying surge"
+git push --force-with-lease
 cd ..
-man
-man man
-man ls
-man/recherche
-man/search
-man/-r
-man ls
-man man
 ls
-ls -a
-ls home
-ls -R
-ll
-ls -l
-ll
-ls -A
-../
-cd ../
-cat .bashrc
+cd S03_CICD_archi_frontend
+git pull
+git branch
+git pull
+git pull origin git@github.com:O-clock-Naga/S03_CICD_archi_frontend.git
+cd ..
+git clone git@github.com:O-clock-Naga/S03_CICD_archi_frontend.git
+ls
+cd S03_Challenge_E01_Localexpress-cedricRGT45
+sudo docker compose up
+cd projet
+sudo docker compose up
+docker compose up
+sudo docker compose up
+sudo docker install
+sudo docker -v
+sudo docker compose up
+docker compose up
+sudo docker compose up
+sud docker prune
+sudo docker prune
+sudo docker system prune
+sudo docker compose up
+sudo docker system prune
+sudo docker compose up
+cd ..
+ls
+cd S02_Coclock_working_challenge_E01-cedricRGT45 
+cd projet
+sudo docker compose up
+cd ..
+CD ;;
+CD ..
+cd ..
+ls
+cd S03_Challenge_E01_Localexpress-cedricRGT45  
+cd projet
+docker compose up
+sudo docker compose up
+docker compose ps -a
+cd projet/
+sudo docker compose ps
+ls
+git clone git@github.com:O-clock-Naga/S03_challenge_E03-cedricRGT45.git
+ls
+git clone git@github.com:O-clock-Naga/S03_challenge_E03-cedricRGT45.git
+ls
+cd S03_challenge_E03-cedricRGT45   
+cd projet
+sudo docker compose up
+cd S03_challenge_E03-cedricRGT45   
+npm i -d sass
+cd projet
+docker compose up
+sudo docker compose up
+sudo docker system prune
+sudo docker compose up
+npm i sass
+ls
+cd S03_challenge_E03-cedricRGT45  
+cd projet
+npm i sass
+sudo -d docker compose up
+sudo docker compose up
+cd ..
+git clone git@github.com:O-clock-Naga/S03_Challenge_E01_Localexpress-cedricRGT45.git
+ls
+cd S03_Challenge_E01_Localexpress-cedricRGT45 
+sudo docker compose up
+cd projet
+sudo docker compose up
+sudo docker system prune
+sudo docker compose up
+sudo docker system prune
+sudo docker compose up
+sudo docker system prune
+sudo docker compose up
+killall node
+ls
+cd S02_Coclock_working_challenge_E01-cedricRGT45
+cd projet
+sudo docker compose up
+df-ih
+sudo df-ih
+ncdu
+sudo ncdu
+sudo docker system prune
+sudo docker compose up
+cd ..
+ls
 cd home
-ls -a
-cd ~
-ls -a
-cat .bashrc
-l
-ls/
-ls /
-cd ..
-ls
 cd student
 ls
-cd s01-0vitrine-cedricRGT45
-cd s01-0Vitrine-cedricRGT45
-cd S01-0Vitrine-cedricRGT45
-nano ssh
-~
+cd S03_Challenge_E01_Localexpress-cedricRGT45
+cd projet
+sudo docker compose up
+cd S03_Challenge_E01_Localexpress-cedricRGT45
+git add .
+git commit --amend -m "adding the backend folder"
+git puish --force-with-lease
+git push --force-with-lease
+cd projet
+npm i sass
+sudo docker compose ps
+sudo docker compose ps
+cd projet/
+sudo docker compose ps
+sascd ..
 cd ..
-~
-ls
-cd ~
-ls
+npm i react-router-dom
+cd frontend
+cd ..
+sudo docker compose up
+sudo docker system prune
+sudo docker compose up
+cd frontend
+npm i sass
+sudo docker compose up
+cd ..
+git pull
+cd ..
 cd home
+cd student
 ls
-ll
-cd S01-OVitrine-cedricRGT45/
-mkdir test.txt
-mv ../test.txt
-mv test.txt ../
+git clone git@github.com:O-clock-Naga/S03_Challenge_E01_Localexpress-cedricRGT45.git
+git clone git@github.com:O-clock-Naga/S03_challenge_E03-cedricRGT45.git
 ls
-cd ..
-ls
-rm text.txt
-rm test.txt
-rmd text.txt
-rmdir test.txt
-ls
-cd 
-touch text.txt
-ls
-cd ..
-cd ~
-runas apt update
-run apt update
-sudo apt upgrade
-sudo apt update
-sudo apt install node
-sudo apt install nodejs
-node -v
-npm -v
-sudo apt install npm
-npm -v
-npm i -g n
-sudo npm i -g n
-sudo mkdir -p /usr/local/n
-ls
-rm text.txt
-sudo chown -R $(whoami) /usr/local/n
-echo $(whoami)
-n lts
-node -v
-n lts
-hash
-node -v
-hash
-node -v
-n -v
-n --version
-sudo mkdir -p /usr/local/n
-sudo chown -R $(whoami) /usr/local/n
-sudo mkdir -p /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share
-sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share
-n lts
-hash -r
-node -version
-node -v
-ssh renaud
-exit
-git pull
-git checkout master
-git pull
-git pull force
-git pull --force
-node -v
-n lts
-sudo npm i -g n
-n lts
-node -v
-sudo apt install htop
-hash
-cd ~
-ls
-sudo npm i -g n
-n lts
-ps aux
-ps aux | grap
-sudo apt install grap
-ps aux | grep bash
-ps aux > process.txt
-ll
-ps aux > process.txt
-ps aux | grep bash
-à peu prés oui
-ps aux | grep b
-git status
-ls
-S01-OVitrine-cedricRGT45 
-cd S01-OVitrine-cedricRGT45 
-git status
-git branch -M main
-git status
-git branch -m  master main
-git branch -d main
-git checkout master
-git branch -d main
-git branch -m master main
-git status
-git pull
-git status
-git merge
+cd  S03_challenge_E03-cedricRGT45 
+git add.
 git add .
-git commit -m "updating the readme file"
-git commit -m "updating the readme.md"
-git checkout master
-git add .
-git commit -m "updating the readme.md"
-git add .
-git commit -m "updating the readme file"
-cd ~
-git add .
-cd S01-OVitrine-cedricRGT45
-git add .
-git commit -m "updating reademe file"
-git commit -m "updating readme file"
-git config --global user.email "student@cedricrgt45-server.cloud.eddi.xyz"
-git commit -m "updating readme file"
-git pull
-# Cahier des Charges Fonctionnel (CDCF) 
-## Présentation du Projet : La O'Vitrine
-Le projet consiste à créer une application web de type *"site vitrine"*. Cette application permettra à des clients potentiels (dits "leads") de visualiser le portfolio de l'entreprise proposant ses services, ainsi que d'obtenir des détails sur des projets réalisés.  
-## Besoins et Objectifs
-Besoin Identifiés : 
-- Un invité doit pouvoir consulter la liste des projets réalisés par l'entreprise ; le nom du projet, une courte description, et la technologie sont exposés publiquement. 
-- Un invité doit pouvoir consulter les détails d'un projet en particulier.  
-- Un invité doit pouvoir consulter les informations de contact de l'entreprise.  
-- Un invité doit pouvoir consulter les réseaux sociaux de l'entreprise.  
-Objectifs du Projet : 
-- Fournir une interface utilisateur simple et intuitive.  
-- Permettre aux invités de visualiser l'entièreté du portfolio de l'entreprise. 
-- Permettre aux invités d'obtenir des informations spécifiques à un projet exposé sur le site vitrine.  
-- Permettre aux invités de contacter l'entreprise via email. 
-- Permettre aux invités de contacter l'entreprise via les réseaux sociaux. 
-
-## Fonctionnalités du Projet
-
-**Spécifications Fonctionnelles** :
-
-1. Visualiser la liste des projets du portfolio.
-
-> Un invité peut consulter la liste des projets du portfolio via la page d'accueil.
-2. Consulter un projet avec une vue détaillée. 
-> Un invité peut obtenir des informations complémentaires sur un projet en naviguant sur sa page dédiée.
-3. Contacter l'entreprise
-
-> - Un invité peut contacter l'entreprise via ses *socials* (X/Twitter, GitHub, LinkedIn)
-> - Un invité peut contacter l'entreprise via email
-
-**Évolutions Potentielles** : aucune évolution potentielle recensée à ce jour ; pas même l'ajout d'un back-office.  
-
-## Cible du Projet
-
-Le public cible de ce projet sont les professionnels, agences de recrutements & prestations de services, et plus généralement toute entreprise ayant des ressources financières avec besoin de ressources techniques et humaines afin de mener à bien un projet digital.  
-
-## Arborescence de l'Application 
-**Page d'Accueil** :
-
-- Informations de contact de l'entreprise,
-- Liste des projets du portfolio avec description succincte. 
-**Page de Détails d'un Projet** :
-
-- Détails sur le projet sélectionné.
-
-## Liste des User Stories  
-
-| User Story | En tant que... | Je veux...                                                            | Afin de...                                                    |
-| ---------- | -------------- | --------------------------------------------------------------------- | ------------------------------------------------------------- |
-| 1          | Invité | pouvoir visualiser la liste des projets réalisés par l'entreprise                    | depuis la page d'accueil.                                     |
-| 2          | Invité | pouvoir visualiser un projet en détail                    | depuis la page de détail d'un projet.                                     | | 3          | Invité | pouvoir contacter l'entreprise via email                    | depuis la page d'accueil.                                     |
-| 4          | Invité | pouvoir contacter l'entreprise via les réseaux sociaux                 | depuis la page d'accueil.                                     |
-| 5          | Invité | pouvoir contacter l'entreprise via email                    | depuis la page de détail d'un projet.                                     |
-| 6          | Invité | pouvoir contacter l'entreprise via les réseaux sociaux                 | depuis la page de détail d'un projet.                                     |
-## Use Cases Diagramme (UC)
-Cette section est à compléter par l'apprenant à l'aide du contenu résultant des jours 1 et 2 du challenge.
-## Diagramme de Séquence
-Cette section est à compléter par l'apprenant à l'aide du contenu résultant du jour 2 du challenge.
-## Diagramme de Classe
-Cette section est à compléter par l'apprenant lors du jour 3 du challenge.
-
-## Entités-Relations Diagramme (ERD)
-
-Cette section est à compléter par l'apprenant lors du jour 4 du challenge.
-## Wireframes 
-Page d'accueil :
-
-![wireframe page accueil](./j01-assets/wireframe-index.png)  
-
-Page de projet :
-
-![wireframe page projet](./j01-assets/wireframe-project.png)
-
-## Maquettes
-
-Cette section est à compléter par l'apprenant à l'aide du contenu résultant des jours 1 et 2 du challenge.
-git add .
-pwd
-git add .
-git commit -m "updating readme file"
-git pull
-git commit -m "updating readme file"
+git commit "setting up git action"
+git commit -m  "setting up git action"
 git push
-git branch -M main
-git status
-git merge
+npm i surge
+surge
+surge token
 git add .
-git commit -m "creating the sequence diagram"
-git push
-git checkout master
-git push
+git commit -m  "setting up git action"
+git push 
 git add .
-git commit -m "uml sequence"
-git push
-git status
-ls
-cd S01-OVitrine-cedricRGT45
-git status
-git pull
+git commit -m  "setting up git action"
+git push 
 git add .
-ls
-cd S01-OVitrine-cedricRGT45 
+git commit -m  "setting up git action"
+git push 
 git add .
-git commit amend -m "deleting empty file"
-git commit -amend -m "deleting empty file"
-git commit --amend -m "deleting empty file"
-git push
-git pull
+git push 
+git add .
+git commit -m  "setting up git action"
+git push 
+git add .
+git commit -m  "setting up git action"
+git commit -m  " --amendsetting up git action"
 git push --force-with-lease
-git clone git@github.com:O-clock-Naga/S01-Ovitrine-J2-cedricRGT45.git
+cd prjet
+cd projet
+sudo docker compose up
+docker system prune --all --volumes
+ockesudo dr system prune --all --volumes
+sudo docker system prune --all --volumes
+sudo docker compose up
+sudo docker system prune --all --volumes
+sudo docker compose up
 cd ..
-git clone https://github.com/O-clock-Naga/S01-Ovitrine-J2-cedricRGT45.git
+git clone git@github.com:O-clock-Naga/S03_CICD_archi_frontend.git
 ls
-cd S01-Ovitrine-J2-cedricRGT45
-cd  S01-OVitrine-cedricRGT45 
-cd  S01-OVitrine-cedricRGT45
-cd S01-OVitrine-cedricRGT45 
-ls*
+cd S03_CICD_archi_frontend   
+cd projet
+sudo docker compose up
+sudo docker system prune --all --volumes
+sudo docker compose up
+cd ..
+cd home
+cd student
 ls
-cd S01-Ovitrine-J2-cedricRGT45 
+git clone https://github.com/O-clock-Naga/S03_CICD_archi_frontend.git
+git branch
+git checkout E03_correction
+ls
+S03_CICD_archi_frontend   
+cd S03_CICD_archi_frontend   
+git brancj
+git branch
+git checkout E03_correction
+cd ..
+cd student
+git clone https://github.com/O-clock-Naga/S03_CICD_archi_frontend.git
+ls
+cd S03_CICD_archi_frontend  
+git branch
+cd projet
+git branch
+sudo docker compose up
+ls
+cd S03_challenge_E03-cedricRGT45
+cd projet
+cd frontend
+npm i sass
+npm i -d sass
+ls
+cd ..
+ls
+cd S03_challenge_E03-cedricRGT45  
+cd projet
+cd frontend
+npm i sass
+sudo docker compose exec
+cd ..
+sudo docker compose exec frontend npm i -D sass
+cd projet/
+ls
+sudo docker ps
+sudo docker compose down
+sudo docker ps -a
+sudo docker system prune --all --volumes
+sudo docker compose up
+sudo docker ps -a
+sudo docker rm projet-backend
+sudo docker rm projet-backend-1
+sudo docker ps -a
+sudo docker compose up
+sudo docker ps -a
+sudo docker rm projet-backend-1
+sudo docker compose up
+sudo docker compose down
+sudo docker ps -a
+sudo docker system prune --all --volumes
+sudo docker compose up
+df -h
+ls
+cd ..
+cd ..
+sudo docker compose prune --all --volumes
+sudo docker system prune --all --volumes
+df -h
+ls -a
+sudo find . -name "node_modules" -type d -prune -exec rm -rf '{}' +
+df -h
+sudo du -hs * |sort -rh
+du -h |sort -rh
+cd .
+du -h |sort -rh
+ls
+ls -a
+du -h |sort -rh
+du -h |sort
+df -h
+df -ht .
+df -Th
+sudo docker compose ps
+sudo apt clean
+df -h
+sudo apt autoclean
+df -h
+dpkg -l
+ls
+cd S03_challenge_E03-cedricRGT45/
+cd projet/
+sudo docker compose ps
+code -v
+cd ..
+cd ..
+ls -a
+cd marvellous 
+df -ht marvellous 
+df -ht .vscode
+df -ht
+df --ht
+df -h
+sudo apt clean
+sudo apt autoremove
+sudo du -ah / | sort -rh | head -n 20
+sudo docker volume prune
+sudo journalctl --vacuum-time=7d
+sudo truncate -s 0 /var/log/journal/ec2a46808a2b350a1dd7413871522b1c
+sudo truncate -s 0 /var/log/journal
+sudo rm -rf /home/student/.npm/_cacache/*
+sudo rm -rf /home/student/.vscode-server/*
+sudo snap list --all
+d -h
+df -h
+sudo du -ah /usr | sort -rh | head -n 20
+sudo du -ah / | sort -rh | head -n 20
+sudo docker system prune --volumes
+sudo du -ah /usr | sort -rh | head -n 20
+sudo rm -rf /tmp/*
+sudo rm -rf /var/tmp/*
+sudo rm -rf ~/.cache/*
+sudo du -ah /usr/local | sort -rh | head -n 20
+sudo du -sh /var/lib/snapd/snaps
+sudo rm -rf /var/lib/snapd/cache/*
+sudo snap list --all
+df -h
+sudo snap remove amazon-ssm-agent --revision 7983
+sudo snap remove core18 --revision 2812
+sudo snap remove core20 --revision 2264
+sudo snap remove lxd --revision 27948
+sudo snap remove snapd --revision 21465
+df -h
+sudo rm -rf /tmp/*
+sudo rm -rf /var/tmp/*
+sudo rm -rf ~/.cache/*
+sudo rm -rf /var/cache/apt/*
+sudo du -ah / | sort -rh | head -n 20
+sudo docker system prune --all --volumes
+sudo du -ah /usr | sort -rh | head -n 20
+sudo du -ah /var | sort -rh | head -n 20
+sudo docker volume ls
+sudo docker volume prune
+sudo docker volume ls
+sudo docker ps -a --filter volume=0a5d524ffc3218e2b383ab5da6de87f6039673b9c2f1ab8ce3dfba94c6839858
+df -h
+sudo docker volume prune -f
+sudo docker volume rm fac06
+sudo docker volume rm fac062a0d6d860f6a49280ca1c5bb81c47e96ac09aff13a7b4c419252eca768b
+sudo docker volume rm f92fa8d2346239da8f44c9eb5ef809d4451d7d3bd7f878b471bcabe982dd3882
+sudo docker volume rm
+sudo docker volume rm f1b411eaf3fd0a06eb678406e5bb2c42eba227aefafc08a157a6862f4a4caad5
+sudo docker volume rm eeed00a85b554974b456ca4ff5f77ce8ccb6f218d5a3cc6b61644e7a5ba41309
+sudo docker volume ls
+sudo docker volume rm e9033e156eca12beb82695f9e3a1ff4d708d2105fbd0f8134f0e8b7920790bf6
+sudo docker volume rm e31b8c4f1bf74e8c0257131a5d13e6baa0b14c625d9f40125d3dfcd5ba602a16
+sudo docker volume rm e8d041379b20d83ff183446d3b157d4184a31801f71c02aae7281d1344a1ec12
+sudo docker volume rm e3ef4a3752525839fbdbe3df20db4d6958ce601b82973090464abca639d5ed19
+sudo docker volume rm dba11db728a7ac7884778c0fddf835617751dd53b64add59cf21b4732c140b55
+sudo docker volume rm d4519ebc1afd17a8398c2168a8bf3a101939d383363cf65cfea9ae9c5dd6e22e
+sudo docker volume rm c0a8bc6957b37d51b22cb9049acfb1dc1b941c6759d3e5bcc316e1eaec002e1d
+sudo docker rm bf5bfd0c4596eeed23606c406de77b251f78a6234f96a90735a1abb118084e1e
+sudo docker volume rm bf5bfd0c4596eeed23606c406de77b251f78a6234f96a90735a1abb118084e1e
+sudo docker volume rm bc28caa289a9dde7fca398e39ce509f783448f1b66296817c2fa379b09ec900b
+sudo docker volume rm abba27e5c5f107317d939916f0e60106b65e9d3429f4d43fdb61bfa8480395e0
+sudo docker volume rm 0a5d524ffc3218e2b383ab5da6de87f6039673b9c2f1ab8ce3dfba94c6839858
+sudo docker volume ls
+sudo docker volume rm 1f164b5ac70f44ec3d7ff657efea15d83499a8e57ae6e9e4048cf67979825f5a
+sudo docker volume rm 1ff20da326f035466b78ad07d4f1ea30afe17289df672519a273b63bec58753b
+sudo docker volume rm 2badc55991f8fd21c1eb7019e2e0673770ef9ae397f4c9c6dd6c9368459df0af
+sudo docker volume rm 3a1e08cce6fd0dae319f8e71bbcb4b33ec4094473be5dc67aa09df1a3599d0bf
+sudo docker volume rm 4e6123de7e52b73c1fb493530faa9b78baf866085775bafe6284e84478dbe41c
+sudo docker volume rm 4fb14da77a4c4e7e51b66da82516fd3d1f6ec9411da359dd4d442009f0b66625
+sudo docker volume rm 5d264624a04c7a023b37899bb052c14b04124883bbf4aeeab5776e374cb83588
+sudo docker volume rm 7aea20afd2ec074c446849b2dc86444d3db2c8d5917f04ef584d004b4e1ca9a1
+sudo docker volume rm 9af6e6e0b7123705db6cdd7c0f21ecd3b88bbeb89afa87a5a15410a101ef7b41
+sudo docker volume rm 26f3091472c86688011cefb2d78801b8a9409b662fa79723bebe4f2de6f565f7
+sudo docker volume rm 38b095df999f10e0952944d64abadf51598941740c47c7bc98c42f85b6104bbb
+sudo docker volume rm a0471f76f87f8b0fc3a4b7ce7d211efbac0c964f8abf910d8f641cd5fbe9391c
+sudo docker volume rm 6185404125ce72713acb008bfb676f1638709a3cfddf75baded2dbcae0f68c39
+sudo docker volume 593e2bdcdbff5f2a57b137d6fd74ed62c31dbeab8526797302ceecdcfc9d16b5
+sudo docker volume rm 593e2bdcdbff5f2a57b137d6fd74ed62c31dbeab8526797302ceecdcfc9d16b5
+sudo docker volume ps
+sudo docker volume ls
+sudo docker volume rm 59f5210e9758aa9ad4054b2001c915f1cfe014fe8aca2e1e048fed81d2c4c0c7
+sudo docker volume rm 70f0b08afc8618019fb05f2a7bbe8d5c5578b66ab1ba5d5d4823a69b492543e8
+sudo docker volume rm 74ace8dce546dd5a2733b8f8e752a93ecab3a08c0814ef77fd4a92f7279caf13
+sudo docker volume rm 82e8b59540353e2542b61cb82a2179c04bb93b2bcd9d9abf84d6b3df8b76f666
+sudo docker volume rm 0184f2ac9bdb60696d6e3f305cecf75bbb2d0fba641a6d0602ea36bcdf5bdd93
+sudo docker volume rm 337e5fe84b4333e114ff2c919d16aefa0998ac03b2fa399b8d80e71f91a63882
+sudo docker volume rm 489b63f5f4019e001c9989c012e9ffad9022f54af51d3af2cd9ee7c9dfb3c583
+sudo docker volume ps
+sudo docker volume ls
+df -h
+ls
+cd S03_challenge_E03-cedricRGT45/
+cd projet/
+sudo dockper compose ps
+sudo docker compose ps
+sudo docker compose up
+sudo docker compose down
+df -h
+cd redux
+cd redux_example
+npm install
+npm run dev
+cd ..
+cd home
+cd student
+ls
+cd redux
+ls
+cd example_redux
+npm run dev
+npm install
+npm run dev
+ls
+cd  S03_challenge_E03-cedricRGT45   
+cd projet
+sudo docker compose up
+ss -tl
+sudo ss -tulnp
+sudo docker compose up
+ss -tl
+sudo ss -tulnp
+ss -tl
+git clone git@github.com:O-clock-Naga/S02_Coclock_working_challenge_E01-cedricRGT45.git
+ls
+cd  S03_challenge_E03-cedricRGT45   
 git add .
-git commit "uml class diagram and hello world page creation"
-git ommit -m "uml class diagram and hello world page creation"
-git commit -m "uml class diagram and hello world page creation"
-git push
+git commit -m"setting docker compose for the data base and scss files"
+git push 
 git add .
-git commit -amend "Creating the class diagram and the hello world page"
-git commit --amend "Creating the class diagram and the hello world page"
-git commit- -amen --m "Creating the class diagram and the hello world page"
-git commit --amend -m "Creating the class diagram and the hello world page
-"
-git push
-git push --force-with-lease
-git add .
-git commit -m "moving html, js and png files to the root directory"
-git push
-git add .
-git commit --amend -m "renaming the html file from hello to index"
-git push
-git push --force-with-lease
-mkdir server-express
-cd server-express
-npm init -y
-npm install express
-touch server.js
-node server.js
-cd typeScript
-mkdir typescript
-cd typescript
-mkdir rsc
-cd rsc
-npm init
-npm i -g typescript
-tsc -v
-npm i -D typescript
+git commit -m"setting docker compose for the data base and scss files"
+git push 
+sudo docker compose up
+cd projet
+sudo docker coppose up
+sudo docker compose up
+sudo docker system prune
+sudo docker compose up
 cd ..
-cd scr
-cd src
-tsc --init
-mkdir index.ts
-touch index.ts
-tsc
-node index.ts
-tsc
-node index.js
+ls
+git pull S03_CICD_archi_frontend  
+git clone git@github.com:O-clock-Naga/S03_CICD_archi_frontend.git
+ls
+cd S03_CICD_archi_frontend
+cd projet
+sudo docker compose up
+git branch
 cd ..
-cd dist
-cd src
-cd dist
-node index.js
+git branch
+git add remote S03_CICD_archi_frontend
+git add remote origin S03_CICD_archi_frontend
+sudo docker compose up
+cd projet
+sudo docker compose up
+sudo rm -rf projet/backend/data
+sudo docker compose up
+sudo docker sytem prune -all
+sudo docker system prune -all
 cd ..
-npm i ts-mode -D
-npm i -G nodemon
-nodemon -V
-nodemon -v
-npm i --global nodemon
-nodemon v
-npm i -D ts-node
-cd src/
-npm i -D
-npm run dev
-cd src/
-npm run dev
-npm i dotenv
-npm remove dotenv
-npm i dotenv
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm i express
-npm run dev
-cd src
-npm i -D @types/node
-npm run dev
-cd src
 ls
-cd typescript
-cd src
-npm i --global nodemon
-npx nodemon
-npm install nodemon -D
-npm run dev
-npm install --global ejs express dotenvenv 
-npm run dev
-npm i --global  ts-node
-npm run dev
-npm i -D ts-node
-npm run dev
-npm install @types/express
-npm run dev
-npm i --global dotenv
-dotenv -v
-dotenv v
-npm i dotenv -D
-npm run dev
-cd typescript
-cd src
-process.cwd() node
-node
-cd controllers
-touch helloController.ts
+cd S02_Coclock_working_challenge_E01-cedricRGT45 
 cd ..
-npm run dev
-cd dist
-node dist/indes.js
-cd ..
-npm run dev
-cd dist
-node index.js
-node
-tsc
-node app.js
-cd ..
-node app.ts
-tsc
-node app.ts
-npm i -D  @types/node
-npm run dev
-node app.ts
-npm run dev
-node app.ts
-cd ..
-sqlite3
-npm i --global sqlite3
-sqlite3 --version
-sudo apt install sqlite3
-sqlite3 --version
-sqlite3 albums.db
-CREATE TABLE artist (id integer primary key autoincrement                    id integer primary key autoincrement, firstname text, lastname text);
-CREATE TABLE album (id integer primary krey au, )title text, year integer);
-CREATE TABLE album (id integer primary krey au, )title text, year integer)
-CREATE TABLE album (id integer primary key auto,title text, year integer)
-CREATE TABLE artist (id integer primary key autoincrement                    id integer primary key autoincrement, firstname text, lastname text);
-CREATE TABLE artist (id integer primary key autoincrement, firstname text, lastname text);
-sqlite3 albums.db
-git pull
 ls
-git clone git@github.com:O-clock-Naga/S01-Ovitrine-J2-cedricRGT45.git
-ls
-cd  S01-Ovitrine-J2-cedricRGT45
-git pull
-sqllite
-sqlite3
-sqlite3 data.db
-ls
-git pull
-cd S01-OVitrine-cedricRGT45  
-git pull
-sqlite3 --version
-sqlite3
-sqlite3 vitrine.db
-ls
-cd  S01-Ovitrine-J2-cedricRGT45
-ls
-sqlite3
-ls
-cd S01-OVitrine-J3-cedricRGT45
-git add .
-git commit -m "sqlite database creation"
-git push
-ls
-cd S01-OVitrine-J3-cedricRGT45
-cd src
-sqlite3
-sqlite3 marvellous.db "ALTER TABLE project ADD CONSTRAINT fk_ owner FOREIGN KEY (owner) REFERENCES owner(id);"
-sqlite3 marvellous.db "ALTER TABLE project ADD CONSTRAINT fk_owner FOREIGN 
-KEY (owner) REFERENCES owner(id);"
-sqlite3 marvellous.db "ALTER TABLE project ADD CONSTRAINT fk_ owner FOREIGN 
-KEY (owner) REFERENCES owner(id
-sqlite3 marvellous.db "ALTER TABLE project ADD FOREIGN 
-KEY (owner) REFERENCES owner(id);"
-.open marvellous.db
-ALTER TABLE owner ADD FOREIGN KEY (owner) REFERENCES owner (id);
-ALTER TABLE owner ADD FOREIGN KEY (owner) REFERENCES owner(id);
-ALTER TABLE project ADD FOREIGN KEY (owner) REFERENCES owner(id);
-sqlite3
-npm i --global sqlite3
-sqlite3 --version
-git pull
-git clone git@github.com:O-clock-Naga/S01-OVitrine-J3-cedricRGT45.git
-ls
-cd S01-OVitrine-J3-cedricRGT45 
-git init
-cd src
-sqlite3 marvellous.db
-ls
-cd  S01-OVitrine-J3-cedricRGT45  
-DROP TABLE project_new
-sqlite3
-cd  S01-OVitrine-J3-cedricRGT45  
-sqlite3 marvellous.db
-sqlite3
-sqlite3
-cd  S01-OVitrine-J3-cedricRGT45  
-ls
-cd src
-ls
-sqlite3
-cd  S01-OVitrine-J3-cedricRGT45  
-cd src
-sqlite3 marvellous.db
-cd  S01-OVitrine-J3-cedricRGT45  
-cd src
-sqlite3
-cd  S01-OVitrine-J3-cedricRGT45  
-cd src
-ls
-sudo apt-get update
-sudo apt-get install ca-certificate curl
-sudi install -m 0755 -d /etc/apt/keyrings
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSl https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-[200~echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-[200~
-~
-cedri@Cedrgt MINGW64 ~/Documents/formations
-$ cd ..
-cedri@Cedrgt MINGW64 ~/Documents
-$ cd ..
-cedri@Cedrgt MINGW64 ~
-$ ssh cedric
-Welcome to Ubuntu 22.04.4 LTS (GNU/Linux 6.5.0-1016-aws x86_64)
-Expanded Security Maintenance for Applications is not enabled.
-0 updates can be applied immediately.
-15 additional security updates can be applied with ESM Apps.
-Learn more about enabling ESM Apps service at https://ubuntu.com/esm
-Last login: Wed Mar 27 08:55:05 2024 from 88.168.18.195
-student@cedricrgt45-server:~$ sudo apt-get update
-[sudo] password for student:
-Sorry, try again.
-[sudo] password for student:
-Hit:1 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy InRelease
-Get:2 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
-Hit:3 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease
-Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-Get:5 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1519 kB]
-Get:6 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1060 kB]
-Get:7 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [241 kB]
-Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1303 kB]
-Get:9 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [233 kB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [1616 kB]
-Get:11 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [271 kB]
-Fetched 6471 kB in 2s (3521 kB/s)
-Reading package lists... Done
-student@cedricrgt45-server:~$ sudo apt-get install ca-certificate curl
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-E: Unable to locate package ca-certificate
-student@cedricrgt45-server:~$ sudi install -m 0755 -d /etc/apt/keyrings
-cedri@Cedrgt MINGW64 ~/Documents/formations
-$ cd ..
-cedri@Cedrgt MINGW64 ~/Documents
-$ cd ..
-cedri@Cedrgt MINGW64 ~
-$ ssh cedric
-Welcome to Ubuntu 22.04.4 LTS (GNU/Linux 6.5.0-1016-aws x86_64)
-Expanded Security Maintenance for Applications is not enabled.
-0 updates can be applied immediately.
-15 additional security updates can be applied with ESM Apps.
-Learn more about enabling ESM Apps service at https://ubuntu.com/esm
-Last login: Wed Mar 27 08:55:05 2024 from 88.168.18.195
-student@cedricrgt45-server:~$ sudo apt-get update
-[sudo] password for student:
-Sorry, try again.
-[sudo] password for student:
-Hit:1 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy InRelease
-Get:2 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
-Hit:3 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease
-Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-Get:5 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1519 kB]
-Get:6 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1060 kB]
-Get:7 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [241 kB]
-Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1303 kB]
-Get:9 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [233 kB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [1616 kB]
-Get:11 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [271 kB]
-Fetched 6471 kB in 2s (3521 kB/s)
-Reading package lists... Done
-student@cedricrgt45-server:~$ sudo apt-get install ca-certificate curl
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-E: Unable to locate package ca-certificate
-student@cedricrgt45-server:~$ sudi install -m 0755 -d /etc/apt/keyrings
-Command 'sudi' not found, did you mean:
-Try: sudo apt install <deb name>
-student@cedricrgt45-server:~$ sudo install -m 0755 -d /etc/apt/keyrings
-student@cedricrgt45-server:~$ sudo curl -fsSl https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-student@cedricrgt45-server:~$ sudo chmod a+r /etc/apt/keyrings/docker.asc
-student@cedricrgt45-server:~$ ^[[200~echo >   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
->   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | >   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update^[[201~echo: command not found
-student@cedricrgt45-server:~$ echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-Hit:1 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy InRelease
-Hit:2 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease
-Hit:3 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease
-Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease
-Get:5 https://download.docker.com/linux/ubuntu jammy InRelease [48.8 kB]
-Get:6 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages [29.1 kB]
-Fetched 77.9 kB in 1s (76.6 kB/s)
-Reading package lists... Done
-student@cedricrgt45-server:~$ ^[[200~
-student@cedricrgt45-server:~$ ~
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo docker run hello-world
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin~
-[200~
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-cd S01-OVitrine-BenoitOClock
-git pull
-git pull --force-with-lease
-cd ..
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo docker run hello-world
-cd  S01-OVitrine-J3-cedricRGT45  
-cd src
-sqlite3
-sqlite3 marvellous.db
-sqlite3
-cd ..
-git clone git@github.com:O-clock-Naga/S01-OVitrine-BenoitOClock.git
-cd  S01-OVitrine-J3-cedricRGT45  
-cd src
-sqlite3
+cd  S03_challenge_E03-cedricRGT45   
+cd projet
+sudo docker compose up
 cd..
 cd ..
 ls
-cd  S01-OVitrine-BenoitOClock
-git ckeckout jour4
-git clone git@github.com:O-clock-Naga/S01-OVitrine-BenoitOClock.git
-git checkout jour4
+cd redux
 cd ..
-cd  S01-OVitrine-J3-cedricRGT45 
-cd src
-sqlite3 marvellous.db
-sqlite3 marvellous
-cd .. 
+cd home
+cd student
+mkdir redux
+cd redux
+npm create vite@latest
+npm install
+ls
+cd redux_example
+npm run dev
 cd ..
-cd  S01-OVitrine-BenoitOClock
-npx tsx --watch ./src/server.ts
-npm i
-npx tsx --watch ./src/server.ts
-sudo docker run hello-world
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo docker run hello-world
+npm run dev
+cd redux_exaple
+npm install
+npm run dev
 ls
-cd s01-Ovitrine-benoitOclock
-cd S01-OVitrine-J3-cedricRGT45
-git add .
-git commit -m"commit"
-git push
-git push -u origin main
-git push --force
-git add .
-git init
+cd redux_example
+npm run dev
+npm in stall
 ls
-lsa 
-cd git
-cd .git
+npm install
+npm run dev
+npm install
+npm run dev
+killall node
+sudo docker compose up
+ss -tl
+cd frontend
+sudo docker compose up
 cd ..
-git add .
-git commit -m "all"
-git add .
-git commit -m "commit all"
-git push
-git push origin main
-git push --force-with-lease
-git branch -b feat/secondary
-git branch -b secondary
-git push
-git remote add secondary
-git status
-git add .
-git commit -m ""
-git commit -m "commit"
-git push -u origin main
-git push
-git push main
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:cedricRGT45/studentOclock.git
-git push -u origin main
-git remote add origin git@github.com:cedricRGT45/studentOclock.git
-git branch -M main
-git push -u origin main
-git add .
-git commit --amend "commit"
-git commit --amend -m "commit"
-git push -u origin main
-git status
-git branch
-git push -u origin main
-git push
-git clone git@github.com:O-clock-Naga/S02_Coclock_Working.git
+sudo docker system prune --all
+sudo docker compose up
+sudo docker system prune --all --volumes
+sudo docker compose up
+ss -tl
+sudo docker compose up
+cd projet
+sudo docker compose ps
+sudo docker compose down
+sudo docker compose up
+sudo docker compose down
+cd projet
 ls
-cd S02_Coclock_Working/
+cd  S03_challenge_E03-cedricRGT45  
+sudo docker compose up
+cd projet
+sudo docker compose up
+sudo docker system prune -a volumes
+sudo docker system prune --all --volumes
+sudo docker compose up
 ls
-cd json_server/
+cd S03_challenge_E03-cedricRGT45      
+git pull
+cd ..
+git pull
+git pull --force
+cd S03_challenge_E03-cedricRGT45
+cd projet
+sudo docker compose up
+cd ..
 ls
-exit
+cd  S03_correction   
+ls
+S03_CICD_archi_frontend-master
+cd projet
+sudo cockdr compose up
+cd  S03_CICD_archi_frontend-master
+cd projet
+sudo docker compose up
+sudo docker system prune --all --volumes
+sudo docker compose up
+l
+S02_Coclock_working_challenge_E01-cedricRGT45/
+cd projet
+cd S02_Coclock_working_challenge_E01-cedricRGT45/
+cd projet
+sudo docker compose up
+git pull
+git pull --force
+sudo docker compose up
+cd frontend
+npm install
+npm run dev
+cd ..
+npm run dev
+npm i -g vite@latest
+npm run dev
+npm i vite@latest
+sudo docker compose up
+cd ..
+cd home
+cd student
+git clone git@github.com:O-clock-Naga/S02_Coclock_working_challenge_E01-cedricRGT45.git
+ls
+cd S02_Coclock_working_challenge_E01-cedricRGT45
+cd projet
+cd student
+sudo docker compose up
+sudo docker system prune --all
+sudo docker system prune --all --volumes
+sudo docker compose up
+sudo docker system prune --all --volumes
+cd ..
+cd home
+cd student
+git clone https://github.com/O-clock-Naga/S02_Coclock_Working.git
+ls
+S02_Coclock_Working    
+cd S02_Coclock_Working    
+cd projet
+sudo docker compseup
+sudo docker compose up

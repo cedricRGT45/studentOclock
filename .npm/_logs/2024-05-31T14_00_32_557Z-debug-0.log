@@ -1,0 +1,294 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.5.2
+2 info using node@v20.11.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/student/.cache/typescript/5.4/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 25ms
+11 timing config:load:file:/home/student/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 34ms
+17 timing npm:load:configload Completed in 35ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install @types/body-parser@ts5.4 @types/cors@ts5.4 @types/express@ts5.4 @types/pg@ts5.4 @types/nodemon@ts5.4
+22 verbose argv "install" "--ignore-scripts" "@types/body-parser@ts5.4" "@types/cors@ts5.4" "@types/express@ts5.4" "@types/pg@ts5.4" "@types/nodemon@ts5.4" "--save-dev" "--user-agent" "typesInstaller/5.4.5"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/home/student/.npm/_logs/2024-05-31T14_00_32_557Z-
+26 verbose logfile /home/student/.npm/_logs/2024-05-31T14_00_32_557Z-debug-0.log
+27 timing npm:load:logFile Completed in 3ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 75ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile start cleaning logs, removing 1 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 23ms
+35 timing arborist:ctor Completed in 0ms
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemon 217ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fbody-parser 231ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 231ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 235ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fpg 252ms (cache miss)
+41 timing idealTree:userRequests Completed in 263ms
+42 silly idealTree buildDeps
+43 silly fetch manifest @types/nodemon@1.19.6
+44 silly fetch manifest @types/body-parser@1.19.5
+45 silly fetch manifest @types/cors@2.8.17
+46 silly fetch manifest @types/express@4.17.21
+47 silly fetch manifest @types/pg@8.11.6
+48 silly placeDep ROOT @types/body-parser@1.19.5 OK for:  want: 1.19.5
+49 silly placeDep ROOT @types/cors@2.8.17 OK for:  want: 2.8.17
+50 silly placeDep ROOT @types/express@4.17.21 OK for:  want: 4.17.21
+51 silly placeDep ROOT @types/nodemon@1.19.6 OK for:  want: 1.19.6
+52 silly placeDep ROOT @types/pg@8.11.6 OK for:  want: 8.11.6
+53 silly fetch manifest @types/connect@*
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fconnect 48ms (cache miss)
+55 silly fetch manifest @types/node@*
+56 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 87ms (cache revalidated)
+57 silly fetch manifest @types/express-serve-static-core@^4.17.33
+58 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress-serve-static-core 714ms (cache miss)
+59 silly fetch manifest @types/qs@*
+60 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 73ms (cache miss)
+61 silly fetch manifest @types/serve-static@*
+62 http fetch GET 200 https://registry.npmjs.org/@types%2fserve-static 53ms (cache miss)
+63 silly fetch manifest pg-protocol@*
+64 http fetch GET 200 https://registry.npmjs.org/pg-protocol 38ms (cache miss)
+65 silly fetch manifest pg-types@^4.0.1
+66 http fetch GET 200 https://registry.npmjs.org/pg-types 39ms (cache miss)
+67 timing idealTree:#root Completed in 1250ms
+68 silly placeDep ROOT @types/connect@3.4.38 OK for: @types/body-parser@1.19.5 want: *
+69 silly placeDep ROOT @types/node@20.12.13 OK for: @types/body-parser@1.19.5 want: *
+70 silly fetch manifest undici-types@~5.26.4
+71 http fetch GET 200 https://registry.npmjs.org/undici-types 60ms (cache miss)
+72 timing idealTree:node_modules/@types/body-parser Completed in 73ms
+73 timing idealTree:node_modules/@types/connect Completed in 0ms
+74 timing idealTree:node_modules/@types/cors Completed in 0ms
+75 silly placeDep ROOT @types/express-serve-static-core@4.19.3 OK for: @types/express@4.17.21 want: ^4.17.33
+76 silly placeDep ROOT @types/qs@6.9.15 OK for: @types/express@4.17.21 want: *
+77 silly placeDep ROOT @types/serve-static@1.15.7 OK for: @types/express@4.17.21 want: *
+78 silly fetch manifest @types/send@*
+79 http fetch GET 200 https://registry.npmjs.org/@types%2fsend 45ms (cache miss)
+80 silly fetch manifest @types/range-parser@*
+81 http fetch GET 200 https://registry.npmjs.org/@types%2frange-parser 51ms (cache miss)
+82 silly fetch manifest @types/http-errors@*
+83 http fetch GET 200 https://registry.npmjs.org/@types%2fhttp-errors 65ms (cache miss)
+84 timing idealTree:node_modules/@types/express Completed in 175ms
+85 silly placeDep ROOT @types/range-parser@1.2.7 OK for: @types/express-serve-static-core@4.19.3 want: *
+86 silly placeDep ROOT @types/send@0.17.4 OK for: @types/express-serve-static-core@4.19.3 want: *
+87 silly fetch manifest @types/mime@^1
+88 http fetch GET 200 https://registry.npmjs.org/@types%2fmime 42ms (cache miss)
+89 timing idealTree:node_modules/@types/express-serve-static-core Completed in 49ms
+90 silly placeDep ROOT undici-types@5.26.5 OK for: @types/node@20.12.13 want: ~5.26.4
+91 timing idealTree:node_modules/@types/node Completed in 5ms
+92 timing idealTree:node_modules/@types/nodemon Completed in 0ms
+93 silly placeDep ROOT pg-protocol@1.6.1 OK for: @types/pg@8.11.6 want: *
+94 silly placeDep ROOT pg-types@4.0.2 OK for: @types/pg@8.11.6 want: ^4.0.1
+95 silly fetch manifest pg-int8@1.0.1
+96 http fetch GET 200 https://registry.npmjs.org/pg-int8 40ms (cache miss)
+97 silly fetch manifest pg-numeric@1.0.2
+98 http fetch GET 200 https://registry.npmjs.org/pg-numeric 39ms (cache miss)
+99 silly fetch manifest postgres-array@~3.0.1
+100 http fetch GET 200 https://registry.npmjs.org/postgres-array 501ms (cache miss)
+101 silly fetch manifest postgres-bytea@~3.0.0
+102 http fetch GET 200 https://registry.npmjs.org/postgres-bytea 48ms (cache miss)
+103 silly fetch manifest postgres-date@~2.1.0
+104 http fetch GET 200 https://registry.npmjs.org/postgres-date 45ms (cache miss)
+105 silly fetch manifest postgres-interval@^3.0.0
+106 http fetch GET 200 https://registry.npmjs.org/postgres-interval 33ms (cache miss)
+107 silly fetch manifest postgres-range@^1.1.1
+108 http fetch GET 200 https://registry.npmjs.org/postgres-range 46ms (cache miss)
+109 timing idealTree:node_modules/@types/pg Completed in 777ms
+110 timing idealTree:node_modules/@types/qs Completed in 0ms
+111 timing idealTree:node_modules/@types/range-parser Completed in 0ms
+112 silly placeDep ROOT @types/mime@1.3.5 OK for: @types/send@0.17.4 want: ^1
+113 timing idealTree:node_modules/@types/send Completed in 2ms
+114 timing idealTree:node_modules/@types/mime Completed in 0ms
+115 silly placeDep ROOT @types/http-errors@2.0.4 OK for: @types/serve-static@1.15.7 want: *
+116 timing idealTree:node_modules/@types/serve-static Completed in 2ms
+117 timing idealTree:node_modules/@types/http-errors Completed in 0ms
+118 timing idealTree:node_modules/pg-protocol Completed in 0ms
+119 silly placeDep ROOT pg-int8@1.0.1 OK for: pg-types@4.0.2 want: 1.0.1
+120 silly placeDep ROOT pg-numeric@1.0.2 OK for: pg-types@4.0.2 want: 1.0.2
+121 silly placeDep ROOT postgres-array@3.0.2 OK for: pg-types@4.0.2 want: ~3.0.1
+122 silly placeDep ROOT postgres-bytea@3.0.0 OK for: pg-types@4.0.2 want: ~3.0.0
+123 silly placeDep ROOT postgres-date@2.1.0 OK for: pg-types@4.0.2 want: ~2.1.0
+124 silly placeDep ROOT postgres-interval@3.0.0 OK for: pg-types@4.0.2 want: ^3.0.0
+125 silly placeDep ROOT postgres-range@1.1.4 OK for: pg-types@4.0.2 want: ^1.1.1
+126 silly fetch manifest obuf@~1.1.2
+127 http fetch GET 200 https://registry.npmjs.org/obuf 31ms (cache miss)
+128 timing idealTree:node_modules/pg-types Completed in 47ms
+129 timing idealTree:node_modules/pg-int8 Completed in 0ms
+130 timing idealTree:node_modules/pg-numeric Completed in 0ms
+131 timing idealTree:node_modules/postgres-array Completed in 0ms
+132 silly placeDep ROOT obuf@1.1.2 OK for: postgres-bytea@3.0.0 want: ~1.1.2
+133 timing idealTree:node_modules/postgres-bytea Completed in 13ms
+134 timing idealTree:node_modules/obuf Completed in 0ms
+135 timing idealTree:node_modules/postgres-date Completed in 0ms
+136 timing idealTree:node_modules/postgres-interval Completed in 0ms
+137 timing idealTree:node_modules/postgres-range Completed in 0ms
+138 timing idealTree:node_modules/undici-types Completed in 0ms
+139 timing idealTree:buildDeps Completed in 2399ms
+140 timing idealTree:fixDepFlags Completed in 1ms
+141 timing idealTree Completed in 2690ms
+142 timing reify:loadTrees Completed in 2692ms
+143 timing reify:diffTrees Completed in 2ms
+144 silly reify moves {}
+145 timing reify:retireShallow Completed in 2ms
+146 timing reify:createSparse Completed in 9ms
+147 timing reify:loadBundles Completed in 0ms
+148 silly audit bulk request {
+148 silly audit   'types-registry': [ '0.1.685' ],
+148 silly audit   '@types/body-parser': [ '1.19.5' ],
+148 silly audit   '@types/cors': [ '2.8.17' ],
+148 silly audit   '@types/express': [ '4.17.21' ],
+148 silly audit   '@types/nodemon': [ '1.19.6' ],
+148 silly audit   '@types/pg': [ '8.11.6' ],
+148 silly audit   '@types/connect': [ '3.4.38' ],
+148 silly audit   '@types/node': [ '20.12.13' ],
+148 silly audit   '@types/express-serve-static-core': [ '4.19.3' ],
+148 silly audit   '@types/qs': [ '6.9.15' ],
+148 silly audit   '@types/serve-static': [ '1.15.7' ],
+148 silly audit   '@types/range-parser': [ '1.2.7' ],
+148 silly audit   '@types/send': [ '0.17.4' ],
+148 silly audit   'undici-types': [ '5.26.5' ],
+148 silly audit   'pg-protocol': [ '1.6.1' ],
+148 silly audit   'pg-types': [ '4.0.2' ],
+148 silly audit   '@types/mime': [ '1.3.5' ],
+148 silly audit   '@types/http-errors': [ '2.0.4' ],
+148 silly audit   'pg-int8': [ '1.0.1' ],
+148 silly audit   'pg-numeric': [ '1.0.2' ],
+148 silly audit   'postgres-array': [ '3.0.2' ],
+148 silly audit   'postgres-bytea': [ '3.0.0' ],
+148 silly audit   'postgres-date': [ '2.1.0' ],
+148 silly audit   'postgres-interval': [ '3.0.0' ],
+148 silly audit   'postgres-range': [ '1.1.4' ],
+148 silly audit   obuf: [ '1.1.2' ]
+148 silly audit }
+149 silly tarball no local data for obuf@https://registry.npmjs.org/obuf/-/obuf-1.1.2.tgz. Extracting by manifest.
+150 silly tarball no local data for postgres-range@https://registry.npmjs.org/postgres-range/-/postgres-range-1.1.4.tgz. Extracting by manifest.
+151 silly tarball no local data for postgres-interval@https://registry.npmjs.org/postgres-interval/-/postgres-interval-3.0.0.tgz. Extracting by manifest.
+152 silly tarball no local data for postgres-date@https://registry.npmjs.org/postgres-date/-/postgres-date-2.1.0.tgz. Extracting by manifest.
+153 silly tarball no local data for postgres-bytea@https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-3.0.0.tgz. Extracting by manifest.
+154 silly tarball no local data for postgres-array@https://registry.npmjs.org/postgres-array/-/postgres-array-3.0.2.tgz. Extracting by manifest.
+155 silly tarball no local data for pg-numeric@https://registry.npmjs.org/pg-numeric/-/pg-numeric-1.0.2.tgz. Extracting by manifest.
+156 silly tarball no local data for pg-int8@https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz. Extracting by manifest.
+157 silly tarball no local data for @types/http-errors@https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.4.tgz. Extracting by manifest.
+158 silly tarball no local data for @types/mime@https://registry.npmjs.org/@types/mime/-/mime-1.3.5.tgz. Extracting by manifest.
+159 silly tarball no local data for pg-types@https://registry.npmjs.org/pg-types/-/pg-types-4.0.2.tgz. Extracting by manifest.
+160 silly tarball no local data for pg-protocol@https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.6.1.tgz. Extracting by manifest.
+161 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+162 silly tarball no local data for @types/send@https://registry.npmjs.org/@types/send/-/send-0.17.4.tgz. Extracting by manifest.
+163 silly tarball no local data for @types/range-parser@https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.7.tgz. Extracting by manifest.
+164 silly tarball no local data for @types/serve-static@https://registry.npmjs.org/@types/serve-static/-/serve-static-1.15.7.tgz. Extracting by manifest.
+165 silly tarball no local data for @types/qs@https://registry.npmjs.org/@types/qs/-/qs-6.9.15.tgz. Extracting by manifest.
+166 silly tarball no local data for @types/express-serve-static-core@https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.19.3.tgz. Extracting by manifest.
+167 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.12.13.tgz. Extracting by manifest.
+168 silly tarball no local data for @types/connect@https://registry.npmjs.org/@types/connect/-/connect-3.4.38.tgz. Extracting by manifest.
+169 silly tarball no local data for @types/pg@https://registry.npmjs.org/@types/pg/-/pg-8.11.6.tgz. Extracting by manifest.
+170 silly tarball no local data for @types/nodemon@https://registry.npmjs.org/@types/nodemon/-/nodemon-1.19.6.tgz. Extracting by manifest.
+171 silly tarball no local data for @types/express@https://registry.npmjs.org/@types/express/-/express-4.17.21.tgz. Extracting by manifest.
+172 silly tarball no local data for @types/cors@https://registry.npmjs.org/@types/cors/-/cors-2.8.17.tgz. Extracting by manifest.
+173 silly tarball no local data for @types/body-parser@https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.5.tgz. Extracting by manifest.
+174 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 285ms
+175 timing auditReport:getReport Completed in 289ms
+176 silly audit report {}
+177 timing auditReport:init Completed in 0ms
+178 timing reify:audit Completed in 291ms
+179 http fetch GET 200 https://registry.npmjs.org/postgres-date/-/postgres-date-2.1.0.tgz 390ms (cache miss)
+180 timing reifyNode:node_modules/postgres-date Completed in 421ms
+181 http fetch GET 200 https://registry.npmjs.org/postgres-range/-/postgres-range-1.1.4.tgz 394ms (cache miss)
+182 timing reifyNode:node_modules/postgres-range Completed in 422ms
+183 http fetch GET 200 https://registry.npmjs.org/postgres-interval/-/postgres-interval-3.0.0.tgz 393ms (cache miss)
+184 timing reifyNode:node_modules/postgres-interval Completed in 422ms
+185 http fetch GET 200 https://registry.npmjs.org/obuf/-/obuf-1.1.2.tgz 399ms (cache miss)
+186 timing reifyNode:node_modules/obuf Completed in 426ms
+187 http fetch GET 200 https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.7.tgz 380ms (cache miss)
+188 timing reifyNode:node_modules/@types/range-parser Completed in 427ms
+189 http fetch GET 200 https://registry.npmjs.org/@types/qs/-/qs-6.9.15.tgz 371ms (cache miss)
+190 timing reifyNode:node_modules/@types/qs Completed in 430ms
+191 http fetch GET 200 https://registry.npmjs.org/@types/serve-static/-/serve-static-1.15.7.tgz 379ms (cache miss)
+192 timing reifyNode:node_modules/@types/serve-static Completed in 435ms
+193 http fetch GET 200 https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.4.tgz 397ms (cache miss)
+194 timing reifyNode:node_modules/@types/http-errors Completed in 436ms
+195 http fetch GET 200 https://registry.npmjs.org/@types/express/-/express-4.17.21.tgz 361ms (cache miss)
+196 timing reifyNode:node_modules/@types/express Completed in 437ms
+197 http fetch GET 200 https://registry.npmjs.org/@types/nodemon/-/nodemon-1.19.6.tgz 362ms (cache miss)
+198 timing reifyNode:node_modules/@types/nodemon Completed in 437ms
+199 http fetch GET 200 https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz 404ms (cache miss)
+200 timing reifyNode:node_modules/pg-int8 Completed in 441ms
+201 http fetch GET 200 https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.19.3.tgz 374ms (cache miss)
+202 timing reifyNode:node_modules/@types/express-serve-static-core Completed in 441ms
+203 http fetch GET 200 https://registry.npmjs.org/postgres-array/-/postgres-array-3.0.2.tgz 410ms (cache miss)
+204 timing reifyNode:node_modules/postgres-array Completed in 443ms
+205 http fetch GET 200 https://registry.npmjs.org/@types/mime/-/mime-1.3.5.tgz 403ms (cache miss)
+206 timing reifyNode:node_modules/@types/mime Completed in 444ms
+207 http fetch GET 200 https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-3.0.0.tgz 416ms (cache miss)
+208 timing reifyNode:node_modules/postgres-bytea Completed in 449ms
+209 http fetch GET 200 https://registry.npmjs.org/@types/connect/-/connect-3.4.38.tgz 379ms (cache miss)
+210 timing reifyNode:node_modules/@types/connect Completed in 449ms
+211 http fetch GET 200 https://registry.npmjs.org/pg-numeric/-/pg-numeric-1.0.2.tgz 416ms (cache miss)
+212 timing reifyNode:node_modules/pg-numeric Completed in 452ms
+213 http fetch GET 200 https://registry.npmjs.org/@types/cors/-/cors-2.8.17.tgz 377ms (cache miss)
+214 timing reifyNode:node_modules/@types/cors Completed in 454ms
+215 http fetch GET 200 https://registry.npmjs.org/@types/send/-/send-0.17.4.tgz 423ms (cache miss)
+216 timing reifyNode:node_modules/@types/send Completed in 468ms
+217 http fetch GET 200 https://registry.npmjs.org/pg-types/-/pg-types-4.0.2.tgz 428ms (cache miss)
+218 timing reifyNode:node_modules/pg-types Completed in 470ms
+219 http fetch GET 200 https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.5.tgz 397ms (cache miss)
+220 timing reifyNode:node_modules/@types/body-parser Completed in 475ms
+221 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 474ms (cache miss)
+222 timing reifyNode:node_modules/undici-types Completed in 518ms
+223 http fetch GET 200 https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.6.1.tgz 498ms (cache miss)
+224 timing reifyNode:node_modules/pg-protocol Completed in 542ms
+225 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.12.13.tgz 523ms (cache miss)
+226 timing reifyNode:node_modules/@types/node Completed in 593ms
+227 http fetch GET 200 https://registry.npmjs.org/@types/pg/-/pg-8.11.6.tgz 672ms (cache miss)
+228 timing reifyNode:node_modules/@types/pg Completed in 745ms
+229 timing reify:unpack Completed in 747ms
+230 timing reify:unretire Completed in 0ms
+231 timing build:queue Completed in 2ms
+232 timing build:deps Completed in 3ms
+233 timing build Completed in 3ms
+234 timing reify:build Completed in 5ms
+235 timing reify:trash Completed in 0ms
+236 timing reify:save Completed in 45ms
+237 timing reify Completed in 3552ms
+238 silly ADD node_modules/obuf
+239 silly ADD node_modules/postgres-range
+240 silly ADD node_modules/postgres-interval
+241 silly ADD node_modules/postgres-date
+242 silly ADD node_modules/postgres-bytea
+243 silly ADD node_modules/postgres-array
+244 silly ADD node_modules/pg-numeric
+245 silly ADD node_modules/pg-int8
+246 silly ADD node_modules/@types/http-errors
+247 silly ADD node_modules/@types/mime
+248 silly ADD node_modules/pg-types
+249 silly ADD node_modules/pg-protocol
+250 silly ADD node_modules/undici-types
+251 silly ADD node_modules/@types/send
+252 silly ADD node_modules/@types/range-parser
+253 silly ADD node_modules/@types/serve-static
+254 silly ADD node_modules/@types/qs
+255 silly ADD node_modules/@types/express-serve-static-core
+256 silly ADD node_modules/@types/node
+257 silly ADD node_modules/@types/connect
+258 silly ADD node_modules/@types/pg
+259 silly ADD node_modules/@types/nodemon
+260 silly ADD node_modules/@types/express
+261 silly ADD node_modules/@types/cors
+262 silly ADD node_modules/@types/body-parser
+263 timing command:install Completed in 3562ms
+264 verbose exit 0
+265 timing npm Completed in 4034ms
+266 info ok
