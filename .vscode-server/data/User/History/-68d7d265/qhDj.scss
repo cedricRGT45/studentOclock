@@ -1,0 +1,19 @@
+
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 1rem;
+
+  .product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+.product-item{
+  position:relative;
+}

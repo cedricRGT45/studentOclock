@@ -1,0 +1,25 @@
+:popover-open{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(25%);
+    transform: translateY(25%);
+    width:15rem;
+    padding:2rem;
+    &::backdrop{
+        width: 100vw;
+        height:100vh;
+        background: rgba(43, 192,228, .5);
+    }
+}
+
+.modal{
+    &-closed{
+        position:absolute;
+        border-radius:50%;
+        top:.5rem;
+        right:.5rem;
+        background: rgba(43, 192,228);
+        color:white;
+    }
+}

@@ -1,0 +1,9 @@
+2024-06-17 13:44:51.611 [info] Extension host with pid 22571 started
+2024-06-17 13:44:52.066 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-17 13:44:54.751 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-17 13:44:54.752 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-17 13:44:55.333 [info] Eager extensions activated
+2024-06-17 13:44:55.333 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 13:44:55.334 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 13:50:28.743 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-06-17 13:50:28.769 [info] Extension host with pid 22571 exiting with code 0

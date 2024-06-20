@@ -117,3 +117,26 @@
 2024-06-02 13:06:09.320 [error] AggregateError
     at internalConnectMultiple (node:net:1114:18)
     at afterConnectMultiple (node:net:1601:5)
+2024-06-02 13:19:16.712 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-06-02 13:34:25.979 [info] [<unknown>][eea13b78][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-02 13:37:38.373 [info] [<unknown>][995a1171][ExtensionHostConnection] New connection established.
+2024-06-02 13:37:38.388 [info] [<unknown>][995a1171][ExtensionHostConnection] <20721> Launched Extension Host Process.
+2024-06-02 13:37:38.391 [info] [<unknown>][c9bc30cd][ManagementConnection] New connection established.
+2024-06-02 13:38:22.230 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.232 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.234 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.236 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.236 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.239 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.240 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.240 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.241 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-02 13:38:22.305 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/S03_CICD/projet/frontend/src)
+2024-06-02 13:38:22.306 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/S03_CICD/projet/frontend/assets)
+2024-06-02 13:38:22.306 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/S03_CICD/projet/frontend/node_modules)
+2024-06-02 13:42:38.650 [info] [<unknown>][d629bbf6][ExtensionHostConnection] <4199> Extension Host Process exited with code: 0, signal: null.
+2024-06-02 17:03:54.397 [info] [<unknown>][995a1171][ExtensionHostConnection] <20721> Extension Host Process exited with code: 0, signal: null.
+2024-06-02 17:03:54.398 [info] Last EH closed, waiting before shutting down
+2024-06-02 17:08:54.399 [info] Last EH closed, shutting down

@@ -1,0 +1,43 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-13518386-9ab1-432a-bff9-ea426155f0b2
+Extension host agent listening on /tmp/code-13518386-9ab1-432a-bff9-ea426155f0b2
+
+[21:07:26] 
+
+
+
+
+[21:07:26] Extension host agent started.
+[21:07:26] [<unknown>][232cf6d7][ExtensionHostConnection] New connection established.
+[21:07:26] [<unknown>][84525936][ManagementConnection] New connection established.
+[21:07:26] [<unknown>][232cf6d7][ExtensionHostConnection] <90887> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[21:12:26] New EH opened, aborting shutdown
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:5173
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+[21:49:19] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5173
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:5173
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+[21:49:19] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5173
+}

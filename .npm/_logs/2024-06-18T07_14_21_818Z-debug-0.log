@@ -1,0 +1,106 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.11.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/student/.cache/typescript/5.4/.npmrc
+5 silly config load:file:/home/student/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @types/body-parser@ts5.4 @types/cors@ts5.4 @types/express@ts5.4 @types/pg@ts5.4 @types/nodemon@ts5.4
+8 verbose argv "install" "--ignore-scripts" "@types/body-parser@ts5.4" "@types/cors@ts5.4" "@types/express@ts5.4" "@types/pg@ts5.4" "@types/nodemon@ts5.4" "--save-dev" "--user-agent" "typesInstaller/5.4.5"
+9 verbose logfile logs-max:10 dir:/home/student/.npm/_logs/2024-06-18T07_14_21_818Z-
+10 verbose logfile /home/student/.npm/_logs/2024-06-18T07_14_21_818Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fbody-parser cache-miss
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcors cache-miss
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2fexpress cache-miss
+17 silly packumentCache corgi:https://registry.npmjs.org/@types%2fpg cache-miss
+18 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnodemon cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/@types%2fbody-parser 198ms (cache revalidated)
+20 silly packumentCache corgi:https://registry.npmjs.org/@types%2fbody-parser set size:23132 disposed:false
+21 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 201ms (cache revalidated)
+22 silly packumentCache corgi:https://registry.npmjs.org/@types%2fexpress set size:47244 disposed:false
+23 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 205ms (cache revalidated)
+24 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcors set size:26779 disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/@types%2fpg 204ms (cache revalidated)
+26 silly packumentCache corgi:https://registry.npmjs.org/@types%2fpg set size:83366 disposed:false
+27 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemon 207ms (cache revalidated)
+28 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnodemon set size:7379 disposed:false
+29 silly idealTree buildDeps
+30 silly fetch manifest @types/body-parser@1.19.5
+31 silly packumentCache full:https://registry.npmjs.org/@types%2fbody-parser cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@types%2fbody-parser 39ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/@types%2fbody-parser set size:57078 disposed:false
+34 silly fetch manifest @types/cors@2.8.17
+35 silly packumentCache full:https://registry.npmjs.org/@types%2fcors cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 682ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/@types%2fcors set size:53600 disposed:false
+38 silly fetch manifest @types/express@4.17.21
+39 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 50ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress set size:90948 disposed:false
+42 silly fetch manifest @types/nodemon@1.19.6
+43 silly packumentCache full:https://registry.npmjs.org/@types%2fnodemon cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemon 53ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmjs.org/@types%2fnodemon set size:14353 disposed:false
+46 silly fetch manifest @types/pg@8.11.6
+47 silly packumentCache full:https://registry.npmjs.org/@types%2fpg cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@types%2fpg 44ms (cache revalidated)
+49 silly packumentCache full:https://registry.npmjs.org/@types%2fpg set size:163173 disposed:false
+50 silly placeDep ROOT @types/body-parser@1.19.5 REPLACE for:  want: 1.19.5
+51 silly placeDep ROOT @types/cors@2.8.17 REPLACE for:  want: 2.8.17
+52 silly placeDep ROOT @types/express@4.17.21 REPLACE for:  want: 4.17.21
+53 silly placeDep ROOT @types/nodemon@1.19.6 REPLACE for:  want: 1.19.6
+54 silly placeDep ROOT @types/pg@8.11.6 REPLACE for:  want: 8.11.6
+55 silly reify moves {}
+56 silly audit bulk request {
+56 silly audit   '@babel/runtime': [ '7.24.7' ],
+56 silly audit   '@types/connect': [ '3.4.38' ],
+56 silly audit   '@types/eslint': [ '8.56.10' ],
+56 silly audit   '@types/estree': [ '1.0.5' ],
+56 silly audit   '@types/express-serve-static-core': [ '4.19.3' ],
+56 silly audit   '@types/hoist-non-react-statics': [ '3.3.5' ],
+56 silly audit   '@types/http-errors': [ '2.0.4' ],
+56 silly audit   '@types/json-schema': [ '7.0.15' ],
+56 silly audit   '@types/mime': [ '1.3.5' ],
+56 silly audit   '@types/node': [ '20.12.13' ],
+56 silly audit   '@types/prop-types': [ '15.7.12' ],
+56 silly audit   '@types/qs': [ '6.9.15' ],
+56 silly audit   '@types/range-parser': [ '1.2.7' ],
+56 silly audit   '@types/react': [ '18.3.3' ],
+56 silly audit   '@types/react-dom': [ '18.3.0' ],
+56 silly audit   '@types/react-redux': [ '7.1.33' ],
+56 silly audit   '@types/send': [ '0.17.4' ],
+56 silly audit   '@types/serve-static': [ '1.15.7' ],
+56 silly audit   csstype: [ '3.1.3' ],
+56 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+56 silly audit   obuf: [ '1.1.2' ],
+56 silly audit   'pg-int8': [ '1.0.1' ],
+56 silly audit   'pg-numeric': [ '1.0.2' ],
+56 silly audit   'pg-protocol': [ '1.6.1' ],
+56 silly audit   'pg-types': [ '4.0.2' ],
+56 silly audit   'postgres-array': [ '3.0.2' ],
+56 silly audit   'postgres-bytea': [ '3.0.0' ],
+56 silly audit   'postgres-date': [ '2.1.0' ],
+56 silly audit   'postgres-interval': [ '3.0.0' ],
+56 silly audit   'postgres-range': [ '1.1.4' ],
+56 silly audit   'react-is': [ '16.13.1' ],
+56 silly audit   redux: [ '4.2.1' ],
+56 silly audit   'regenerator-runtime': [ '0.14.1' ],
+56 silly audit   'types-registry': [ '0.1.685' ],
+56 silly audit   'undici-types': [ '5.26.5' ],
+56 silly audit   '@types/body-parser': [ '1.19.5' ],
+56 silly audit   '@types/cors': [ '2.8.17' ],
+56 silly audit   '@types/express': [ '4.17.21' ],
+56 silly audit   '@types/nodemon': [ '1.19.6' ],
+56 silly audit   '@types/pg': [ '8.11.6' ]
+56 silly audit }
+57 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 188ms
+58 silly audit report {}
+59 verbose cwd /home/student/.cache/typescript/5.4
+60 verbose os Linux 6.5.0-1020-aws
+61 verbose node v20.11.1
+62 verbose npm  v10.8.1
+63 verbose exit 0
+64 info ok

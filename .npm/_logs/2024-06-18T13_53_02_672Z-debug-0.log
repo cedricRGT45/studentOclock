@@ -1,0 +1,73 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.11.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/student/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm i @types/react
+7 verbose argv "i" "@types/react"
+8 verbose logfile logs-max:10 dir:/home/student/.npm/_logs/2024-06-18T13_53_02_672Z-
+9 verbose logfile /home/student/.npm/_logs/2024-06-18T13_53_02_672Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @types/react@^18.3.3
+15 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@types%2freact 156ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2163385 disposed:false
+18 silly placeDep ROOT @types/react@18.3.3 REPLACE for:  want: ^18.3.3
+19 silly fetch manifest react@>16.8.0
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 69ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:6375304 disposed:false
+23 verbose stack Error: could not resolve
+23 verbose stack     at PlaceDep.failPeerConflict (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+23 verbose stack     at new PlaceDep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+23 verbose stack     at #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:917:18)
+23 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+23 verbose stack     at async Promise.all (index 1)
+23 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+23 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+23 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+23 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+24 error code ERESOLVE
+25 error ERESOLVE could not resolve
+26 error
+27 error While resolving: reate@1.2.0
+27 error Found: react@19.0.0-rc-4c2e457c7c-20240522[2m[22m
+27 error [2mnode_modules/react[22m
+27 error   [95mpeer[39m react@"19.0.0-rc-4c2e457c7c-20240522" from react-dom@19.0.0-rc-4c2e457c7c-20240522[2m[22m
+27 error   [2mnode_modules/react-dom[22m
+27 error     react-dom@"^19.0.0-rc-4c2e457c7c-20240522" from the root project
+27 error   react@"^19.0.0-rc-4c2e457c7c-20240522" from the root project
+27 error
+27 error Could not resolve dependency:
+27 error [95mpeer[39m react@">16.8.0" from reate@1.2.0[2m[22m
+27 error [2mnode_modules/reate[22m
+27 error   reate@"^1.2.0" from the root project
+27 error
+27 error Conflicting peer dependency: react@18.3.1[2m[22m
+27 error [2mnode_modules/react[22m
+27 error   [95mpeer[39m react@">16.8.0" from reate@1.2.0[2m[22m
+27 error   [2mnode_modules/reate[22m
+27 error     reate@"^1.2.0" from the root project
+27 error
+27 error Fix the upstream dependency conflict, or retry
+27 error this command with --force or --legacy-peer-deps
+27 error to accept an incorrect (and potentially broken) dependency resolution.
+28 error
+28 error
+28 error For a full report see:
+28 error /home/student/.npm/_logs/2024-06-18T13_53_02_672Z-eresolve-report.txt
+29 silly unfinished npm timer reify 1718718783265
+30 silly unfinished npm timer reify:loadTrees 1718718783324
+31 silly unfinished npm timer idealTree:buildDeps 1718718783539
+32 silly unfinished npm timer idealTree:node_modules/reate 1718718783789
+33 verbose cwd /home/student/S03_challenge_E05_suspense-cedricRGT45/projet
+34 verbose os Linux 6.5.0-1020-aws
+35 verbose node v20.11.1
+36 verbose npm  v10.8.1
+37 verbose exit 1
+38 verbose code 1
+39 error A complete log of this run can be found in: /home/student/.npm/_logs/2024-06-18T13_53_02_672Z-debug-0.log

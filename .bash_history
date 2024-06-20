@@ -554,3 +554,327 @@ cd S02_Coclock_Working
 cd projet
 sudo docker compseup
 sudo docker compose up
+ls
+cd S02_Coclock_working_challenge_E01-cedricRGT45 
+cd projet
+npm i react-router-dom
+cd ..
+cd home 
+cd student
+ls
+S03_challenge_E03-cedricRGT45
+cd V
+cd S03_challenge_E03-cedricRGT45
+cd projet
+sudo docker compose up
+sudo docker system prune --all --volumes
+git clone git@github.com:O-clock-Naga/S03_CICD_archi_frontend.git
+git init
+git branch -M main
+git add .
+cd ..
+git clone git@github.com:O-clock-Naga/S03_CICD_archi_frontend.git
+git init
+git branch -M main
+git ad .
+git add .
+git commit -m "projet correction"
+ls
+cd S03_CICD_archi_frontend  
+git init
+git add .
+git commit -m "correction"
+git push
+git push --force-with-lease
+git remote add origin git@github.com:O-clock-Naga/S03_CICD.git
+echo "# S03_CICD" >> README.md
+git init
+git add README.md
+git commit -m "correction"
+git branch -M main
+git remote add origin git@github.com:O-clock-Naga/S03_CICD.git
+t push -u origin main
+git push -u origin main
+git remote add origin git@github.com:O-clock-Naga/S03_CICD.git
+ls -a
+git rm -r .git
+git rm .git
+rmdir .git
+rmdir -r .git
+rm -r .git
+ls -a
+rm -r .git
+ls -a
+git init
+git add README.md
+git commit -m "correction"
+git branch -M main
+git remote add origin git@github.com:O-clock-Naga/S03_CICD.git
+git push -u origin main
+git add .
+git commit -m "correction"
+git push -u origin main
+cd projet
+sudo docker compose up
+ls
+cd  S03_CICD 
+git branch
+git checkout E08
+cd ..
+ls
+cd S03_CICD   
+cd projet
+sudo docker compose up
+sudo docker system prune --all --volumes
+sudo docker compose up
+LS
+ls
+cd S02_Coclock_Working 
+cd projet
+sudo docker compose up
+cd frontend
+npm install
+npm install@latest
+npm install npm@10.8.1npm install -g npm@10.8.1
+npm install -g npm@10.8.1
+cd ..
+sudo docker compose up
+install  vite@latest
+create vite@latest
+npm install vite@latest
+sudo docker copose up
+sudo docker compose up
+npm i @vitejs/plugin-react-sw
+ls
+cd S03_CICD   
+cd projet
+sudo docker compose up -d
+ls
+cd  S03_CICD   
+cd projet
+sudo docker compose exec frontend npm i react-redux @reduxjs/toolkit
+cd ..
+git clone https://github.com/O-clock-Naga/S03_CICD_archi_frontend.git
+ls
+cd  S03_CICD_archi_frontend
+cd projet
+sudo docker compose up -d
+sudo docker compose up
+sudo docker compose up -d
+cd S03_CICD
+cd projet
+sudo docker compose up
+npm install
+sudo docker compose up
+cd ..
+ls
+cd ..
+cd hoe
+cd home
+ls
+cd student
+ls
+cd S03_CICD_archi_frontend
+cd projet
+sudo docker compose up
+npm i
+cd backend
+npm i
+cd ..
+sudo docker compose up
+sudo -u postgres createuser -s root
+sudo -u createuser -s root
+cd backend
+sudo -u postgres createuser -s root
+cd ..
+cd cours
+cd suspense_portals
+npm i create vite@latest
+ls
+cd suspence_portals
+npm i reate vite@latest
+npm create vite@latest
+npm frontend
+npm install
+cd frontend
+npm install
+npm run dev
+ls
+cd S03_CICD_archi_frontend  
+cd projet
+sudo docker compose up
+docker system prune -a
+docker system prune
+docker system prune -a --force
+git status
+git branch
+cd ..
+docker system prune -a --force
+sudo docker system prune -a
+cd student
+cd projet
+sudo docker system prune -a
+ls
+git clone git@github.com:O-clock-Naga/S03_CICD_archi_frontend.git
+ls
+cd S03_CICD_archi_frontend 
+ls
+cd projet
+git bracnh
+git branch
+git checkout EO4_correction
+cd ..
+git 
+git checkout EO4_correction
+git branch
+cd ..
+cd S03_CICD
+cd ..
+cd home
+cd student
+cd S03_CICD
+cd projet
+cd ;;
+cd ..
+cd..
+cd ..
+cd home
+cd student
+git clone git@github.com:O-clock-Naga/S03_CICD_archi_frontend.git
+cd S03_CICD
+cd projet
+sudo docker compose up
+sudo docker exec -it projet-database-1 pg_dump -U oclock -d passw0rd > backend/init.sql
+sudo docker exec -it projet-database-1 pg_dump -U oclock -d passw0rd
+sudo docker compose up
+cd backend
+npm i
+sudo npm i
+cd ..
+cd frontend
+sudo npm i
+cd ..
+sudo docker compose up
+
+sudo docker compose up
+cd ..
+cd projet
+sudo docker compose up
+npm i
+sudo docker compose up
+sudo -i
+sudo docker compose up
+ls
+cd  S03_CICD_archi_frontend 
+cd projet
+ls
+cd  S03_CICD
+cd projet
+sudo docker compose up
+df -h
+rm -r data
+cd backend
+rm -r data
+sudo rm -r data
+cd ..
+sudo docker compose up
+sudo docker system prunes -a --volumes
+sudo docker system prunes -a
+sudo docker system prune -a
+sudo docker compose up
+sudo docker system prune -a --volumes
+sudo docker compose up
+sudo docker system prune -a --volumes
+sudo docker compose up
+cd ..
+ls
+git clone git@github.com:O-clock-Naga/S03_challenge_E05_suspense-cedricRGT45.git
+ls
+cd  S03_challenge_E05_suspense-cedricRGT45 
+cd projet
+sudo docker system prunes -a --volumes
+sudo docker system prunes -a --volum -a --volumes
+sudo docker system prune -a --volumes
+sudo docker compose up
+sudo docker system prune -a --volumes
+cd backend
+rm -r data
+sudo rm -r data
+cd ..
+sudo docker compose up
+npm i --save-dev @types/react
+sudo docker compose up backend
+sudo rm -r data
+cd backend
+sudo rm -r data
+cd ..
+sudo docker system prune -a --volumes
+cd backend
+sudo rm -r data
+cd ..
+sudo docker compose up
+ls
+clear
+ls
+cd S03_challenge_E05_suspense-cedricRGT45/
+ls
+cd projet/
+ls
+clear
+sudo docker ps
+sudo docker container stop -a
+sudo docker container stop
+sudo docker compose down
+clear
+sudo docker ps
+clear
+sudo rm -r backend/data/
+sudo docker compose up --build
+df -h
+sudo docker compose down
+sudo rm -r backend/data/
+sudo docker compose up --build
+sudo docker compose up
+ls
+cd S03_challenge_E05_suspense-cedricRGT45
+cd projet
+npm i react@19.0.
+npm i react@19.0.0-rc-4c2e457c7c-20240522 react-dom@19.0.0-rc-4c2e457c7c-20240522
+npm i @types/react@latest
+npm i @types/react
+cd ..
+git add .
+git commit -m "creating the modal using the popover html tag"
+git push
+ls
+cd S03_challenge_E05_suspense-cedricRGT45 
+cd prjet
+cd projet
+sudo docker compose up
+cd ..
+git clone git@github.com:O-clock-Naga/S03_challenge_E06_error-cedricRGT45.git
+ls
+cd S03_challenge_E06_error-cedricRGT45 
+cd projet
+sudo docker system prune -a --volumes
+sudo docker compose up
+sudo docker system prune -a --volumes
+sudo docker compose up
+df -h
+git clone git@github.com:O-clock-Naga/decouvrir-svelte-cedricRGT45.git
+ls
+cd decouvrir-svelte-cedricRGT45
+docker compose up
+sudo c docker mpose up
+sudo docker co mpose up
+sudo docker compose up
+cd ..
+cd decouvrir-svelte-cedricRGT45
+sudo docker compose up
+cd template
+cd frontend
+sudo docker compose up
+sudo docker compose up -d
+sudo docker compose up
+ls
+cd decouvrir-svelte-cedricRGT45

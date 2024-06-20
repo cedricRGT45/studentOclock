@@ -1,0 +1,48 @@
+<script lang="ts">
+  import { onMount } from 'svelte';
+  import { selectedItem } from '../hooks/store';
+
+  let products = [];
+  let loading = true;
+  let error = null;
+
+  async function fetchData() {
+    try {
+      const response = await fetch('https://dummyjson.com/products');
+      if (!response.ok) {
+        throw new Error('Failed to fetch data');
+      }
+      const data = await response.json();
+      products = data.products;
+    } catch (err) {
+      error = err.message;
+    } finally {
+      loading = false;
+    }
+  }
+
+  function selectItem(item) {
+    selectedItem.set(item);
+  }
+
+  onMount(() => {
+    fetchData();
+  });
+</script>
+
+<main>
+  {#if loading}
+    <p>Loading...</p>
+  {:else if error}
+    <p>Error: {error}</p>
+  {:else}
+    {#each products as product}
+      <div class="product">
+        <div class="product-price">
+          <p>{product.price}$</p>
+        </div>
+        <div class="product-content">
+          <h2>{product.title}</h2>
+          <p>{product.description}</p>
+        </div>
+        <button on:click={() => selectItem(product

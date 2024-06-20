@@ -1,0 +1,437 @@
+2024-06-17 10:16:09.209 [info] Extension host with pid 10877 started
+2024-06-17 10:16:09.209 [error] Error: EEXIST: file already exists, open '/home/student/.vscode-server/data/User/workspaceStorage/01126ee7f93d399507d1001be96d9cac/vscode.lock'
+2024-06-17 10:16:09.214 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/01126ee7f93d399507d1001be96d9cac/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-06-17 10:16:09.225 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/01126ee7f93d399507d1001be96d9cac/vscode.lock': The lock does not look stale, elapsed: 699 ms, giving up.
+2024-06-17 10:16:09.232 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/01126ee7f93d399507d1001be96d9cac-1/vscode.lock': Lock acquired.
+2024-06-17 10:16:16.624 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onFileSystem:vsls'
+2024-06-17 10:16:17.627 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-17 10:16:24.896 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-17 10:16:24.896 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-17 10:16:24.897 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-17 10:16:25.144 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-17 10:16:25.719 [info] Eager extensions activated
+2024-06-17 10:16:25.719 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 10:16:32.810 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2024-06-17 10:16:32.810 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-06-17 10:16:32.811 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-06-17 10:17:38.807 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-06-17 10:17:41.353 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-06-17 11:02:22.297 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 11:17:09.165 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 11:17:17.310 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 11:18:53.089 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 11:24:35.982 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 11:25:02.705 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 11:34:12.557 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 11:46:38.478 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 11:46:47.759 [error] TypeError: Cannot read properties of null (reading 'fileName')
+	at CoEditing.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:324379)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:296037
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:295723)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323037
+	at Array.forEach (<anonymous>)
+	at CoEditing.fileServiceFilesChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:323025)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:306998
+	at CallbackList.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1649483)
+	at Emitter.fire (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1650236)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1196235
+	at handleNotification (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660221)
+	at processMessageQueue (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1660477)
+	at Immediate.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1662128)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-06-17 13:07:21.980 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-06-17 13:07:21.984 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/01126ee7f93d399507d1001be96d9cac-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-17 13:07:22.054 [error] Canceled: Canceled
+	at Object.S [as $6] (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2390
+	at Array.forEach (<anonymous>)
+	at E.dispose (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2328)
+	at u.terminate (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:161:8103)
+	at f.terminate (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at M.a (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:7151)
+	at M.h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:99:21182)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-06-17 13:07:22.055 [error] Canceled: Canceled
+	at Object.S [as $6] (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2390
+	at Array.forEach (<anonymous>)
+	at E.dispose (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2328)
+	at u.terminate (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:161:8103)
+	at f.terminate (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at M.a (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:7151)
+	at M.h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:99:21182)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-06-17 13:07:22.055 [error] Canceled: Canceled
+	at Object.S [as $6] (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2390
+	at Array.forEach (<anonymous>)
+	at E.dispose (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2328)
+	at u.terminate (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:161:8103)
+	at f.terminate (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at M.a (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:7151)
+	at M.h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:99:21182)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-06-17 13:07:22.160 [error] Error: Channel has been closed
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2490)
+	at Object.appendLine (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2608)
+	at w.logOutputMessage (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:255662)
+	at w.info (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:255395)
+	at ChildProcess.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:439149)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-06-17 13:07:22.326 [error] Canceled: Canceled
+	at new A (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at ExtensionUtil.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712938)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711653
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711339)
+	at ExtensionUtil.setCommandContext (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712854)
+	at CoEditing.updatePinableCommandStatus (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:349676)
+	at CoEditing.dispose (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:310605)
+	at a.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:208020)
+	at a.dispose (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1263468
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1262567)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:449:9) setContext undefined
+2024-06-17 13:07:22.326 [error] Canceled: Canceled
+	at new A (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at ExtensionUtil.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712938)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711653
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711339)
+	at ExtensionUtil.setCommandContext (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712854)
+	at CoEditing.setPinned (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:349850)
+	at CoEditing.dispose (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:310641)
+	at a.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:208020)
+	at a.dispose (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1263468
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1262567)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:449:9) setContext undefined
+2024-06-17 13:07:22.352 [error] Canceled: Canceled
+	at new A (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at GuestSourceControlManager.updateSourceControlCountContext (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1008165)
+	at GuestSourceControlManager.disposeSourceControls (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1005416)
+	at GuestSourceControlManager.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1004350)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:992040
+	at new Promise (<anonymous>)
+	at C (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:991726)
+	at GuestSourceControlManager.dispose (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1004278)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1263468
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:1262567)
+	at processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at runNextTicks (node:internal/process/task_queues:64:3)
+	at process.processImmediate (node:internal/timers:449:9) setContext undefined
+2024-06-17 13:07:22.353 [error] Canceled: Canceled
+	at new A (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at ExtensionUtil.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712938)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711653
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711339)
+	at ExtensionUtil.setCommandContext (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712854)
+	at SessionContext.onSessionStateChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:209666)
+	at l.y (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at SessionStateTracker.setState (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:214149)
+	at SessionStateTracker.transition (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:213858)
+	at LeaveCollaborationCommand.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:2012963)
+	at processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at runNextTicks (node:internal/process/task_queues:64:3)
+	at process.processImmediate (node:internal/timers:449:9) setContext undefined
+2024-06-17 13:07:22.353 [error] Canceled: Canceled
+	at new A (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at ExtensionUtil.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712938)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711653
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711339)
+	at ExtensionUtil.setCommandContext (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712854)
+	at SessionContext.onSessionStateChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:209737)
+	at l.y (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at SessionStateTracker.setState (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:214149)
+	at SessionStateTracker.transition (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:213858)
+	at LeaveCollaborationCommand.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:2012963)
+	at processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at runNextTicks (node:internal/process/task_queues:64:3)
+	at process.processImmediate (node:internal/timers:449:9) setContext undefined
+2024-06-17 13:07:22.353 [error] Canceled: Canceled
+	at new A (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at ExtensionUtil.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712938)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711653
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711339)
+	at ExtensionUtil.setCommandContext (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712854)
+	at set hasServersShared [as hasServersShared] (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:208968)
+	at SessionContext.onSessionStateChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:209944)
+	at l.y (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at SessionStateTracker.setState (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:214149)
+	at SessionStateTracker.transition (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:213858)
+	at LeaveCollaborationCommand.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:2012963)
+	at processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at runNextTicks (node:internal/process/task_queues:64:3)
+	at process.processImmediate (node:internal/timers:449:9) setContext undefined
+2024-06-17 13:07:22.353 [error] Canceled: Canceled
+	at new A (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at ExtensionUtil.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712938)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711653
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711339)
+	at ExtensionUtil.setCommandContext (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712854)
+	at set hasSharedTerminals [as hasSharedTerminals] (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:209148)
+	at SessionContext.onSessionStateChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:209971)
+	at l.y (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at SessionStateTracker.setState (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:214149)
+	at SessionStateTracker.transition (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:213858)
+	at LeaveCollaborationCommand.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:2012963)
+	at processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at runNextTicks (node:internal/process/task_queues:64:3)
+	at process.processImmediate (node:internal/timers:449:9) setContext undefined
+2024-06-17 13:07:22.353 [error] Canceled: Canceled
+	at new A (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at ExtensionUtil.<anonymous> (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712938)
+	at Generator.next (<anonymous>)
+	at /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711653
+	at new Promise (<anonymous>)
+	at v (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:711339)
+	at ExtensionUtil.setCommandContext (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:712854)
+	at n.value (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:205724)
+	at l.y (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at set isReadOnly [as isReadOnly] (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:229171)
+	at SessionContext.onSessionStateChanged (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:210015)
+	at l.y (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/student/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at SessionStateTracker.setState (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:214149)
+	at SessionStateTracker.transition (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:213858)
+	at LeaveCollaborationCommand.invoke (/home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932/extension.js:107:2012963)
+	at processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at runNextTicks (node:internal/process/task_queues:64:3)
+	at process.processImmediate (node:internal/timers:449:9) setContext undefined
+2024-06-17 13:07:22.364 [info] Extension host with pid 10877 exiting with code 0

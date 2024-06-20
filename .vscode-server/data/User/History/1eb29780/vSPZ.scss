@@ -1,0 +1,23 @@
+@import
+  'abstracts/variables',
+  'abstracts/functions';
+
+@import
+  'base/reset',
+  'base/fonts', 
+  'base/App';
+
+@import
+  'layout/Header',
+  'layout/Footer',
+  'layout/Cart',
+  'layout/Products',
+  'layout/Content';
+
+  @import'components/modal';
+
+body {
+  color: $color-darkest;
+  font-family: $font-sans;
+  font-weight: 400;
+}

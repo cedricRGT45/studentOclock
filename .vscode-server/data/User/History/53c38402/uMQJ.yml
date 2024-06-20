@@ -1,0 +1,65 @@
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+    volumes:
+      - ./frontend:/app/frontend
+      - /app/frontend/node_modules
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_URL= http://cedricrgt45-server.eddi.cloud
+    ports:
+      - "5173:5173"
+    command: npm run dev
+
+  backend:
+    build:
+      context: ./backend
+    volumes:
+      - ./backend:/app/backend
+      - /app/backend/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      - PGUSER=oclock
+      - PGPASSWORD=passw0rd
+      - PGHOST=database
+      - PGPORT=5432
+      - PGDATABASE=shop
+    depends_on:
+      database:
+        condition: service_healthy
+    tty: true
+    command: npm run dev
+
+  database:
+    image: postgis/postgis:13-master
+    container_name: database
+    volumes:
+      - ./backend/data/database:/var/lib/postgresql/data
+      - ./backend/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 5432:5432
+    environment:
+     - POSTGRES_USER=oclock
+     - POSTGRES_PASSWORD=passw0rd
+     - POSTGRES_DB=shop
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready", "-U", "oclock", "-d", "shop"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: always
+    tty: true
+
+  adminer:
+    image: adminer
+    ports: 
+      - 8080:8080
+    restart: always
+    depends_on:
+      database:
+        condition: service_healthy
+    tty: true

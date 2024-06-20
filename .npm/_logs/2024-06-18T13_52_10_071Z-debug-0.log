@@ -1,0 +1,42 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.11.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/student/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm i react@19.0.
+7 verbose argv "i" "react@19.0."
+8 verbose logfile logs-max:10 dir:/home/student/.npm/_logs/2024-06-18T13_52_10_071Z-
+9 verbose logfile /home/student/.npm/_logs/2024-06-18T13_52_10_071Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache corgi:https://registry.npmjs.org/react cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/react 568ms (cache miss)
+15 silly packumentCache corgi:https://registry.npmjs.org/react set size:undefined disposed:false
+16 verbose type tag
+17 verbose stack react: No matching version found for react@19.0..
+17 verbose stack     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:209:23)
+17 verbose stack     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
+17 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:512:22
+17 verbose stack     at async Promise.all (index 0)
+17 verbose stack     at async #add (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:501:5)
+17 verbose stack     at async #applyUserRequestsToNode (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:470:7)
+17 verbose stack     at async #applyUserRequests (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:405:7)
+17 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:180:7)
+17 verbose stack     at async Promise.all (index 1)
+17 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+18 error code ETARGET
+19 error notarget No matching version found for react@19.0..
+20 error notarget In most cases you or one of your dependencies are requesting
+20 error notarget a package version that doesn't exist.
+21 silly unfinished npm timer reify 1718718730776
+22 silly unfinished npm timer reify:loadTrees 1718718730811
+23 silly unfinished npm timer idealTree:userRequests 1718718731005
+24 verbose cwd /home/student/S03_challenge_E05_suspense-cedricRGT45/projet
+25 verbose os Linux 6.5.0-1020-aws
+26 verbose node v20.11.1
+27 verbose npm  v10.8.1
+28 verbose exit 1
+29 verbose code 1
+30 error A complete log of this run can be found in: /home/student/.npm/_logs/2024-06-18T13_52_10_071Z-debug-0.log
