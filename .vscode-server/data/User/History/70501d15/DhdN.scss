@@ -1,0 +1,15 @@
+@use "../utils/variables" as *;
+@use "../utils/placeholders" as *;
+.header{
+    width:100vw;
+    height:5rem;
+    @extend %flex-row-center;
+    justify-content: space-between;
+    background-color: $primary;
+    &__img{
+        width:5rem;
+    }
+    &__title{
+        
+    }
+}

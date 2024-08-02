@@ -1,0 +1,47 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app/frontend
+      - /app/frontend/node_modules
+    command: npm run dev
+    networks:
+        - poudlard
+
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend:/app/backend
+      - /app/backend/node_modules
+    command: npm run dev
+    networks:
+        - poudlard
+    depends_on:
+      - database
+
+  database:
+    image: postgres
+    environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+        POSTGRES_DB: poudlard
+    volumes:
+      - ./database:/var/lib/postgresql/data
+      - ./backend/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+        - poudlard
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    networks:
+        - poudlard
+
+networks:
+    poudlard:
+        driver: bridge

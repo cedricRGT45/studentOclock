@@ -1,0 +1,25 @@
+@startuml
+title User Stories - Utilisateur Final
+
+class "User Stories" as US {
+  {field} **En tant que** : Utilisateur
+  {field} **Je veux que** : Ajouter facilement mes dépenses et revenus via une interface simple et intuitive
+  {field} **Afin de** : Gérer efficacement mon budget en saisissant rapidement les informations financières
+}
+
+class "User Stories" as US2 {
+  {field} **En tant que** : Utilisateur
+  {field} **Je veux que** : Consulter un tableau de bord montrant mes dépenses et revenus actuels
+  {field} **Afin de** : Avoir une vue d'ensemble claire de ma situation financière en temps réel
+}
+
+class "User Stories" as US3 {
+  {field} **En tant que** : Utilisateur
+  {field} **Je veux que** : Voir des détails approfondis sur chaque dépense et revenu
+  {field} **Afin de** : Comprendre exactement où va mon argent et comment il est distribué
+}
+
+US -down-> US2
+US2 -down-> US3
+
+@enduml

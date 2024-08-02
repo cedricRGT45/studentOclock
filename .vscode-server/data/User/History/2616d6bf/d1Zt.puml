@@ -1,0 +1,45 @@
+@startuml
+left to right direction
+
+actor "Élève" as Eleve
+actor "Responsable" as Responsable
+actor "Public" as Public
+actor "Utilisateur authentifié" as UtilisateurAuthentifie
+actor "Sorcier non-apprenti" as SorcierNonApprenti
+
+rectangle "Poudlard's Timetable" {
+    usecase "Consulter emploi du temps" as C1
+    usecase "Consulter emploi du temps des camarades" as C2
+    usecase "Consulter emploi du temps des professeurs" as C3
+    usecase "Gérer matières" as C4
+    usecase "Gérer classes" as C5
+    usecase "Gérer sorciers" as C6
+    usecase "Gérer rôles" as C7
+    usecase "Assigner matières aux salles" as C8
+    usecase "Consulter liste des matières" as C9
+    usecase "Consulter liste du staff" as C10
+    usecase "Accéder aux informations protégées" as C11
+    usecase "Assigner sorcier à un niveau" as C12
+    usecase "Assigner sorcier à une maison" as C13
+    usecase "Assigner emploi du temps à une classe" as C14
+}
+
+Eleve --> C1
+Eleve --> C2
+Eleve --> C3
+Responsable --> C4
+Responsable --> C5
+Responsable --> C6
+Responsable --> C7
+Responsable --> C8
+Responsable --> C12
+Responsable --> C13
+Responsable --> C14
+Public --> C9
+Public --> C10
+UtilisateurAuthentifie --> C11
+SorcierNonApprenti --> C6
+SorcierNonApprenti --> C4
+SorcierNonApprenti --> C7
+SorcierNonApprenti --> C8
+@enduml

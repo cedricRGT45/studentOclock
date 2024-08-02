@@ -1,0 +1,18 @@
+'Log files:
+/home/student/.npm/_logs/2024-07-08T16_15_13_808Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: undefined@undefined
+Found: react@19.0.0-rc-fb9a90fa48-20240614
+node_modules/react
+  react@"^19.0.0-rc-4c2e457c7c-20240522" from the root project
+
+Could not resolve dependency:
+peer react@">16.8.0" from reate@1.2.0
+node_modules/reate
+  reate@"^1.2.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

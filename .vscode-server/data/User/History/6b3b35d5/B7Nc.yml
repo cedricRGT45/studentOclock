@@ -1,0 +1,86 @@
+# TODO pour que notre pipeline fonctionne
+
+# 1 - activer le déploiement sur pages via les actions ici : https://github.com/{repo}/settings/pages sous "Build & Deploiement -> sources"
+
+# 2 - générer un token pour avoir accès au repo privé
+# https://github.com/settings/tokens -> generate token (classic)
+
+# 3- le renseigner dans "Settings -> secrets & variables -> actions -> repository secrets -> le nommer TOKEN"
+
+# le nom de l'action tel qu'il sera affiché dans l'onglet "action" de notre repo GitHub
+name: GHPages => Push master
+
+# spécifier l'évènement qui délcenche l'action
+on:
+  push:
+    branches:
+      - master
+  # permet de faire apparaître un bouton sur github onglet 'actions' pour la délcnecher à la main
+  workflow_dispatch:
+    branches:
+      - master
+
+# on donne les permissions nécessaires à notre action
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# on veut éviter les actions concurrentes
+# si par exemple on push à quelques secondes d'intervalles avec un collègue
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+# les étapes principales de notre action sont appelées des 'jobs', elles vont être divisées en sous-étapes appelées des 'steps'
+jobs:
+  build:
+    # github va éxécuter chaque job dans un environnement virtualisé, on le configure donc au préalable
+    environment: production
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./projet/frontend
+
+    steps:
+      # récupère le code à partir du repo
+      - name: Fetch code
+        uses: actions/checkout@v4
+      # installer les dépendances avec un clean install
+      # https://docs.npmjs.com/cli/v10/commands/npm-ci
+      - name: Install dependencies
+        run: npm ci
+
+      # ici si nécessaire on exécute les tests avant de build le code
+
+      # on build le code
+      - name: Build code
+        run: npm run build
+
+      # propre à GHPages => on crée un artifact = fichier utilisé pour déployer sur GHPages
+      - name: Generate artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: build
+          path: ./projet/frontend/dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    # equivalent au 'depends-on' de docker, on attend que le job 'build' soit terminé avec succès
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      # configuration GHPages
+      - name: Config GHPages
+        uses: actions/configure-pages@v4
+      # déploiement sur Github Pages
+      - name: Deploy to GHPages
+        uses: actions/deploy-pages@v4
+        with:
+          # on lui précise le nom de l'artifact à utiliser comme code source (celui précédemment créé lors du build)
+          artifact_name: build
+          # le token lié à notre repo github pour pouvoir lire un repo en private (le secret s'appelle "TOKEN" uniquement sur github, c'est normal)
+          token: ${{secrets.GITHUB_TOKEN}}

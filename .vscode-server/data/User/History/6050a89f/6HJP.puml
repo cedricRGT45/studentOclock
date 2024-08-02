@@ -1,0 +1,32 @@
+@startuml ERD
+
+entity "Project" as e01 {
+  *project_id : number <<generated>>
+  --
+  *owner_id : number <<FK>>
+  *private: boolean
+  *archived:  boolean
+  *name: text
+  *full_name: text
+  *description : text
+  *language: text
+  *html_url: text
+  license: text
+  created_at: date
+  updated_at: date
+}
+
+entity "Owner" as e02 {
+  *owner_id : number <<generated>>
+  --
+  *login: text
+  *html_url: text
+  *type: text
+  avatar_url: text
+  created_at: date
+  updated_at: date
+}
+
+e01 }o----|| e02
+
+@enduml

@@ -1,0 +1,56 @@
+# si on omet de préciser la version, docker-compose se basera sur la dernière en date
+
+services:
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+    volumes:
+      - ./frontend:/app/frontend
+      - /app/frontend/node_modules
+    ports : 
+      - 5173:5173
+    depends_on: 
+      - swagger
+    command: npm run dev
+  
+  db:
+    image: postgis/postgis:13-master
+    volumes:
+      - ./backend/data/database:/var/lib/postgresql/data
+      - ./backend/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      POSTGRES_USER : Cragot
+      POSTGRES_PASSWORD : poudlard
+      POSTGRES_DB : directus
+  
+  cache:
+    image: redis:6
+  
+  directus:
+    image: directus/directus:10.10.5
+    ports:
+      - 8055:8055
+    volumes:
+      - ./directus/uploads:/directus/uploads
+    depends_on:
+      - cache
+      - db
+    environment:
+      KEY: "255d861b-5ea1-5996-9aa3-922530ec40b1"
+      SECRET: "6116487b-cda1-52c2-b5b5-c8022c45e263"
+
+      DB_CLIENT: "pg"
+      DB_HOST: "db"
+      DB_PORT: "5432"
+      DB_DATABASE: "directus"
+      DB_USER: "directus"
+      DB_PASSWORD: "directus"
+
+      CACHE_ENABLED: "true"
+      CACHE_STORE: "redis"
+      REDIS: "redis://cache:6379"
+
+      ADMIN_EMAIL: "admin@example.com"
+      ADMIN_PASSWORD: "d1r3ctu5"

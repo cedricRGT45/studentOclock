@@ -1,0 +1,27 @@
+'Log files:
+/home/student/.npm/_logs/2024-07-12T13_53_29_254Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: reate@1.2.0
+Found: react@19.0.0-rc-4c2e457c7c-20240522
+node_modules/react
+  react@"^19.0.0-rc-4c2e457c7c-20240522" from the root project
+  peer react@"19.0.0-rc-4c2e457c7c-20240522" from react-dom@19.0.0-rc-4c2e457c7c-20240522
+  node_modules/react-dom
+    react-dom@"^19.0.0-rc-4c2e457c7c-20240522" from the root project
+
+Could not resolve dependency:
+peer react@">16.8.0" from reate@1.2.0
+node_modules/reate
+  reate@"^1.2.0" from the root project
+
+Conflicting peer dependency: react@18.3.1
+node_modules/react
+  peer react@">16.8.0" from reate@1.2.0
+  node_modules/reate
+    reate@"^1.2.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

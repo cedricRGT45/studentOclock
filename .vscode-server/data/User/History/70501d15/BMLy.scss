@@ -1,0 +1,6 @@
+@use "../utils/variables" as *;
+
+header{
+    width: 100vw
+    background-color: $primary;
+}

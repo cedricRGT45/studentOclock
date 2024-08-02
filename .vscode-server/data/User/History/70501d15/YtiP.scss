@@ -1,0 +1,12 @@
+@use "../utils/variables" as *;
+@use "../utils/placeholders" as *;
+header{
+    width:100vw;
+    height:5rem;
+    @extend %flex-row-center;
+    background-color: $primary;
+    &__img{
+        width:2rem;
+    }
+    &__title
+}

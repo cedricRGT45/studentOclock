@@ -1,0 +1,24 @@
+@startuml
+top to bottom direction
+
+actor Utilisateur
+actor Visiteur
+
+  Connexion as UC1
+  Inscription as UC2
+
+rectangle "Dashboard" as UC9{
+  "Visualisation du dashboard" as UC3
+  "Visualisation des détails" as UC4
+  "Ajout de dépenses et revenus" as UC4
+  "Analyse annuelle des dépenses" as UC5
+  "Calcul des revenus fiscaux" as UC6
+  "Prédiction des dépenses" as UC7
+  "Calcul de capacité d'épargne" as UC8
+}
+
+visiteur -> UC1
+visiteur -> UC2
+Utilisateur -> UC9
+
+@enduml

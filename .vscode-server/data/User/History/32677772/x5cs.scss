@@ -1,0 +1,22 @@
+
+@use "../utils/variables" as *;
+
+.cards{
+    width:85%;
+    max-width:70rem;
+    margin:auto;
+    &__imgContainer{
+        border-radius:10rem;
+        border:black 1px solid;
+    }
+    &__card{
+        width:100%;
+        display:flex;
+        justify-items: center;
+        margin:1rem;
+    
+    &-bg{
+        background-color: $secondary-gray;
+    }
+    }
+}

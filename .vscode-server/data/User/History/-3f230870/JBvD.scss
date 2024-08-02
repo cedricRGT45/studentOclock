@@ -1,0 +1,13 @@
+@use "../utils/variables" as *;
+
+.buttons{
+    width:100%;
+    max-width:90rem;
+    display:flex;
+    flex-direction:
+}
+.btn{
+    background-color: $button;
+    border:none;
+    margin:1rem;
+}

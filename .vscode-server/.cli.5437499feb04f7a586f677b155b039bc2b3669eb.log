@@ -1,7 +1,11 @@
-Listening on 127.0.0.1:37533
-[2024-06-20 21:07:21] info Disposed of connection to running server.
-looking for token ac5b3889-f61e-45a7-a2a5-48bf0052327a, got Some("ac5b3889-f61e-45a7-a2a5-48bf0052327a")
-[2024-06-20 21:07:21] info Checking /home/student/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/log.txt and /home/student/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/pid.txt for a running server...
-[2024-06-20 21:07:22] info Downloading Visual Studio Code server -> /tmp/.tmp2XeYN6/vscode-server-linux-x64.tar.gz
-[2024-06-20 21:07:25] info Starting server...
-[2024-06-20 21:07:25] info Server started
+Listening on 127.0.0.1:43017
+[2024-07-08 12:50:41] info Disposed of connection to running server.
+looking for token 92479599-afd7-4adc-9823-c1c5df711223, got Some("92479599-afd7-4adc-9823-c1c5df711223")
+[2024-07-08 12:50:41] info Checking /home/student/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/log.txt and /home/student/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/pid.txt for a running server...
+[2024-07-08 12:50:41] info Found running server (pid=4052)
+[2024-07-08 12:51:50] info Disposed of connection to running server.
+[2024-07-08 12:51:52] info Disposed of connection to running server.
+looking for token 92479599-afd7-4adc-9823-c1c5df711223, got Some("92479599-afd7-4adc-9823-c1c5df711223")
+[2024-07-08 12:51:52] info Checking /home/student/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/log.txt and /home/student/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/pid.txt for a running server...
+[2024-07-08 12:51:52] info Found running server (pid=4052)
+[2024-07-08 12:55:47] info Disposed of connection to running server.

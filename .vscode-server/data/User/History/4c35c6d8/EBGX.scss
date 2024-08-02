@@ -1,0 +1,6 @@
+@use "../utils/variables" as *;
+
+h1{
+    font-size: $title-fontsize-mobile;
+    font-weight: 900;
+}

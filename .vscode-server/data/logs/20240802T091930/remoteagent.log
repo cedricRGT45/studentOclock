@@ -1,0 +1,47 @@
+2024-08-02 09:19:31.114 [info] 
+
+
+
+
+2024-08-02 09:19:31.133 [info] Extension host agent started.
+2024-08-02 09:19:31.263 [info] [<unknown>][89eea831][ExtensionHostConnection] New connection established.
+2024-08-02 09:19:31.264 [info] [<unknown>][8d4cee5a][ManagementConnection] New connection established.
+2024-08-02 09:19:31.397 [info] [<unknown>][89eea831][ExtensionHostConnection] <4885> Launched Extension Host Process.
+2024-08-02 09:19:42.634 [info] Getting Manifest... ms-ceintl.vscode-language-pack-fr
+2024-08-02 09:19:42.653 [info] Installing extension: ms-ceintl.vscode-language-pack-fr {"productVersion":{"version":"1.92.0","date":"2024-07-31T23:26:07.928Z"},"pinned":false,"isApplicationScoped":true,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/student/.vscode-server/extensions/extensions.json","external":"file:///home/student/.vscode-server/extensions/extensions.json","path":"/home/student/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-08-02 09:19:51.218 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-fr: Success. Executed: true. Duration: 8160ms.
+2024-08-02 09:19:51.522 [info] Extracted extension to file:///home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.92.2024073109: ms-ceintl.vscode-language-pack-fr
+2024-08-02 09:19:51.531 [info] Renamed to /home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.92.2024073109
+2024-08-02 09:19:51.545 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-fr-1.91.2024071009
+2024-08-02 09:19:51.555 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-fr
+2024-08-02 09:19:51.603 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-fr file:///home/student/.vscode-server/extensions/extensions.json
+2024-08-02 09:20:54.151 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.152 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.153 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.153 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.154 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.208 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.209 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.209 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.228 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.228 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.261 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.262 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.342 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.351 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.352 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.352 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.353 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.360 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.360 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.360 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:20:54.731 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@types)
+2024-08-02 09:20:54.772 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules)
+2024-08-02 09:24:31.133 [info] New EH opened, aborting shutdown
+2024-08-02 09:29:26.256 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:29:26.257 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:29:26.283 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:29:26.305 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:29:26.320 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:48:17.511 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-02 09:48:17.514 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

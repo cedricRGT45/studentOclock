@@ -1,0 +1,23 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-73c62a32-a950-4f77-a53b-4c77e810d97a
+Extension host agent listening on /tmp/code-73c62a32-a950-4f77-a53b-4c77e810d97a
+
+[09:55:05] 
+
+
+
+
+[09:55:05] Extension host agent started.
+[09:55:05] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-fr /home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.91.2024070309
+[09:55:05] [<unknown>][521c43ec][ManagementConnection] New connection established.
+[09:55:05] [<unknown>][a17205a0][ExtensionHostConnection] New connection established.
+[09:55:05] [<unknown>][a17205a0][ExtensionHostConnection] <4637> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[10:00:05] New EH opened, aborting shutdown
+[10:03:33] [<unknown>][521c43ec][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

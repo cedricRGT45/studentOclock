@@ -1,0 +1,5 @@
+@use "../utils/variables" as *;
+
+.btn{
+    background-color: $button;
+}

@@ -1,0 +1,11 @@
+@use "../utils/variables" as *;
+
+header{
+    width:100vw;
+    height:5rem;
+    @extend %flex-row-center;
+    background-color: $primary;
+    &__img{
+        width:5rem;
+    }
+}

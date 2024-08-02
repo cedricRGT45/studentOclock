@@ -1,0 +1,28 @@
+@startuml
+start
+:Utilisateur authentifié se connecte;
+
+if (Est un élève?) then (oui)
+  :Consulter emploi du temps;
+  :Consulter emploi du temps des camarades;
+  :Consulter emploi du temps des professeurs;
+else (non)
+  if (Est un responsable?) then (oui)
+    :Gérer matières;
+    :Gérer classes;
+    :Gérer sorciers;
+    :Gérer rôles;
+    :Assigner matières aux salles;
+    :Assigner sorciers à un niveau;
+    :Assigner sorciers à une maison;
+    :Assigner emploi du temps à une classe;
+  else (non)
+    :Consulter liste des matières;
+    :Consulter liste du staff;
+  endif
+endif
+
+:Accéder aux informations protégées;
+
+stop
+@enduml

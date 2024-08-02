@@ -1,6 +1,0 @@
-2024-06-17 10:11:12.438 [info] Extension host with pid 10674 started
-2024-06-17 10:11:12.477 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/01126ee7f93d399507d1001be96d9cac/vscode.lock': Lock acquired.
-2024-06-17 10:12:23.543 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onUri:ms-vsliveshare.vsliveshare'
-2024-06-17 13:15:33.792 [info] Extension host terminating: renderer disconnected for too long (1)
-2024-06-17 13:15:33.793 [info] Lock '/home/student/.vscode-server/data/User/workspaceStorage/01126ee7f93d399507d1001be96d9cac/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2024-06-17 13:15:33.795 [info] Extension host with pid 10674 exiting with code 0

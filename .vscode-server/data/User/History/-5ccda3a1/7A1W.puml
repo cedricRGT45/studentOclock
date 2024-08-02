@@ -1,0 +1,16 @@
+@startuml
+start
+:Utilisateur authentifié?;
+if (non) then (oui)
+  :Afficher page d'accueil;
+else (non)
+  :Afficher emploi du temps;
+  while (Consulter emploi du temps?) is (oui)
+    :Afficher emploi du temps;
+  endwhile (non)
+  :Consulter listes publiques;
+  if (Élève?) then (oui)
+    :Consulter emploi du temps camarades;
+    :Consulter emploi du temps professeurs;
+  else (non)
+    staff let what even even have who are had Can things ihm even

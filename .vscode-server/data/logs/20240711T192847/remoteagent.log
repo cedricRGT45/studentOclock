@@ -1,0 +1,54 @@
+2024-07-11 19:28:47.177 [info] 
+
+
+
+
+2024-07-11 19:28:47.192 [info] Extension host agent started.
+2024-07-11 19:28:47.500 [info] [<unknown>][19ae73e5][ManagementConnection] New connection established.
+2024-07-11 19:28:47.503 [info] [<unknown>][3796c008][ExtensionHostConnection] New connection established.
+2024-07-11 19:28:47.601 [info] [<unknown>][3796c008][ExtensionHostConnection] <6114> Launched Extension Host Process.
+2024-07-11 19:29:07.614 [info] [<unknown>][8796f860][ManagementConnection] New connection established.
+2024-07-11 19:29:07.617 [info] [<unknown>][df900a4f][ExtensionHostConnection] New connection established.
+2024-07-11 19:29:07.622 [info] [<unknown>][df900a4f][ExtensionHostConnection] <6269> Launched Extension Host Process.
+2024-07-11 19:29:29.058 [info] [<unknown>][19ae73e5][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-11 19:30:34.339 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.341 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.342 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.342 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.344 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.344 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.346 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.349 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.350 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.350 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.351 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.352 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.352 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.353 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.354 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.354 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.355 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.355 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:30:34.399 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/P01-Parcours_dev-Mederick-ROBERT/projet/frontend/src)
+2024-07-11 19:30:34.400 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/P01-Parcours_dev-Mederick-ROBERT/projet/frontend/node_modules)
+2024-07-11 19:30:34.400 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/P01-Parcours_dev-Mederick-ROBERT/projet/frontend/types)
+2024-07-11 19:33:47.194 [info] New EH opened, aborting shutdown
+2024-07-11 19:33:47.195 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-11 19:34:07.856 [info] [<unknown>][3796c008][ExtensionHostConnection] <6114> Extension Host Process exited with code: 0, signal: null.
+2024-07-11 19:34:49.997 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/P01-Parcours_dev-Mederick-ROBERT/projet/frontend/node_modules)
+2024-07-11 19:36:56.600 [info] [<unknown>][19ae73e5][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-11 19:38:03.088 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-11 19:38:03.095 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-11 19:38:03.370 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-11 19:40:27.483 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-11 19:40:27.622 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-11 19:40:53.641 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 19:41:56.679 [info] [<unknown>][19ae73e5][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-11 19:46:41.167 [info] [<unknown>][8796f860][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

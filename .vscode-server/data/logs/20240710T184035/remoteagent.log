@@ -1,0 +1,64 @@
+2024-07-10 18:40:35.286 [info] 
+
+
+
+
+2024-07-10 18:40:35.303 [info] Extension host agent started.
+2024-07-10 18:40:35.422 [info] [<unknown>][1353efaa][ExtensionHostConnection] New connection established.
+2024-07-10 18:40:35.424 [info] [<unknown>][1b0c09d9][ManagementConnection] New connection established.
+2024-07-10 18:40:35.530 [info] [<unknown>][1353efaa][ExtensionHostConnection] <14597> Launched Extension Host Process.
+2024-07-10 18:40:41.356 [info] Getting Manifest... ms-ceintl.vscode-language-pack-fr
+2024-07-10 18:40:41.404 [info] Installing extension: ms-ceintl.vscode-language-pack-fr {"productVersion":{"version":"1.91.0","date":"2024-07-01T18:52:22.949Z"},"pinned":false,"isApplicationScoped":true,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/student/.vscode-server/extensions/extensions.json","external":"file:///home/student/.vscode-server/extensions/extensions.json","path":"/home/student/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-07-10 18:40:43.950 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-fr: Success. Executed: true. Duration: 2179ms.
+2024-07-10 18:40:44.156 [info] Extracted extension to file:///home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.91.2024071009: ms-ceintl.vscode-language-pack-fr
+2024-07-10 18:40:44.164 [info] Renamed to /home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.91.2024071009
+2024-07-10 18:40:44.178 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-fr-1.91.2024070309
+2024-07-10 18:40:44.182 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-fr
+2024-07-10 18:40:44.223 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-fr file:///home/student/.vscode-server/extensions/extensions.json
+2024-07-10 18:41:10.854 [info] [<unknown>][1a1f70b2][ManagementConnection] New connection established.
+2024-07-10 18:41:10.862 [info] [<unknown>][71ff7ebe][ExtensionHostConnection] New connection established.
+2024-07-10 18:41:10.869 [info] [<unknown>][71ff7ebe][ExtensionHostConnection] <14765> Launched Extension Host Process.
+2024-07-10 18:41:19.092 [info] [<unknown>][1b0c09d9][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-10 18:45:35.305 [info] New EH opened, aborting shutdown
+2024-07-10 18:45:35.306 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-10 18:46:11.133 [info] [<unknown>][1353efaa][ExtensionHostConnection] <14597> Extension Host Process exited with code: 0, signal: null.
+2024-07-10 19:14:27.390 [info] [<unknown>][1a1f70b2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-10 19:28:29.116 [info] [<unknown>][1b0c09d9][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-10 19:28:29.117 [info] [<unknown>][1a1f70b2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-10 19:28:29.118 [info] [<unknown>][4e0bc01b][ExtensionHostConnection] New connection established.
+2024-07-10 19:28:29.127 [info] [<unknown>][4e0bc01b][ExtensionHostConnection] <25581> Launched Extension Host Process.
+2024-07-10 19:28:29.139 [info] [<unknown>][cc6eba00][ManagementConnection] New connection established.
+2024-07-10 19:28:37.384 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateIcon (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26067)
+    at D.<computed> (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-07-10 19:28:37.387 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateTitle (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26017)
+    at D.<computed> (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-07-10 19:29:45.406 [info] [<unknown>][cc6eba00][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-10 19:33:29.374 [info] [<unknown>][1b0c09d9][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-10 19:33:29.375 [info] [<unknown>][1a1f70b2][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-10 19:33:29.401 [info] [<unknown>][71ff7ebe][ExtensionHostConnection] <14765> Extension Host Process exited with code: 0, signal: null.

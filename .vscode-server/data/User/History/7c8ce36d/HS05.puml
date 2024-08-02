@@ -1,0 +1,35 @@
+@startuml
+left to right direction
+
+actor Utilisateur
+actor Visiteur
+
+ 
+
+rectangle "Dashboard" {
+  (Visualisation du dashboard)
+  (Visualisation des détails)
+  (Ajout de dépenses et revenus)
+  (Analyse annuelle des dépenses)
+  (Calcul des revenus fiscaux)
+  (Prédiction des dépenses)
+  (Calcul de capacité d'épargne)
+}
+
+Utilisateur -> (Connexion)
+Utilisateur -> (Inscription)
+Utilisateur -> (Visualisation du dashboard)
+Utilisateur -> (Visualisation des détails)
+Utilisateur -> (Ajout de dépenses et revenus)
+Utilisateur -> (Récupération des dépenses et revenus)
+Utilisateur -> (Analyse annuelle des dépenses)
+Utilisateur -> (Calcul des revenus fiscaux)
+Utilisateur -> (Prédiction des dépenses)
+Utilisateur -> (Calcul de capacité d'épargne)
+Utilisateur -> (Catégorisation automatique des mouvements bancaires)
+
+SystemeBancaire --> (Synchronisation avec les banques pour récupérer les mouvements bancaires)
+ApiCategorisation --> (Catégorisation automatique des mouvements bancaires)
+
+(Synchronisation avec les banques pour récupérer les mouvements bancaires) .> (Récupération des dépenses et revenus) : include
+@enduml

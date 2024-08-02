@@ -1,0 +1,12 @@
+2024-07-29 18:55:52.349 [info] 
+
+
+
+
+2024-07-29 18:55:52.367 [info] Extension host agent started.
+2024-07-29 18:55:52.513 [info] Deleted uninstalled extension from disk ms-vsliveshare.vsliveshare /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5932
+2024-07-29 18:55:52.581 [info] [<unknown>][f7cd6d7e][ExtensionHostConnection] New connection established.
+2024-07-29 18:55:52.607 [info] [<unknown>][8818370a][ManagementConnection] New connection established.
+2024-07-29 18:55:52.705 [info] [<unknown>][f7cd6d7e][ExtensionHostConnection] <100915> Launched Extension Host Process.
+2024-07-29 19:00:52.368 [info] New EH opened, aborting shutdown
+2024-07-29 19:03:22.546 [info] [<unknown>][8818370a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

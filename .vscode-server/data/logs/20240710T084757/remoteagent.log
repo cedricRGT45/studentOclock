@@ -1,0 +1,41 @@
+2024-07-10 08:47:57.830 [info] 
+
+
+
+
+2024-07-10 08:47:57.859 [info] Extension host agent started.
+2024-07-10 08:47:58.026 [info] [<unknown>][d105f1a7][ExtensionHostConnection] New connection established.
+2024-07-10 08:47:58.035 [info] [<unknown>][e2ae0f8a][ManagementConnection] New connection established.
+2024-07-10 08:47:58.432 [info] [<unknown>][d105f1a7][ExtensionHostConnection] <1725> Launched Extension Host Process.
+2024-07-10 08:48:09.384 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/student/.vscode-server/data/logs/20240617T101605/exthost5' failed: No such file or directory (EUNKNOWN) (path: /home/student)
+2024-07-10 08:48:09.385 [error] [File Watcher (universal)] inotify_add_watch on '/home/student/.vscode-server/data/logs/20240617T101605/exthost5' failed: No such file or directory
+2024-07-10 08:50:40.661 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-10 08:50:40.675 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-10 08:50:40.854 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-10 08:50:46.675 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-10 08:52:57.860 [info] New EH opened, aborting shutdown
+2024-07-10 10:32:02.484 [info] [<unknown>][e2ae0f8a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-10 10:37:16.806 [info] [<unknown>][e2ae0f8a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-10 10:37:16.809 [info] [<unknown>][b994638c][ExtensionHostConnection] New connection established.
+2024-07-10 10:37:16.815 [info] [<unknown>][b994638c][ExtensionHostConnection] <12836> Launched Extension Host Process.
+2024-07-10 10:37:16.816 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-10 10:37:16.818 [info] [<unknown>][8afbbbd0][ManagementConnection] New connection established.
+2024-07-10 10:37:47.499 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-10 10:37:47.510 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-10 10:37:47.631 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-07-10 10:39:02.772 [info] [<unknown>][8afbbbd0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-10 10:42:17.024 [info] [<unknown>][e2ae0f8a][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-10 10:42:17.029 [info] [<unknown>][d105f1a7][ExtensionHostConnection] <1725> Extension Host Process exited with code: 0, signal: null.
+2024-07-10 13:38:42.653 [info] [<unknown>][b994638c][ExtensionHostConnection] <12836> Extension Host Process exited with code: 0, signal: null.
+2024-07-10 13:38:42.653 [info] Last EH closed, waiting before shutting down
+2024-07-10 13:39:09.635 [info] [<unknown>][8afbbbd0][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-07-10 13:43:42.655 [info] Last EH closed, shutting down

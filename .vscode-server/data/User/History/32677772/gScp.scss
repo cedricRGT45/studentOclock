@@ -1,0 +1,10 @@
+.cards{
+    width:85%;
+    max-width:70rem;
+    margin:1rem auto;
+    &__card{
+        width:100%;
+        display:flex;
+    }
+
+}

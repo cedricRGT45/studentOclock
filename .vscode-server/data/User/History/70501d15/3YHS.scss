@@ -1,0 +1,10 @@
+@use "../utils/variables" as *;
+
+header{
+    width:100vw;
+    height:5rem;
+    background-color: $primary;
+    &__img{
+        transform:scale(.5);
+    }
+}

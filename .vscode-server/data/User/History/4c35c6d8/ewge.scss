@@ -1,0 +1,5 @@
+@use "../utils/variables";
+
+h1{
+    font-size:$title-fontsize-mobile;
+}

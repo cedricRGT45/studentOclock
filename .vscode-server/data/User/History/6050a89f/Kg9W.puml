@@ -1,0 +1,52 @@
+@startuml
+entity Sorcier {
+    +id : int
+    +nom : String
+    +prénom : String
+    +rôle : String
+    +maison : String
+    +niveau : int
+}
+
+entity Matière {
+    +id : int
+    +nom : String
+    +salle : String
+}
+
+entity Classe {
+    +id : int
+    +niveau : int
+}
+
+entity EmploiDuTemps {
+    +id : int
+}
+
+entity Utilisateur {
+    +id : int
+    +identifiant : String
+    +motDePasse : String
+}
+
+entity Responsable {
+    +id : int
+}
+
+entity Élève {
+    +id : int
+}
+
+Sorcier ||--o{ Élève : est
+Sorcier ||--o{ Responsable : est
+Sorcier }|--|| Maison : appartient à
+Sorcier }o--o| Niveau : a un
+Sorcier }o--|| Rôle : a un
+Classe ||--|{ Élève : contient
+Classe ||--o{ EmploiDuTemps : a
+Matière ||--|| Salle : a une
+Classe ||--o{ Matière : inclut
+Responsable }|--|| Utilisateur : est
+Utilisateur ||--|| Authentification : a
+
+@enduml

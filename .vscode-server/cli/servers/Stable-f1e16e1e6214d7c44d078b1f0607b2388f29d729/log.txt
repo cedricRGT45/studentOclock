@@ -1,0 +1,73 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-ad77d412-1dac-4dee-9965-b06dec43aa07
+Extension host agent listening on /tmp/code-ad77d412-1dac-4dee-9965-b06dec43aa07
+
+[09:19:31] 
+
+
+
+
+[09:19:31] Extension host agent started.
+[09:19:31] [<unknown>][89eea831][ExtensionHostConnection] New connection established.
+[09:19:31] [<unknown>][8d4cee5a][ManagementConnection] New connection established.
+[09:19:31] [<unknown>][89eea831][ExtensionHostConnection] <4885> Launched Extension Host Process.
+[09:19:42] Getting Manifest... ms-ceintl.vscode-language-pack-fr
+[09:19:42] Installing extension: ms-ceintl.vscode-language-pack-fr {
+  productVersion: { version: '1.92.0', date: '2024-07-31T23:26:07.928Z' },
+  pinned: false,
+  isApplicationScoped: true,
+  context: { clientTargetPlatform: 'win32-x64' },
+  installOnlyNewlyAddedFromExtensionPack: true,
+  profileLocation: b {
+    scheme: 'file',
+    authority: '',
+    path: '/home/student/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/student/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/student/.vscode-server/extensions/extensions.json'
+  }
+}
+[09:19:51] Extension signature verification result for ms-ceintl.vscode-language-pack-fr: Success. Executed: true. Duration: 8160ms.
+[09:19:51] Extracted extension to file:///home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.92.2024073109: ms-ceintl.vscode-language-pack-fr
+[09:19:51] Renamed to /home/student/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.92.2024073109
+[09:19:51] Marked extension as uninstalled ms-ceintl.vscode-language-pack-fr-1.91.2024071009
+[09:19:51] Adding language packs from the extension ms-ceintl.vscode-language-pack-fr
+[09:19:51] Extension installed successfully: ms-ceintl.vscode-language-pack-fr file:///home/student/.vscode-server/extensions/extensions.json
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:20:54] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@types)
+[09:20:54] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules)
+New EH opened, aborting shutdown
+[09:24:31] New EH opened, aborting shutdown
+[09:29:26] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:29:26] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:29:26] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:29:26] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:29:26] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:48:17] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:48:17] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

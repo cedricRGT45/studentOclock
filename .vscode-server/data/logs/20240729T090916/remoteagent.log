@@ -1,0 +1,73 @@
+2024-07-29 09:09:16.364 [info] 
+
+
+
+
+2024-07-29 09:09:16.392 [info] Extension host agent started.
+2024-07-29 09:09:16.566 [info] [<unknown>][f1e830dd][ManagementConnection] New connection established.
+2024-07-29 09:09:16.580 [info] [<unknown>][2f12c5ec][ExtensionHostConnection] New connection established.
+2024-07-29 09:09:16.765 [info] [<unknown>][2f12c5ec][ExtensionHostConnection] <3308> Launched Extension Host Process.
+2024-07-29 09:09:22.370 [info] Getting Manifest... ms-vsliveshare.vsliveshare
+2024-07-29 09:09:22.402 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateIcon (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26067)
+    at D.<computed> (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-07-29 09:09:22.420 [info] Installing extension: ms-vsliveshare.vsliveshare {"productVersion":{"version":"1.91.1","date":"2024-07-09T22:06:49.809Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/student/.vscode-server/extensions/extensions.json","external":"file:///home/student/.vscode-server/extensions/extensions.json","path":"/home/student/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-07-29 09:09:26.135 [info] Extension signature verification result for ms-vsliveshare.vsliveshare: Success. Executed: true. Duration: 3118ms.
+2024-07-29 09:09:27.396 [info] Extracted extension to file:///home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5936: ms-vsliveshare.vsliveshare
+2024-07-29 09:09:27.411 [info] Renamed to /home/student/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5936
+2024-07-29 09:09:27.445 [info] Marked extension as uninstalled ms-vsliveshare.vsliveshare-1.0.5932
+2024-07-29 09:09:27.459 [info] Extension installed successfully: ms-vsliveshare.vsliveshare file:///home/student/.vscode-server/extensions/extensions.json
+2024-07-29 09:09:49.145 [info] [<unknown>][d846bfa8][ManagementConnection] New connection established.
+2024-07-29 09:09:49.164 [info] [<unknown>][aa03c83e][ExtensionHostConnection] New connection established.
+2024-07-29 09:09:49.170 [info] [<unknown>][aa03c83e][ExtensionHostConnection] <4587> Launched Extension Host Process.
+2024-07-29 09:10:08.447 [info] [<unknown>][f1e830dd][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-29 09:14:16.394 [info] New EH opened, aborting shutdown
+2024-07-29 09:14:16.395 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/student/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-29 09:14:49.272 [info] [<unknown>][2f12c5ec][ExtensionHostConnection] <3308> Extension Host Process exited with code: 0, signal: null.
+2024-07-29 11:32:39.396 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-29 11:32:39.399 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-29 11:32:39.401 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-29 11:32:39.408 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-29 11:32:39.409 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-29 11:32:39.410 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-29 11:32:39.410 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-29 11:32:39.411 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-29 12:07:19.779 [info] [<unknown>][d846bfa8][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-29 12:10:13.875 [info] [<unknown>][f1e830dd][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-07-29 13:34:09.565 [info] [<unknown>][d846bfa8][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-29 13:34:09.567 [info] [<unknown>][68e6c14f][ManagementConnection] New connection established.
+2024-07-29 13:34:09.568 [info] [<unknown>][c61d3de5][ExtensionHostConnection] New connection established.
+2024-07-29 13:34:09.576 [info] [<unknown>][c61d3de5][ExtensionHostConnection] <63789> Launched Extension Host Process.
+2024-07-29 13:35:15.609 [info] [<unknown>][c9cba581][ManagementConnection] New connection established.
+2024-07-29 13:35:15.611 [info] [<unknown>][b19a68ad][ExtensionHostConnection] New connection established.
+2024-07-29 13:35:15.619 [info] [<unknown>][b19a68ad][ExtensionHostConnection] <64076> Launched Extension Host Process.
+2024-07-29 13:35:27.723 [info] [<unknown>][68e6c14f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-29 13:35:52.568 [info] [<unknown>][68e6c14f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-29 13:35:52.570 [info] [<unknown>][1be426ab][ExtensionHostConnection] New connection established.
+2024-07-29 13:35:52.576 [info] [<unknown>][1be426ab][ExtensionHostConnection] <64278> Launched Extension Host Process.
+2024-07-29 13:35:52.601 [info] [<unknown>][8693c62f][ManagementConnection] New connection established.
+2024-07-29 13:36:06.318 [info] [<unknown>][c9cba581][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-29 13:39:09.740 [info] [<unknown>][d846bfa8][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-29 13:39:10.050 [info] [<unknown>][aa03c83e][ExtensionHostConnection] <4587> Extension Host Process exited with code: 0, signal: null.
+2024-07-29 13:40:15.799 [info] [<unknown>][c61d3de5][ExtensionHostConnection] <63789> Extension Host Process exited with code: 0, signal: null.
+2024-07-29 13:40:52.772 [info] [<unknown>][b19a68ad][ExtensionHostConnection] <64076> Extension Host Process exited with code: 0, signal: null.
+2024-07-29 13:40:52.777 [info] [<unknown>][68e6c14f][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-29 14:07:37.962 [info] [<unknown>][8693c62f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-29 16:36:08.954 [info] [<unknown>][c9cba581][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-07-29 17:07:10.063 [info] [<unknown>][1be426ab][ExtensionHostConnection] <64278> Extension Host Process exited with code: 0, signal: null.
+2024-07-29 17:07:10.063 [info] Last EH closed, waiting before shutting down
+2024-07-29 17:07:40.377 [info] [<unknown>][8693c62f][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-07-29 17:12:10.064 [info] Last EH closed, shutting down

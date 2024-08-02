@@ -1,0 +1,24 @@
+@startuml
+actor Utilisateur as User
+participant "Interface Utilisateur" as UI
+participant "Système d'Authentification" as AuthSystem
+participant "Base de Données Utilisateurs" as UserDB
+
+User -> UI: Entrez identifiant et mot de passe
+UI -> AuthSystem: Authentification avec identifiant et mot de passe
+AuthSystem -> UserDB: Vérifie les identifiants
+UserDB --> AuthSystem: Renvoie résultats authentification
+AuthSystem --> UI: Génère token d'authentification
+
+UI -> User: Affiche succès d'authentification
+UI -> User: Stocke le token
+
+User -> UI: Requête pour accéder aux informations protégées
+UI -> AuthSystem: Envoie le token d'authentification
+AuthSystem -> AuthSystem: Valide le token
+AuthSystem --> UI: Autorisation accordée
+UI -> UserDB: Récupère les informations protégées
+UserDB --> UI: Renvoie les informations protégées
+
+UI -> User: Affiche les informations protégées
+@enduml

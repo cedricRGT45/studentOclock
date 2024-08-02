@@ -1,0 +1,7 @@
+@use "../utils/variables" as *;
+
+.btn{
+    background-color: $button;
+    border:none;
+    margin:1rem;
+}

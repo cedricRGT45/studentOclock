@@ -1,0 +1,537 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.11.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/.npmrc
+5 silly config load:file:/home/student/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install vitest
+8 verbose argv "install" "--save-dev" "vitest"
+9 verbose logfile logs-max:10 dir:/home/student/.npm/_logs/2024-07-30T14_15_17_266Z-
+10 verbose logfile /home/student/.npm/_logs/2024-07-30T14_15_17_266Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 warn idealTree Removing dependencies.vitest in favor of devDependencies.vitest
+15 silly idealTree buildDeps
+16 silly fetch manifest vitest@*
+17 silly packumentCache full:https://registry.npmjs.org/vitest cache-miss
+18 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+19 http fetch GET 200 https://registry.npmjs.org/vitest 304ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/vitest set size:1593898 disposed:false
+21 silly fetch manifest @edge-runtime/vm@*
+22 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/@edge-runtime%2fvm 69ms (cache revalidated)
+24 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm set size:261821 disposed:false
+25 silly fetch manifest @types/node@^18.0.0 || >=20.0.0
+26 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 78ms (cache revalidated)
+28 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:8883242 disposed:false
+29 silly fetch manifest @vitest/browser@2.0.4
+30 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser 63ms (cache revalidated)
+32 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser set size:364356 disposed:false
+33 silly fetch manifest playwright@*
+34 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/playwright 69ms (cache revalidated)
+36 silly packumentCache full:https://registry.npmjs.org/playwright set size:12870920 disposed:false
+37 silly fetch manifest webdriverio@*
+38 silly packumentCache full:https://registry.npmjs.org/webdriverio cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/webdriverio 45ms (cache revalidated)
+40 silly packumentCache full:https://registry.npmjs.org/webdriverio set size:2782065 disposed:false
+41 silly fetch manifest devtools@^8.14.0
+42 silly packumentCache full:https://registry.npmjs.org/devtools cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/devtools 47ms (cache revalidated)
+44 silly packumentCache full:https://registry.npmjs.org/devtools set size:1564650 disposed:false
+45 silly fetch manifest @vitest/ui@2.0.4
+46 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/@vitest%2fui 68ms (cache revalidated)
+48 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui set size:873899 disposed:false
+49 silly fetch manifest happy-dom@*
+50 silly packumentCache full:https://registry.npmjs.org/happy-dom cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/happy-dom 38ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmjs.org/happy-dom set size:1930571 disposed:false
+53 silly fetch manifest jsdom@*
+54 silly packumentCache full:https://registry.npmjs.org/jsdom cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/jsdom 41ms (cache revalidated)
+56 silly packumentCache full:https://registry.npmjs.org/jsdom set size:976108 disposed:false
+57 silly fetch manifest canvas@^2.11.2
+58 silly packumentCache full:https://registry.npmjs.org/canvas cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/canvas 39ms (cache revalidated)
+60 silly packumentCache full:https://registry.npmjs.org/canvas set size:637051 disposed:false
+61 silly placeDep ROOT vitest@2.0.4 REPLACE for: autobudget@0.0.0 want: *
+62 silly reify moves {}
+63 silly audit bulk request {
+63 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+63 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+63 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+63 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+63 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+63 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+63 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+63 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+63 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+63 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+63 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+63 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+63 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+63 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+63 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+63 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+63 silly audit   '@eslint-community/eslint-utils': [ '4.4.0' ],
+63 silly audit   '@eslint-community/regexpp': [ '4.11.0' ],
+63 silly audit   '@eslint/eslintrc': [ '2.1.4' ],
+63 silly audit   'brace-expansion': [ '1.1.11', '2.0.1' ],
+63 silly audit   minimatch: [ '3.1.2', '9.0.5' ],
+63 silly audit   '@eslint/js': [ '8.57.0' ],
+63 silly audit   '@humanwhocodes/config-array': [ '0.11.14' ],
+63 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+63 silly audit   '@humanwhocodes/object-schema': [ '2.0.3' ],
+63 silly audit   '@jridgewell/gen-mapping': [ '0.3.5' ],
+63 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+63 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+63 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+63 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+63 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+63 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+63 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+63 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-android-arm64': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-darwin-arm64': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-darwin-x64': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.19.1' ],
+63 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.19.1' ],
+63 silly audit   '@swc/core': [ '1.7.3' ],
+63 silly audit   '@swc/core-darwin-arm64': [ '1.7.3' ],
+63 silly audit   '@swc/core-darwin-x64': [ '1.7.3' ],
+63 silly audit   '@swc/core-linux-arm-gnueabihf': [ '1.7.3' ],
+63 silly audit   '@swc/core-linux-arm64-gnu': [ '1.7.3' ],
+63 silly audit   '@swc/core-linux-arm64-musl': [ '1.7.3' ],
+63 silly audit   '@swc/core-linux-x64-gnu': [ '1.7.3' ],
+63 silly audit   '@swc/core-linux-x64-musl': [ '1.7.3' ],
+63 silly audit   '@swc/core-win32-arm64-msvc': [ '1.7.3' ],
+63 silly audit   '@swc/core-win32-ia32-msvc': [ '1.7.3' ],
+63 silly audit   '@swc/core-win32-x64-msvc': [ '1.7.3' ],
+63 silly audit   '@swc/counter': [ '0.1.3' ],
+63 silly audit   '@swc/types': [ '0.1.12' ],
+63 silly audit   '@types/estree': [ '1.0.5' ],
+63 silly audit   '@types/prop-types': [ '15.7.12' ],
+63 silly audit   '@types/react': [ '18.3.3' ],
+63 silly audit   '@types/react-dom': [ '18.3.0' ],
+63 silly audit   '@typescript-eslint/eslint-plugin': [ '7.17.0' ],
+63 silly audit   '@typescript-eslint/parser': [ '7.17.0' ],
+63 silly audit   '@typescript-eslint/scope-manager': [ '7.17.0' ],
+63 silly audit   '@typescript-eslint/type-utils': [ '7.17.0' ],
+63 silly audit   '@typescript-eslint/types': [ '7.17.0' ],
+63 silly audit   '@typescript-eslint/typescript-estree': [ '7.17.0' ],
+63 silly audit   '@typescript-eslint/utils': [ '7.17.0' ],
+63 silly audit   '@typescript-eslint/visitor-keys': [ '7.17.0' ],
+63 silly audit   '@ungap/structured-clone': [ '1.2.0' ],
+63 silly audit   '@vitejs/plugin-react-swc': [ '3.7.0' ],
+63 silly audit   '@vitest/expect': [ '2.0.4' ],
+63 silly audit   '@vitest/pretty-format': [ '2.0.4' ],
+63 silly audit   '@vitest/runner': [ '2.0.4' ],
+63 silly audit   '@vitest/snapshot': [ '2.0.4' ],
+63 silly audit   '@vitest/spy': [ '2.0.4' ],
+63 silly audit   '@vitest/utils': [ '2.0.4' ],
+63 silly audit   acorn: [ '8.12.1' ],
+63 silly audit   'acorn-jsx': [ '5.3.2' ],
+63 silly audit   ajv: [ '6.12.6' ],
+63 silly audit   'ansi-regex': [ '5.0.1' ],
+63 silly audit   'ansi-styles': [ '4.3.0' ],
+63 silly audit   argparse: [ '2.0.1' ],
+63 silly audit   'array-union': [ '2.1.0' ],
+63 silly audit   'assertion-error': [ '2.0.1' ],
+63 silly audit   'balanced-match': [ '1.0.2' ],
+63 silly audit   braces: [ '3.0.3' ],
+63 silly audit   cac: [ '6.7.14' ],
+63 silly audit   callsites: [ '3.1.0' ],
+63 silly audit   chai: [ '5.1.1' ],
+63 silly audit   chalk: [ '4.1.2' ],
+63 silly audit   'check-error': [ '2.1.1' ],
+63 silly audit   'color-convert': [ '2.0.1' ],
+63 silly audit   'color-name': [ '1.1.4' ],
+63 silly audit   'concat-map': [ '0.0.1' ],
+63 silly audit   'cross-spawn': [ '7.0.3' ],
+63 silly audit   csstype: [ '3.1.3' ],
+63 silly audit   debug: [ '4.3.6' ],
+63 silly audit   'deep-eql': [ '5.0.2' ],
+63 silly audit   'deep-is': [ '0.1.4' ],
+63 silly audit   'dir-glob': [ '3.0.1' ],
+63 silly audit   doctrine: [ '3.0.0' ],
+63 silly audit   esbuild: [ '0.21.5' ],
+63 silly audit   'escape-string-regexp': [ '4.0.0' ],
+63 silly audit   eslint: [ '8.57.0' ],
+63 silly audit   'eslint-plugin-react-hooks': [ '4.6.2' ],
+63 silly audit   'eslint-plugin-react-refresh': [ '0.4.9' ],
+63 silly audit   'eslint-scope': [ '7.2.2' ],
+63 silly audit   'eslint-visitor-keys': [ '3.4.3' ],
+63 silly audit   espree: [ '9.6.1' ],
+63 silly audit   esquery: [ '1.6.0' ],
+63 silly audit   esrecurse: [ '4.3.0' ],
+63 silly audit   estraverse: [ '5.3.0' ],
+63 silly audit   'estree-walker': [ '3.0.3' ],
+63 silly audit   esutils: [ '2.0.3' ],
+63 silly audit   execa: [ '8.0.1' ],
+63 silly audit   'fast-deep-equal': [ '3.1.3' ],
+63 silly audit   'fast-glob': [ '3.3.2' ],
+63 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+63 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+63 silly audit   'fast-levenshtein': [ '2.0.6' ],
+63 silly audit   fastq: [ '1.17.1' ],
+63 silly audit   'file-entry-cache': [ '6.0.1' ],
+63 silly audit   'fill-range': [ '7.1.1' ],
+63 silly audit   'find-up': [ '5.0.0' ],
+63 silly audit   'flat-cache': [ '3.2.0' ],
+63 silly audit   flatted: [ '3.3.1' ],
+63 silly audit   'fs.realpath': [ '1.0.0' ],
+63 silly audit   fsevents: [ '2.3.3' ],
+63 silly audit   'get-func-name': [ '2.0.2' ],
+63 silly audit   'get-stream': [ '8.0.1' ],
+63 silly audit   glob: [ '7.2.3' ],
+63 silly audit   globals: [ '13.24.0' ],
+63 silly audit   globby: [ '11.1.0' ],
+63 silly audit   graphemer: [ '1.4.0' ],
+63 silly audit   'has-flag': [ '4.0.0' ],
+63 silly audit   'human-signals': [ '5.0.0' ],
+63 silly audit   ignore: [ '5.3.1' ],
+63 silly audit   'import-fresh': [ '3.3.0' ],
+63 silly audit   imurmurhash: [ '0.1.4' ],
+63 silly audit   inflight: [ '1.0.6' ],
+63 silly audit   inherits: [ '2.0.4' ],
+63 silly audit   'is-extglob': [ '2.1.1' ],
+63 silly audit   'is-glob': [ '4.0.3' ],
+63 silly audit   'is-number': [ '7.0.0' ],
+63 silly audit   'is-path-inside': [ '3.0.3' ],
+63 silly audit   'is-stream': [ '3.0.0' ],
+63 silly audit   isexe: [ '2.0.0' ],
+63 silly audit   'js-tokens': [ '4.0.0' ],
+63 silly audit   'js-yaml': [ '4.1.0' ],
+63 silly audit   'json-buffer': [ '3.0.1' ],
+63 silly audit   'json-schema-traverse': [ '0.4.1' ],
+63 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+63 silly audit   keyv: [ '4.5.4' ],
+63 silly audit   levn: [ '0.4.1' ],
+63 silly audit   'locate-path': [ '6.0.0' ],
+63 silly audit   'lodash.merge': [ '4.6.2' ],
+63 silly audit   'loose-envify': [ '1.4.0' ],
+63 silly audit   loupe: [ '3.1.1' ],
+63 silly audit   'magic-string': [ '0.30.11' ],
+63 silly audit   'merge-stream': [ '2.0.0' ],
+63 silly audit   merge2: [ '1.4.1' ],
+63 silly audit   micromatch: [ '4.0.7' ],
+63 silly audit   'mimic-fn': [ '4.0.0' ],
+63 silly audit   ms: [ '2.1.2' ],
+63 silly audit   nanoid: [ '3.3.7' ],
+63 silly audit   'natural-compare': [ '1.4.0' ],
+63 silly audit   'npm-run-path': [ '5.3.0' ],
+63 silly audit   'path-key': [ '4.0.0', '3.1.1' ],
+63 silly audit   once: [ '1.4.0' ],
+63 silly audit   onetime: [ '6.0.0' ],
+63 silly audit   optionator: [ '0.9.4' ],
+63 silly audit   'p-limit': [ '3.1.0' ],
+63 silly audit   'p-locate': [ '5.0.0' ],
+63 silly audit   'parent-module': [ '1.0.1' ],
+63 silly audit   'path-exists': [ '4.0.0' ],
+63 silly audit   'path-is-absolute': [ '1.0.1' ],
+63 silly audit   'path-type': [ '4.0.0' ],
+63 silly audit   pathe: [ '1.1.2' ],
+63 silly audit   pathval: [ '2.0.0' ],
+63 silly audit   picocolors: [ '1.0.1' ],
+63 silly audit   picomatch: [ '2.3.1' ],
+63 silly audit   postcss: [ '8.4.40' ],
+63 silly audit   'prelude-ls': [ '1.2.1' ],
+63 silly audit   punycode: [ '2.3.1' ],
+63 silly audit   'queue-microtask': [ '1.2.3' ],
+63 silly audit   react: [ '18.3.1' ],
+63 silly audit   'react-dom': [ '18.3.1' ],
+63 silly audit   'resolve-from': [ '4.0.0' ],
+63 silly audit   reusify: [ '1.0.4' ],
+63 silly audit   rimraf: [ '3.0.2' ],
+63 silly audit   rollup: [ '4.19.1' ],
+63 silly audit   'run-parallel': [ '1.2.0' ],
+63 silly audit   scheduler: [ '0.23.2' ],
+63 silly audit   semver: [ '7.6.3' ],
+63 silly audit   'shebang-command': [ '2.0.0' ],
+63 silly audit   'shebang-regex': [ '3.0.0' ],
+63 silly audit   siginfo: [ '2.0.0' ],
+63 silly audit   'signal-exit': [ '4.1.0' ],
+63 silly audit   slash: [ '3.0.0' ],
+63 silly audit   'source-map-js': [ '1.2.0' ],
+63 silly audit   stackback: [ '0.0.2' ],
+63 silly audit   'std-env': [ '3.7.0' ],
+63 silly audit   'strip-ansi': [ '6.0.1' ],
+63 silly audit   'strip-final-newline': [ '3.0.0' ],
+63 silly audit   'strip-json-comments': [ '3.1.1' ],
+63 silly audit   'supports-color': [ '7.2.0' ],
+63 silly audit   'text-table': [ '0.2.0' ],
+63 silly audit   tinybench: [ '2.8.0' ],
+63 silly audit   tinypool: [ '1.0.0' ],
+63 silly audit   tinyrainbow: [ '1.2.0' ],
+63 silly audit   tinyspy: [ '3.0.0' ],
+63 silly audit   'to-regex-range': [ '5.0.1' ],
+63 silly audit   'ts-api-utils': [ '1.3.0' ],
+63 silly audit   'type-check': [ '0.4.0' ],
+63 silly audit   'type-fest': [ '0.20.2' ],
+63 silly audit   typescript: [ '5.5.4' ],
+63 silly audit   'uri-js': [ '4.4.1' ],
+63 silly audit   vite: [ '5.3.5' ],
+63 silly audit   'vite-node': [ '2.0.4' ],
+63 silly audit   which: [ '2.0.2' ],
+63 silly audit   'why-is-node-running': [ '2.3.0' ],
+63 silly audit   'word-wrap': [ '1.2.5' ],
+63 silly audit   wrappy: [ '1.0.2' ],
+63 silly audit   'yocto-queue': [ '0.1.0' ],
+63 silly audit   vitest: [ '2.0.4' ]
+63 silly audit }
+64 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/fsevents
+65 silly reify mark deleted [
+65 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/fsevents'
+65 silly reify ]
+66 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-win32-x64-msvc
+67 silly reify mark deleted [
+67 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-win32-x64-msvc'
+67 silly reify ]
+68 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-win32-ia32-msvc
+69 silly reify mark deleted [
+69 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-win32-ia32-msvc'
+69 silly reify ]
+70 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-win32-arm64-msvc
+71 silly reify mark deleted [
+71 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-win32-arm64-msvc'
+71 silly reify ]
+72 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-linux-arm64-musl
+73 silly reify mark deleted [
+73 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-linux-arm64-musl'
+73 silly reify ]
+74 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-linux-arm64-gnu
+75 silly reify mark deleted [
+75 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-linux-arm64-gnu'
+75 silly reify ]
+76 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-linux-arm-gnueabihf
+77 silly reify mark deleted [
+77 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-linux-arm-gnueabihf'
+77 silly reify ]
+78 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-darwin-x64
+79 silly reify mark deleted [
+79 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-darwin-x64'
+79 silly reify ]
+80 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-darwin-arm64
+81 silly reify mark deleted [
+81 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@swc/core-darwin-arm64'
+81 silly reify ]
+82 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-win32-x64-msvc
+83 silly reify mark deleted [
+83 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-win32-x64-msvc'
+83 silly reify ]
+84 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-win32-ia32-msvc
+85 silly reify mark deleted [
+85 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-win32-ia32-msvc'
+85 silly reify ]
+86 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-win32-arm64-msvc
+87 silly reify mark deleted [
+87 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-win32-arm64-msvc'
+87 silly reify ]
+88 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-s390x-gnu
+89 silly reify mark deleted [
+89 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-s390x-gnu'
+89 silly reify ]
+90 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-riscv64-gnu
+91 silly reify mark deleted [
+91 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-riscv64-gnu'
+91 silly reify ]
+92 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-powerpc64le-gnu
+93 silly reify mark deleted [
+93 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-powerpc64le-gnu'
+93 silly reify ]
+94 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-arm64-musl
+95 silly reify mark deleted [
+95 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-arm64-musl'
+95 silly reify ]
+96 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-arm64-gnu
+97 silly reify mark deleted [
+97 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-arm64-gnu'
+97 silly reify ]
+98 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-arm-musleabihf
+99 silly reify mark deleted [
+99 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-arm-musleabihf'
+99 silly reify ]
+100 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-arm-gnueabihf
+101 silly reify mark deleted [
+101 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+101 silly reify ]
+102 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-darwin-x64
+103 silly reify mark deleted [
+103 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-darwin-x64'
+103 silly reify ]
+104 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-darwin-arm64
+105 silly reify mark deleted [
+105 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-darwin-arm64'
+105 silly reify ]
+106 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-android-arm64
+107 silly reify mark deleted [
+107 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-android-arm64'
+107 silly reify ]
+108 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-android-arm-eabi
+109 silly reify mark deleted [
+109 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@rollup/rollup-android-arm-eabi'
+109 silly reify ]
+110 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/win32-x64
+111 silly reify mark deleted [
+111 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/win32-x64'
+111 silly reify ]
+112 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/win32-ia32
+113 silly reify mark deleted [
+113 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/win32-ia32'
+113 silly reify ]
+114 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/win32-arm64
+115 silly reify mark deleted [
+115 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/win32-arm64'
+115 silly reify ]
+116 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/sunos-x64
+117 silly reify mark deleted [
+117 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/sunos-x64'
+117 silly reify ]
+118 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/openbsd-x64
+119 silly reify mark deleted [
+119 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/openbsd-x64'
+119 silly reify ]
+120 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/netbsd-x64
+121 silly reify mark deleted [
+121 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/netbsd-x64'
+121 silly reify ]
+122 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-s390x
+123 silly reify mark deleted [
+123 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-s390x'
+123 silly reify ]
+124 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-riscv64
+125 silly reify mark deleted [
+125 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-riscv64'
+125 silly reify ]
+126 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-ppc64
+127 silly reify mark deleted [
+127 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-ppc64'
+127 silly reify ]
+128 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-mips64el
+129 silly reify mark deleted [
+129 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-mips64el'
+129 silly reify ]
+130 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-loong64
+131 silly reify mark deleted [
+131 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-loong64'
+131 silly reify ]
+132 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-ia32
+133 silly reify mark deleted [
+133 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-ia32'
+133 silly reify ]
+134 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-arm64
+135 silly reify mark deleted [
+135 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-arm64'
+135 silly reify ]
+136 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-arm
+137 silly reify mark deleted [
+137 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/linux-arm'
+137 silly reify ]
+138 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/freebsd-x64
+139 silly reify mark deleted [
+139 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/freebsd-x64'
+139 silly reify ]
+140 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/freebsd-arm64
+141 silly reify mark deleted [
+141 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/freebsd-arm64'
+141 silly reify ]
+142 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/darwin-x64
+143 silly reify mark deleted [
+143 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/darwin-x64'
+143 silly reify ]
+144 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/darwin-arm64
+145 silly reify mark deleted [
+145 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/darwin-arm64'
+145 silly reify ]
+146 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/android-x64
+147 silly reify mark deleted [
+147 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/android-x64'
+147 silly reify ]
+148 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/android-arm64
+149 silly reify mark deleted [
+149 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/android-arm64'
+149 silly reify ]
+150 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/android-arm
+151 silly reify mark deleted [
+151 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/android-arm'
+151 silly reify ]
+152 verbose reify failed optional dependency /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/aix-ppc64
+153 silly reify mark deleted [
+153 silly reify   '/home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main/node_modules/@esbuild/aix-ppc64'
+153 silly reify ]
+154 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 520ms
+155 silly audit report {}
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 verbose cwd /home/student/E01-S04-AutoBudget-cedricRGT45/autobudget/autobudget-main
+202 verbose os Linux 6.5.0-1023-aws
+203 verbose node v20.11.1
+204 verbose npm  v10.8.1
+205 verbose exit 0
+206 info ok
